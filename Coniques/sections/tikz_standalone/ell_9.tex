@@ -1,0 +1,62 @@
+\documentclass{standalone}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\begin{document}
+
+    \begin{tikzpicture}[scale = 1]
+\begin{axis}[
+    xmin=-6, xmax=6.5,
+    ymin=-5, ymax=5,
+    %grid=both,
+    axis lines=middle,
+    %minor tick num=1,
+    axis line style={->},
+    ticklabel style={font=\tiny},
+    axis equal,
+    xticklabels=\empty,
+    yticklabels=\empty,
+    xlabel={$x$},
+    ylabel={$y$},
+    extra x ticks={1},
+    extra y ticks={0,1},
+    xtick={0,1,2,3,4,5},
+    ytick={0,1,2,3},
+    xlabel style={at={(axis description cs:0.95,0.5)}, anchor=north},
+    ylabel style={at={(axis description cs:0.5,0.95)}, anchor=east}
+]
+
+% Ellipse
+%\draw (axis cs:0,0) ellipse [x radius=5, y radius=3];
+\addplot [domain=0:360, samples=200] 
+  ({5*cos(x)}, {3*sin(x)});
+
+% Focus F2
+\filldraw (axis cs:4,0) circle (1pt);
+\node[above ] at (axis cs:4,0) {$F_2$};
+
+% Focus F1
+\filldraw (axis cs:-4,0) circle (1pt);
+\node[above ] at (axis cs:-4,0) {$F_1$};
+
+% Focus S1
+\filldraw (axis cs:-5,0) circle (1pt);
+\node[above left ] at (axis cs:-5,0) {$S_1$};
+
+
+% Focus S2
+\filldraw (axis cs:5,0) circle (1pt);
+\node[above right ] at (axis cs:5,0) {$S_2$};
+
+
+% Focus S3
+\filldraw (axis cs:0, 3) circle (1pt);
+\node[above right ] at (axis cs:0, 3) {$S_3$};
+
+% Focus S4
+\filldraw (axis cs:0, -3) circle (1pt);
+\node[below left ] at (axis cs:0, -3) {$S_4$};
+\end{axis}
+\end{tikzpicture}
+
+
+\end{document}

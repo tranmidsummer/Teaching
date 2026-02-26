@@ -1,0 +1,44 @@
+\babel@toc {french}{}\relax 
+\contentsline {section}{\numberline {1}Introduction}{1}{}%
+\contentsline {subsection}{\numberline {1.1}Sections planes}{1}{}%
+\contentsline {subsubsection}{\numberline {1.1.1}Le cylindre}{1}{}%
+\contentsline {subsubsection}{\numberline {1.1.2}Section plane avec une lampe de poche}{1}{}%
+\contentsline {subsubsection}{\numberline {1.1.3}Le cône}{2}{}%
+\contentsline {subsection}{\numberline {1.2}Qu'est-ce qu'elles ont de spécial, les coniques ?}{3}{}%
+\contentsline {subsubsection}{\numberline {1.2.1}De Kepler à Newton - le problème à deux corps}{3}{}%
+\contentsline {subsubsection}{\numberline {1.2.2}Antennes paraboliques et fours solaires}{4}{}%
+\contentsline {subsubsection}{\numberline {1.2.3}Microscopes et télescopes}{5}{}%
+\contentsline {subsubsection}{\numberline {1.2.4}Structures}{6}{}%
+\contentsline {subsubsection}{\numberline {1.2.5}Généralisation des équations du 2e degré à 2 variables}{6}{}%
+\contentsline {subsubsection}{\numberline {1.2.6}Les équations aux dérivées partielles du 2e ordre à 2 variables}{7}{}%
+\contentsline {section}{\numberline {2}Cylindre et cône}{10}{}%
+\contentsline {section}{\numberline {3}Ellipse}{12}{}%
+\contentsline {subsection}{\numberline {3.1}Définition bifocale}{12}{}%
+\contentsline {subsubsection}{\numberline {3.1.1}Intersection entre un cylindre et un plan}{12}{}%
+\contentsline {subsubsection}{\numberline {3.1.2}Intersection entre un cône et un plan}{13}{}%
+\contentsline {subsubsection}{\numberline {3.1.3}Définition bifocale}{15}{}%
+\contentsline {subsection}{\numberline {3.2}Etude fonctionnelle et graphique}{21}{}%
+\contentsline {subsection}{\numberline {3.3}Définition monofocale}{23}{}%
+\contentsline {section}{\numberline {4}Parabole}{25}{}%
+\contentsline {subsection}{\numberline {4.1}Définition focale}{25}{}%
+\contentsline {subsection}{\numberline {4.2}Etude fonctionnelle et graphique}{26}{}%
+\contentsline {section}{\numberline {5}Hyperbole}{27}{}%
+\contentsline {subsection}{\numberline {5.1}Définition bifocale}{27}{}%
+\contentsline {subsection}{\numberline {5.2}Etude fonctionnelle et graphique}{33}{}%
+\contentsline {subsection}{\numberline {5.3}Définition monofocale}{35}{}%
+\contentsline {section}{\numberline {6}Changements de repère}{36}{}%
+\contentsline {subsection}{\numberline {6.1}Translation}{36}{}%
+\contentsline {subsubsection}{\numberline {6.1.1}Ellipse}{36}{}%
+\contentsline {subsubsection}{\numberline {6.1.2}Hyperbole}{36}{}%
+\contentsline {subsection}{\numberline {6.2}Rotation}{37}{}%
+\contentsline {subsubsection}{\numberline {6.2.1}Ellipse}{38}{}%
+\contentsline {subsubsection}{\numberline {6.2.2}Hyperbole}{38}{}%
+\contentsline {section}{\numberline {7}Equation générale d'une conique}{38}{}%
+\contentsline {section}{\numberline {8}Tangentes}{39}{}%
+\contentsline {subsection}{\numberline {8.1}Tangente à une ellipse}{39}{}%
+\contentsline {subsection}{\numberline {8.2}Tangente à une parabole}{39}{}%
+\contentsline {subsection}{\numberline {8.3}Tangente à une hyperbole}{39}{}%
+\contentsline {section}{\numberline {9}Propriétés optiques}{40}{}%
+\contentsline {subsection}{\numberline {9.1}Ellipse}{40}{}%
+\contentsline {subsection}{\numberline {9.2}Parabole}{40}{}%
+\contentsline {subsection}{\numberline {9.3}Hyperbole}{40}{}%

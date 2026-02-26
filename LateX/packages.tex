@@ -1,0 +1,79 @@
+\usepackage{natbib}         % Pour la bibliographie
+\usepackage{url}            % Pour citer les adresses web
+%\usepackage[T1]{fontenc}    % Encodage des accents
+%\usepackage{tgbonum}
+\usepackage{cmbright}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc} % Lui aussi
+\usepackage[french]{babel} % Pour la traduction française
+\usepackage{numprint}       % Histoire que les chiffres soient bien
+
+\usepackage{amsmath}        % La base pour les maths
+\usepackage{mathrsfs}       % Quelques symboles supplémentaires
+\usepackage{amssymb}        % encore des symboles.
+\usepackage{amsfonts}       % Des fontes, eg pour \mathbb.
+\usepackage{amsthm,bbm}
+\usepackage{mathtools}
+\usepackage{xcolor}
+
+\usepackage{cancel}
+\usepackage{pdfpages}
+
+\usepackage[table]{xcolor} % for coloring cells
+\usepackage{array} % for column formatting
+
+%\usepackage[svgnames]{xcolor} % De la couleur
+
+%%% Si jamais vous voulez changer de police: décommentez les trois 
+%\usepackage{tgpagella}
+%\usepackage{tgadventor}
+%\usepackage{inconsolata}
+
+%%% Code highlighting Python
+%\usepackage{minted}
+%\usemintedstyle{friendly}
+
+\usepackage{graphicx} % inclusion des graphiques
+\usepackage{wrapfig}  % Dessins dans le texte.
+
+\usepackage{standalone} % pour compiler tikz indep
+
+\usepackage{tikz}     % Un package pour les dessins (utilisé pour l'environnement {code})
+%\usetikzlibrary{external}
+%\tikzexternalize[prefix=tikz/]
+
+\usepackage{pgfplots}
+\usetikzlibrary{shapes.misc}
+\pgfplotsset{compat=1.18}
+\usepackage[framemethod=TikZ]{mdframed}
+\usepackage{multimedia}
+\usepackage{media9}
+\usepackage{subcaption}
+\usepackage{float}
+\usepackage[most]{tcolorbox}
+\usepackage{enumerate}
+\usetikzlibrary{calc}
+%mise en page
+
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=20mm,
+ top=20mm,
+ right=20mm,
+ bottom=20mm
+ }
+\usepackage{setspace}
+
+\onehalfspacing
+%\fontfamily{cmss}\selectfont
+\makeatletter
+\newcommand\subsubsubsection{\@startsection{paragraph}{4}{\z@}%
+            {-2.5ex\@plus -1ex \@minus -.25ex}%
+            {1.25ex \@plus .25ex}%
+            {\normalfont\normalsize\bfseries}}
+\setcounter{secnumdepth}{4} % how many sectioning levels to assign numbers to
+\setcounter{tocdepth}{2}    % how many sectioning levels to show in ToC
+
+\newcommand{\comments}[1]{}

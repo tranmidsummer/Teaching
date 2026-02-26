@@ -1,0 +1,65 @@
+\documentclass{standalone}
+\usepackage{tikz}
+\begin{document}
+
+\begin{tikzpicture}[scale = 1]
+
+\def\xC{8}
+\def\yC{3}
+\def\a{3}
+\def\b{2}
+\def\ang{30}
+
+% Hyperbola (right branch)
+\draw[thick, rotate around={\ang:(\xC,\yC)}, 
+      domain=-1.2:1.2, samples=100]
+  plot ({\xC+\a*cosh(\x)}, {\yC+\b*sinh(\x)});
+
+% Hyperbola (left branch)
+\draw[thick, rotate around={\ang:(\xC,\yC)}, 
+      domain=-1.2:1.2, samples=100]
+  plot ({\xC-\a*cosh(\x)}, {\yC+\b*sinh(\x)});
+
+% Center
+\fill (\xC,\yC) circle (1pt) node[above right] {O};
+
+% Foci  (c^2 = a^2 + b^2)
+\pgfmathsetmacro{\c}{sqrt(\a*\a + \b*\b)}
+
+\coordinate (F1) at ({\xC+\c*cos(\ang)},{\yC+\c*sin(\ang)});
+\coordinate (F2) at ({\xC-\c*cos(\ang)},{\yC-\c*sin(\ang)});
+
+\fill (F1) circle (1pt) node[below] {$F_1$};
+\fill (F2) circle (1pt) node[above] {$F_2$};
+
+% Conjugate axis (same line you drew)
+%\draw [thick, rotate around={\ang:(\xC,\yC)}] (\xC,0) -- (\xC,6);
+\draw [thick, rotate around={\ang:(\xC,\yC)}] 
+      ({\xC-\a-4},\yC) -- ({\xC+\a+4},\yC);
+% Parameter
+\def\t{1.05}
+
+% Point M (right branch)
+\coordinate (M) at
+({\xC + \a*cosh(\t)*cos(\ang) - \b*sinh(\t)*sin(\ang)},
+ {\yC + \a*cosh(\t)*sin(\ang) + \b*sinh(\t)*cos(\ang)});
+\fill (M) circle (1pt) node[above] {$M$};
+
+% Symmetric point across transverse axis (change sign of sinh part)
+\coordinate (Mp) at
+({\xC + \a*cosh(\t)*cos(\ang) + \b*sinh(\t)*sin(\ang)},
+ {\yC + \a*cosh(\t)*sin(\ang) - \b*sinh(\t)*cos(\ang)});
+\fill (Mp) circle (1pt) node[above] {$M'$};
+
+% Segments to foci
+\draw (F1) -- (M);
+\draw (F2) -- (M);
+\draw (F1) -- (Mp);
+\draw (F2) -- (Mp);
+
+% Segment MM'
+\draw[dashed] (M) -- (Mp);
+
+\end{tikzpicture}
+
+\end{document}

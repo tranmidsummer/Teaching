@@ -1,0 +1,32 @@
+\documentclass{standalone}
+\usepackage{tikz}
+\begin{document}
+\begin{tikzpicture}
+\def\xC{8}
+\def\yC{3}
+\def\a{1.7}
+\def\b{0.8}
+\def\ang{17}
+
+% Draw hyperbola (right branch)
+\draw[thick, rotate around={\ang:(\xC,\yC)}, domain=-1.7:1.7, samples=100]
+  plot ({\xC+\a*cosh(\x)}, {\yC+\b*sinh(\x)});
+
+% Draw hyperbola (left branch)
+\draw[thick, rotate around={\ang:(\xC,\yC)}, domain=-1.7:1.7, samples=100]
+  plot ({\xC-\a*cosh(\x)}, {\yC+\b*sinh(\x)});
+
+% Center
+\fill (\xC,\yC) circle (1pt) node[above right] {O};
+
+% Foci (c^2 = a^2 + b^2 for hyperbola)
+\pgfmathsetmacro{\c}{sqrt(\a*\a + \b*\b)}
+
+\coordinate (F1) at ({\xC+\c*cos(\ang)},{\yC+\c*sin(\ang)});
+\coordinate (F2) at ({\xC-\c*cos(\ang)},{\yC-\c*sin(\ang)});
+
+\fill (F1) circle (1pt) node[above] {$F_1$};
+\fill (F2) circle (1pt) node[below] {$F_2$};
+
+\end{tikzpicture}
+\end{document}

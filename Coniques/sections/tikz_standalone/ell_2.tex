@@ -1,0 +1,27 @@
+\documentclass{standalone}
+\usepackage{tikz}
+\begin{document}
+\begin{tikzpicture}
+\def\xC{8}
+\def\yC{3}
+\def\a{3}
+\def\b{2}
+\def\ang{30}
+% Draw axes
+%\draw[->] (-1,0) -- (15,0) node[below] {$x$};
+%\draw[->] (0,-1) -- (0,6) node[left] {$y$};
+
+% Ellipse
+\draw[thick, rotate around={\ang:(\xC,\yC)}] (\xC,\yC) ellipse [x radius=\a, y radius=\b];
+
+% Center
+\fill (\xC,\yC) circle (1pt) node[above right] {O};
+
+% Foci
+\pgfmathsetmacro{\c}{sqrt(\a*\a - \b*\b)}
+\coordinate (F1) at ({\xC+\c*cos(\ang)},{\yC+\c*sin(\ang)});
+\coordinate (F2) at ({\xC-\c*cos(\ang)},{\yC-\c*sin(\ang)});
+\fill (F2) circle (1pt) node[above] {$F_1$};
+\fill (F1) circle (1pt) node[above] {$F_2$};
+\end{tikzpicture}
+\end{document}

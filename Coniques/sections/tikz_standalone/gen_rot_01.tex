@@ -1,0 +1,61 @@
+\documentclass{standalone}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\begin{document}
+
+\begin{tikzpicture}
+    \usetikzlibrary{calc}
+
+\begin{axis}[
+    xmin=-6, xmax=6.5,
+    ymin=-5, ymax=7,
+    axis lines=middle,
+    axis line style={->},
+    axis equal,
+    xticklabels=\empty,
+    yticklabels=\empty,
+    xlabel={$x$},
+    ylabel={$y$},
+    xlabel style={at={(axis description cs:0.95,0.5)}, anchor=north west},
+    ylabel style={at={(axis description cs:0.5,0.95)}, anchor=south east},
+]
+
+\def\angle{30}
+
+\begin{scope}[rotate around={\angle:(axis cs:0,0)}]
+
+% x'-axis
+%\draw[->, red, thick] (axis cs:-6,0) -- (axis cs:6,0)
+    %node[anchor=west] {$X$};
+
+% y'-axis
+%\draw[->, red, thick] (axis cs:0,-5) -- (axis cs:0,7)
+    %node[anchor=south] {$Y$};
+
+        % ---- Point P on x'-axis ----
+    \coordinate (P) at (axis cs:4,4);
+    \fill[blue] (P) circle (2pt);
+    \node[blue, above right] at (P) {$P$};
+
+    %\draw[dashed] (P) -- (axis cs:4,0) node[below] {\footnotesize$X_P$};
+    %\draw[dashed] (P) -- (axis cs:0,4) node[left] {\footnotesize$Y_P$};
+
+\end{scope}
+
+% ---- Angle theta ----
+%\draw[thick, blue] (axis cs:2,0) arc (0:\angle:200);
+%\node at (axis cs:2.5, 0.8) {$\theta$};
+
+
+
+% ---- Projections of P onto original axes ----
+\coordinate (Pp) at (axis cs:{4*cos(\angle)-4*sin(\angle)},{4*sin(\angle)+4*cos(\angle)}); % P in original coords
+\draw[dashed] (Pp) -- (axis cs:{4*cos(\angle)-4*sin(\angle)},0) node[below] {\footnotesize$x_P$};
+\draw[dashed] (Pp) -- (axis cs:0,{4*sin(\angle)+4*cos(\angle)}) node[left] {\footnotesize$y_P$};
+
+\end{axis}
+
+\end{tikzpicture}
+
+
+\end{document}

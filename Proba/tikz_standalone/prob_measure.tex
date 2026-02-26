@@ -1,0 +1,52 @@
+\documentclass{standalone}
+\input{../../LateX/packages.tex}
+\begin{document}
+\begin{tikzpicture}[scale=1]
+
+    % Give extra space on the right so nothing gets clipped
+    \useasboundingbox (-6,-3.5) rectangle (16,4.5);
+
+    % ---- Omega (superset as ellipse) ----
+    \draw[thick] (0,0) ellipse (5 and 3);
+    \node at (-3,2) {$\Omega$};
+
+    % ---- Sets inside Omega ----
+    % A
+    \draw[thick] (-1.5,0) ellipse (1.5 and 1);
+    \node at (-2.8,0) {$A$};
+
+    % B (overlapping A)
+    \draw[thick] (0.5,0) ellipse (1.5 and 1);
+    \node at (1.5,0) {$B$};
+
+    % C (disjoint)
+    \draw[thick] (2.5,1.2) ellipse (1 and 0.6);
+    \node at (3.2,1.2) {$C$};
+
+    % Dots for additional sets
+    %\node at (0,-2) {$\dots$};
+
+    % ---- Curved Arrow ----
+    \draw[->, very thick] 
+        (5.8,0.3) 
+        to[bend left=30] 
+        node[midway, above] {\Huge$\mathbb{P}(\cdot)$} 
+        (10.7,0.3);
+
+    % ---- Real numbers ----
+
+    \draw[thick] (12,-0.2) -- (15.5,-0.2);
+    \node[below] at (12,-0.6) {$0$};
+    %\node[below] at (15.5,-0.2) {$1$};
+
+    % Tick at 0
+\draw (12,-0.4) -- (12, 0);
+%\node[below] at (10,-0.25) {$0$};
+
+% Tick at 1
+\draw (15.5,-0.4) -- (15.5,0);
+\node[below] at (15.5,-0.6) {$1$};
+
+
+\end{tikzpicture}
+\end{document}
