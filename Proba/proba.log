@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.2.10)  25 FEB 2026 23:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.2.10)  26 FEB 2026 20:09
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/Tran Minh Phuong/UCL2/Enseignement/Preparation/Proba/proba"
-(c:/Users/Tran Minh Phuong/UCL2/Enseignement/Preparation/Proba/proba.tex
+**"c:/Users/Tran Minh Phuong/UCL2/Enseignement/Preparation/Teaching/Proba/proba"
+(c:/Users/Tran Minh Phuong/UCL2/Enseignement/Preparation/Teaching/Proba/proba.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
 (c:/texlive/2025/texmf-dist/tex/latex/base/article.cls
@@ -1138,52 +1138,57 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
 LaTeX Font Info:    Font shape `T1/cmbr/m/it' in size <12> not available
 (Font)              Font shape `T1/cmbr/m/sl' tried instead on input line 20.
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
+Underfull \hbox (badness 10000) in paragraph at lines 47--49
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
+Underfull \hbox (badness 10000) in paragraph at lines 67--70
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
+Underfull \hbox (badness 10000) in paragraph at lines 89--92
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--112
+Underfull \hbox (badness 10000) in paragraph at lines 110--119
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 113--116
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--135
+Underfull \hbox (badness 10000) in paragraph at lines 133--136
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--157
+Underfull \hbox (badness 10000) in paragraph at lines 155--159
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
+Underfull \hbox (badness 10000) in paragraph at lines 181--185
 
  []
 
 [1] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 195--197
+Underfull \hbox (badness 10000) in paragraph at lines 191--193
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--210
+Underfull \hbox (badness 10000) in paragraph at lines 206--206
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
 
  []
 
@@ -1191,9 +1196,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 209--210
 <./tikz_standalone/measure_1.pdf, id=68, 625.96059pt x 227.62239pt>
 File: ./tikz_standalone/measure_1.pdf Graphic file (type pdf)
 <use ./tikz_standalone/measure_1.pdf>
-Package pdftex.def Info: ./tikz_standalone/measure_1.pdf  used on input line 237.
+Package pdftex.def Info: ./tikz_standalone/measure_1.pdf  used on input line 236.
 (pdftex.def)             Requested size: 438.16942pt x 159.33458pt.
- [4 <./tikz_standalone/measure_1.pdf>]) (./sections/intro.tex [5]
+ [4 <./tikz_standalone/measure_1.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 279--280
+
+ []
+
+) (./sections/intro.tex [5]
 Underfull \hbox (badness 10000) in paragraph at lines 3--6
 
  []
@@ -1208,7 +1218,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--12
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--18
+Underfull \hbox (badness 10000) in paragraph at lines 16--20
 
  []
 
@@ -1218,39 +1228,110 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--24
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--30
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
  []
 
-) (./sections/probabilite.tex [8]
-<./tikz_standalone/prob_measure.pdf, id=130, 625.96059pt x 227.62239pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--35
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--42
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--48
+
+ []
+
+[8] [9]
+Underfull \hbox (badness 10000) in paragraph at lines 53--74
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--74
+
+ []
+
+) (./sections/probabilite.tex [10]
+<./tikz_standalone/prob_measure.pdf, id=138, 625.96059pt x 227.62239pt>
 File: ./tikz_standalone/prob_measure.pdf Graphic file (type pdf)
 <use ./tikz_standalone/prob_measure.pdf>
 Package pdftex.def Info: ./tikz_standalone/prob_measure.pdf  used on input line 36.
 (pdftex.def)             Requested size: 438.16942pt x 159.33458pt.
-) (./sections/independance.tex) (./sections/conditionnel.tex) [9 <./tikz_standalone/prob_measure.pdf>] (./proba.aux)
+ [11 <./tikz_standalone/prob_measure.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--85
+
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 111--111
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--111
+
+ []
+
+[13]) (./sections/independance.tex [14]
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
+
+ []
+
+) [15] (./proba.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
- )
-(\end occurred inside a group at level 1)
-
-### simple group (level 1) entered at line 32 ({)
-### bottom level 
+ ) 
 Here is how much of TeX's memory you used:
- 41597 strings out of 467532
- 995719 string characters out of 5423647
- 1546059 words of memory out of 5000000
- 69727 multiletter control sequences out of 15000+600000
- 639941 words of font info for 71 fonts, out of 8000000 for 9000
+ 41609 strings out of 467532
+ 995851 string characters out of 5423647
+ 1547065 words of memory out of 5000000
+ 69741 multiletter control sequences out of 15000+600000
+ 641437 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 100i,9n,134p,819b,1003s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 100i,9n,134p,828b,1003s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbr17.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrbs10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbbx10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbmo10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbmr10.pfb>
-Output written on proba.pdf (10 pages, 145756 bytes).
+Output written on proba.pdf (16 pages, 159066 bytes).
 PDF statistics:
- 202 PDF objects out of 1000 (max. 8388607)
- 126 compressed objects within 2 object streams
+ 227 PDF objects out of 1000 (max. 8388607)
+ 145 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  177 words of extra memory for PDF output out of 10000 (max. 10000000)
 

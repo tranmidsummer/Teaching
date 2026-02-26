@@ -1,54 +1,74 @@
 \newpage
-\section{Phénomènes aléatoires}
+\section{Expériences ou phénomènes aléatoires}
 Les probabilités sont un outil que l'on utilise pour étudier des phénomènes particuliers : ceux dont on ne peut prédire avec certitude les résultats.
 
 \ex{\begin{eleve}
-    Un lancer de dé.
+    Un lancer de dé à 6 faces.
 \end{eleve}}
 
-
+\begin{tcolorbox}[breakable,colback=cyan!5, colframe=cyan!70!blue, title=Vocabulaire des expériences aléatoires]
 \defn{Une \textbf{épreuve} du phénomène est un résultat possible du phénomène.\\
 Notation : $\omega$.}\\
 
 \ex{
-Une épreuve du lancer de dé est \begin{eleve} la valeur 5.
+Une épreuve du lancer de dé est \begin{eleve} la valeur 5.\\
 \end{eleve}}
-\defn{La \textbf{catégorie d'épreuves} est l'ensemble de toutes les épreuves du phénomène.\\
+\defn{La \textbf{catégorie d'épreuves} (ou l'univers) est l'ensemble de toutes les épreuves du phénomène.\\
 Notation : $\Omega$.}\\
-
+Une épreuve est un élément de la catégorie d'épreuves.\\
 \ex{
-La catégorie d'épreuves du lancer de dé est \begin{eleve} l'ensemble $\{1;2;3;4;5;6\}$\end{eleve}}
+La catégorie d'épreuves du lancer de dé est \begin{eleve} l'ensemble $\{1;2;3;4;5;6\}$\\ \end{eleve}}
 
 \defn{Un \textbf{évènement} est un ensemble d'épreuves. C'est donc un sous-ensemble de la catégorie d'épreuves.\\
-Notation : lettre majuscule $A, B ...$}.\\
+Notation : lettre majuscule $A, B ... \subset \Omega$}.\\
 
 \ex{
 On peut avoir plusieurs évènements différents au lancer de dé, dépendant de ce qui nous intéresse.\\
 Si on s'intéresse aux lancers de dés à résultats impairs, l'évènement $A$ est \begin{eleve}$A = \{1;3;5\}$.\end{eleve}\\
-Si on s'intéresse aux lancers de dés à résultats strictement inférieurs à 5, l'évènement $B$ est \begin{eleve}$B = \{1;2;3;4\}$.\end{eleve}\\
-Si on s'intéresse aux lancers de dés à résultat égal à 2, l'évènement $C$ est \begin{eleve}$C = \{2\}$.\end{eleve}}\\
+Si on s'intéresse aux lancers de dés à résultats strictement inférieurs à 5, l'évènement $B$ est \begin{eleve}$B = \{1;2;3;4\}$.\\ \end{eleve}\\
+Si on s'intéresse aux lancers de dés à résultat égal à 2, l'évènement $C$ est \begin{eleve}$C = \{2\}$.\\ \end{eleve}}
 
-Ces évènements sont des ensembles, on peut donc utiliser les opérations que l'on a définies précédemment sur ces évènements.
-\ex{.\\
-L'évènement $A$ est l'ensemble des résultats impairs au lancer de dés.\\
-L'évènement $B$ est l'ensemble des résultats strictement inférieurs à 5.\\
-L'évènement $C$ est l'ensemble des résultats égaux à 2.\\
-L'évènement $A^c$ est \begin{eleve}l'ensemble des résultats pairs au lancer de dés.\end{eleve}\\
+\defn{Un \textbf{évènement élémentaire} est un évènement ne contenant qu'une seule épreuve}\\
+\ex{ L'évènement $C$ est un évènement élémentaire.\\}
+
+\defn{On dit que l'évènement $A$ \textbf{se produit} lorsque le résultat réalisé appartient à $A$.}\\
+\ex{$A = \{1,3,5\}$ est réalisé lorsqu'on obtient un 3 au dé par exemple.\\}
+
+\defn{Un \textbf{évènement certain} est un évènement qui se produit toujours.
+}\\
+\ex{\begin{eleve} $\Omega$ est un évènement certain.\\
+Expérience aléatoire : lancer de dé.\\
+D = $\{$obtenir un résultat entre 1 et 9$\}$ = \{1,2,3,4,5,6,7,8,9\} est un évènement certain.\\
+Note: D n'est pas inclus à $\Omega$ \\ \end{eleve}}
+\defn{Un \textbf{évènement impossible} est un évènement qui ne se produit jamais.}\\
+\ex{Expérience aléatoire : lancer de dé.\\
+    E = \begin{eleve}
+    \{ obtenir un résultat à la fois pair et multiple de 5\} est impossible.\\
+    $\emptyset$, l'ensemble vide est aussi impossible.
+\\ \end{eleve}}
+
+\end{tcolorbox}
+
+\newpage
+Ces évènements sont des ensembles, on peut donc utiliser les opérations que l'on a définies précédemment sur ces évènements.\\
+\ex{
+L'évènement $A =$ \{obtenir un résultat impair au lancer de dé\}.\\
+L'évènement $B =$ \{obtenir un résultat strictement inférieur à 5\}.\\
+L'évènement $C =$ \{obtenir un résultat égal à 2\}.\\
+L'évènement $A^c =$ \begin{eleve}\{obtenir un résultat pair au lancer de dés\}.\end{eleve}\\
 $A^c = $\begin{eleve}$\Omega \setminus A = \{1;2;3;4;5;6\} \setminus \{1;3;5\} = \{2;4;6\}$.\end{eleve}\\
-L'évènement $B^c$ est \begin{eleve}
-    l'ensemble des résultats supérieurs ou égaux à 5.\\
+L'évènement $B^c =$ \begin{eleve}
+     \{obtenir un résultat supérieur ou égal à 5\}.\\
 \end{eleve}
 $B^c = $\begin{eleve}$\Omega \setminus B = \{1;2;3;4;5;6\} \setminus \{1;2,3,4\} = \{5;6\}$.\end{eleve}\\
-L'évènement $C^c$ est \begin{eleve}l'ensemble des résultats différents de 2\end{eleve}.\\
+L'évènement $C^c = $ \begin{eleve} \{obtenir un résultat différent de 2\}\end{eleve}.\\
 $C^c = $\begin{eleve}$\Omega \setminus C = \{1;2;3;4;5;6\} \setminus \{2\} = \{1;3;4;5;6\}$.\end{eleve}\\
 $A\cap B = $\begin{eleve}
  $\{1;3\}$
-\end{eleve}
-\hfill
+\end{eleve}\\
 $A\cap C = $\begin{eleve}
  $\emptyset$ (A et C sont disjoints)
-\end{eleve}
-\hfill
+\end{eleve}\\
 $A\cup B = $\begin{eleve}
  $\{1;2;3;4;5\}$
-\end{eleve}
+\end{eleve}\\}

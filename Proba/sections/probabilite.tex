@@ -24,7 +24,7 @@ Les lois de probabilités étant des mesures, elles doivent alors respecter la d
     \[
         \mathbb{P}\Big(\bigcup_{n=1}^{\infty} A_n\Big) = \sum_{n=1}^{\infty} \mathbb{P}(A_n).
     \]
-En particulier, si $A\in \Omega$ et $B \in \Omega $ sont disjoints,
+En particulier, si $A\subset  \Omega$ et $B \subset \Omega $ sont disjoints,
 \[
 \mathbb{P}(A \cup B) = \mathbb{P}(A) + \mathbb{P}(B)
 \]
@@ -35,3 +35,92 @@ En particulier, si $A\in \Omega$ et $B \in \Omega $ sont disjoints,
 \begin{figure}[H]
     \includegraphics[scale = 0.7]{./tikz_standalone/prob_measure.pdf}
 \end{figure}
+
+\newpage
+\begin{tcolorbox}[colback=cyan!5, colframe=cyan!70!blue, title=Définition de l'équiprobabilité]
+\defn{Deux évènements $A$ et $B$ sont équiprobables ssi $\mathbb{P}(A) = \mathbb{P}(B)$.}
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=magenta!5, colframe=red!50!blue, title=Propriétés de l'équiprobabilité]
+\defn{Soit une catégorie d'épreuves $\Omega = \{E_1, E_2, \cdots E_n\}$ avec un nombre $n$ fini d'éléments,\\ 
+les évènements élémentaires sont équiprobables s'ils ont tous la même probabilité.
+\begin{equation}
+    \mathbb{P}(E_1) =\mathbb{P}(E_2) = \cdots = \mathbb{P}(E_n) = \frac{1}{n}
+\end{equation}
+}
+\end{tcolorbox}
+
+\ex{
+Lancer d'un dé à 6 faces : 
+\[
+\Omega = \{1,2,3,4,5,6\}
+\]
+
+\[
+\mathbb{P}(1) =\mathbb{P}(2) = \mathbb{P}(3) =\mathbb{P}(4) =\mathbb{P}(5)  = \mathbb{P}(6) =
+\]}
+
+
+\begin{tcolorbox}[colback=cyan!5, colframe=cyan!70!blue, title= Définition de la probabilité selon Laplace]
+    \defn{La probabilité d'un évènement \(A\) dans un univers \(\Omega\) 
+    où tous les cas sont équiprobables est donnée par la formule classique de Laplace :}
+
+\[
+P(A) = \frac{\text{nombre de cas favorables}}{\text{nombre de cas possibles}} = \frac{\#A}{\#\Omega}
+\]
+
+\end{tcolorbox}
+
+\ex{
+Expérience aléatoire : Lancer d'un dé à 6 faces.\\
+Evènement : obtenir un nombre pair. 
+$A= \{2,4,6\}$.\\
+$\mathbb{P}(A) =$\\
+\\~
+\noindent
+Expérience aléatoire : tirer 1 carte au hasard d’un jeu de 52 cartes (4 familles : coeur, pique, carreau, trèfle. Dans chaque famille il y a 13 valeurs : 1 à 10, valet, dame, roi).\\
+Evènement : la carte tirée est un roi ou un coeur.\\
+$B=$\\
+$\mathbb{P}(B) =$\\
+}
+
+
+
+    \begin{tcolorbox}[colback=magenta!5, colframe=red!50!blue, title=Propriétés des évènements contraires]
+    \prop{Si $A\subset\Omega$, et $A^c = \Omega \setminus A $ le complémentaire de $A$ dans 
+    $\Omega$. \\Par définition, $A$ et $A^c$ sont disjoints et 
+    $A\cup A^c= \Omega$ donc $$\mathbb{P} (A^c) = 1 - \mathbb{P}(A)$$}
+
+    $A^c$ est l'évènement contraire de $A$. On peut également noter l'évènement contraire $\overline{A}$
+    \end{tcolorbox}
+
+    %% TODO : exos logique : contraire
+\ex{
+1) Expérience aléatoire : tirer 1 carte au hasard d’un jeu de 52 cartes.\\
+Evènement : la carte tirée n'est ni un roi, ni un coeur.\\
+$\overline{B}=$\\
+$\mathbb{P}(\overline{B}) =$\\
+
+\noindent
+2) Expérience aléatoire :  On lance 4 dés équilibrés à 6 faces.  \\
+Evènement : $A = \{\text{obtenir au moins un 6}\}$.\\
+
+
+\vspace{5cm}
+3) Dans une classe de 25 élèves, quelle est la probabilité que deux personnes au moins partagent le même anniversaire ?
+}
+\newpage
+\begin{tcolorbox}[colback=magenta!5, colframe=red!50!blue, title=Propriétés de l'union des évènements quelconques]
+    \prop{Si $A\subset\Omega$, et $B \subset \Omega$ des évènements quelconques, alors 
+    $$ \mathbb{P} (A\cup B) = \mathbb{P}(A) + \mathbb{P}(B) - \mathbb{P}(A\cap B)$$}
+
+
+\end{tcolorbox}
+
+\ex{
+1) Expérience aléatoire : lancer un dé.\\
+Evènements :
+$A = \{$ obtenir un nombre pair $\} = $\\
+$B = \{$ obtenir un nombre multiple de 3 $\} = $\\
+$\mathbb{P} (A\cup B) = $
+}

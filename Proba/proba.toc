@@ -1,5 +1,6 @@
 \babel@toc {french}{}\relax 
 \contentsline {section}{\numberline {1}Ensembles et mesures}{1}{}%
 \contentsline {section}{\numberline {2}Introduction}{6}{}%
-\contentsline {section}{\numberline {3}Phénomènes aléatoires}{8}{}%
-\contentsline {section}{\numberline {4}Probabilité}{9}{}%
+\contentsline {section}{\numberline {3}Expériences ou phénomènes aléatoires}{8}{}%
+\contentsline {section}{\numberline {4}Probabilité}{11}{}%
+\contentsline {section}{\numberline {5}Indépendance}{15}{}%

@@ -29,8 +29,7 @@ $ \emptyset $
 \end{minipage}%
 \hfill
 \begin{minipage}{0.7\textwidth}
-    L'\textbf{ensemble vide} $ \emptyset $.
-     \ex{.}
+    L'\textbf{ensemble vide} $ \emptyset = \{\}$ a 0 élément.
 \end{minipage}
 \vspace{0.5cm}
 \hrule
@@ -190,9 +189,9 @@ $A \setminus B =$ les élèves nées en juillet ne portant pas de lunettes.\end{
 
 \newpage
 On peut alors vouloir "mesurer" certains ensembles, selon ce qu’on cherche à quantifier.
-Pour cela, il faut d’abord décider sur quels ensembles on peut mesurer quelque chose et définir une règle de mesure cohérente.
+Pour cela, il faut d’abord décider sur quels ensembles on peut mesurer quelque chose et définir une règle de mesure cohérente.\\
 
-\ex{.\\
+\ex{
 \begin{enumerate}
     \item $\Omega =$ les élèves de la classe. $A =$ les élèves de la classe ayant leur anniversaire en juillet.\\ Une mesure : \begin{eleve}nombre d'élèves.\end{eleve}
     \item $\Omega =$ l'école Christ-Roi. $A =$ la salle de gym.\\ Une mesure : \begin{eleve}surface en mètres carrés.\end{eleve}\\ Une autre mesure : \begin{eleve}capacité maximale en nombre de personnes.\end{eleve}
@@ -226,7 +225,7 @@ On peut alors définir la mesure.
     \[
         \mu\Big(\bigcup_{n=1}^{\infty} A_n\Big) = \sum_{n=1}^{\infty} \mu(A_n).
     \]
-En particulier, si $A\in \Omega$ et $B \in \Omega $ sont disjoints,
+En particulier, si $A\subset \Omega$ et $B \subset \Omega $ sont disjoints,
 \[
 \mu(A \cup B) = \mu(A) + \mu(B)
 \]
@@ -246,7 +245,7 @@ En particulier, si $A\in \Omega$ et $B \in \Omega $ sont disjoints,
 
 \newpage
     \begin{tcolorbox}[colback=magenta!5, colframe=red!50!blue, title=Propriétés des ensembles complémentaires]
-    \prop{Si $A\in\Omega$, et $A^c = \Omega \setminus A $ le complémentaire de $A$ dans $\Omega$. \\Par définition, $A$ et $A^c$ sont disjoints et $A\cup A^c= \Omega$ donc $$\mu (A) + \mu(A^c)= \mu(\Omega)$$}
+    \prop{Si $A\subset\Omega$, et $A^c = \Omega \setminus A $ le complémentaire de $A$ dans $\Omega$. \\Par définition, $A$ et $A^c$ sont disjoints et $A\cup A^c= \Omega$ donc $$\mu (A) + \mu(A^c)= \mu(\Omega)$$}
     \end{tcolorbox}
       \ex{
    $\Omega =$ Les élèves de la classe. $\qquad \mu(\Omega) = $\\
@@ -256,7 +255,7 @@ En particulier, si $A\in \Omega$ et $B \in \Omega $ sont disjoints,
    $\mu (A) + \mu(A^c)= $}
 
 \begin{tcolorbox}[colback=magenta!5, colframe=red!50!blue, title=Propriétés de l'union des ensembles quelconques]
-    \prop{Si $A\in\Omega$, et $B \in \Omega$ des ensembles quelconques, alors $$ \mu (A\cup B) = \mu(A) + \mu(B) - \mu(A\cap B)$$}
+    \prop{Si $A\subset\Omega$, et $B \subset \Omega$ des ensembles quelconques, alors $$ \mu (A\cup B) = \mu(A) + \mu(B) - \mu(A\cap B)$$}
 \end{tcolorbox}
     \ex{
    $\Omega =$ Les élèves de la classe.\\
@@ -266,8 +265,7 @@ En particulier, si $A\in \Omega$ et $B \in \Omega $ sont disjoints,
    $A \cup B =$ Les élèves portant un jeans ou des lunettes, $\qquad \mu (A) + \mu(B)= $}
 
    \vspace{0.5cm}
-   \begin{minipage}{0.3\textwidth}
-    \begin{tikzpicture}[scale=0.7]
+    \begin{tikzpicture}[scale=1.2]
         % Shade A and B fully
         %\fill[gray!30] (-1,0) circle (1.2);
         %\fill[gray!30] (1,0) circle (1.2);
@@ -276,4 +274,11 @@ En particulier, si $A\in \Omega$ et $B \in \Omega $ sont disjoints,
         \draw (-1,0) circle (1.2) node[left] {$A$};
         \draw (1,0) circle (1.2) node[right] {$B$};
     \end{tikzpicture}
-\end{minipage}%
+
+    \vspace{2cm}
+    Note : une des mesures les plus intuitives est le nombre d'éléments dans l'ensemble. On peut le noter $\#A$.\\
+
+    \ex{
+        $A = \{1, 3, 7, 15, 2\}$ \\
+        $\# A =$
+    }

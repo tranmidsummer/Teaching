@@ -9,14 +9,13 @@
 \newtheorem{alg}[thm]{Algorithme}
 \newtheorem{defn}[thm]{Définition}
 \newtheorem{prop}[thm]{Propriété}
-
-
 \newtheorem{exth}[thm]{Exemple}
-\newtheorem*{ex}{Exemple}
 \newtheorem{exo}{Exercice}[section]
 \newtheorem*{rap}{Rappel}
 \newtheorem{assu}[thm]{Hypothèse}
 \newtheorem{rem}[thm]{Remarque}
+
+
 
 \newenvironment{eleve}
 {\color{blue}\itshape}
@@ -25,5 +24,12 @@
 
 
 \numberwithin{equation}{section}
+
+
+\newcommand{\ex}[1]{%
+  \par\noindent\textit{Exemple(s).}\\
+  #1\par
+}
+
 
 %\renewcommand\qedsymbol{\QEDB}
