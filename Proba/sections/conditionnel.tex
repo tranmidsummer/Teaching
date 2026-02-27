@@ -1,0 +1,53 @@
+\newpage
+\section{Probabilité conditionnelle}
+Dans le cas où deux évènements ne sont pas indépendants l'un de l'autre, l'issue d'un évènement peut influencer l'autre.\\
+Dans ce cas, l'information à propos d'un évènement modifie la probabilité de l'autre évènement. Il peut donc être très utile d'avoir ces informations en plus.\\
+
+On peut alors se questionner sur la probabilité d'un évènement $A$ si l'évènement $B$ s'est réalisé. On le note $\mathbb{P}(A|B)$.\\
+
+Il est clair que dans le cas où $A$ et $B$ sont indépendants, l'information de $B$ n'a 
+aucune influence sur $A$. Dans ce cas, on a :
+$\mathbb{P}(A|B) = \mathbb{P}(A)$\\
+
+\ex{
+\noindent
+Expérience aléatoire : tirer une carte d'un jeu de 52 cartes.
+Quelle est la probabilité que la carte soit un roi?
+\vspace{1cm}
+\noindent
+
+Lorsque Charles a tiré la carte, Alice a vite vu que c'était une image, une figure et non un nombre.\\
+Maintenant qu'on sait cela, quelle est la probabilité que la carte soit un roi, sachant que c'est une figure?
+
+\vspace{1cm}
+\noindent
+Expérience aléatoire : lancer de dé.
+$A = \{$obtenir un nombre pair$\} = $\\
+$B = \{ $obtenir un nombre strictement supérieur à 3$\} = $\\
+\noindent
+On cherche la probabilité que le nombre obtenu soit un nombre pair sachant 
+qu'il est supérieur à 3.\\
+
+\vspace{2cm}
+%%Monty Hall
+
+}
+\newpage
+Dans le cas quelconque, on a :
+\begin{tcolorbox}[colback=cyan!5, colframe=cyan!70!blue, title=Définition de la probabilité conditionnelle]
+\defn{Soit deux évènements $A$ et $B$ quelconques, la probabilité de $A$ sachant que $B$ est réalisé est :
+\begin{equation}
+    \mathbb{P}(A|B) = \dfrac{\mathbb{P}(A\cap B)}{\mathbb{P}(B)} 
+\end{equation}}
+\end{tcolorbox}
+\rem{$\mathbb{P}(A\cap B) = \mathbb{P}(A|B)\mathbb{P}(B) = \mathbb{P}(B|A)\mathbb{P}(A)$ }\\
+\ex{
+
+
+On considère une maladie rare.\\
+2 \% de la population est malade. \\
+Le test est positif dans 95 \% des cas si la personne est malade.\\
+Le test est faussement positif dans 8 \% des cas si la personne n’est pas malade (faux positif).
+
+Quelle est la probabilité qu'une personne soit réellement malade sachant que son test est positif ?
+}
