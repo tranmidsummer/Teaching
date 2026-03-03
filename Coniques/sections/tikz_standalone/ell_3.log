@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.2.10)  24 FEB 2026 16:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.2.10)  3 MAR 2026 11:45
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/Tran Minh Phuong/UCL2/Enseignement/Preparation/Coniques/sections/tikz_standalone/ell_3"
-(c:/Users/Tran Minh Phuong/UCL2/Enseignement/Preparation/Coniques/sections/tikz_standalone/ell_3.tex
+**"c:/Users/Tran Minh Phuong/UCL2/Enseignement/Preparation/Teaching/Coniques/sections/tikz_standalone/ell_3"
+(c:/Users/Tran Minh Phuong/UCL2/Enseignement/Preparation/Teaching/Coniques/sections/tikz_standalone/ell_3.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
 (c:/texlive/2025/texmf-dist/tex/latex/standalone/standalone.cls
@@ -303,7 +303,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 
 Non-PDF special ignored!
-<special> papersize=222.5678pt,150.97096pt
+<special> papersize=223.2678pt,151.69052pt
 {c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./ell_3.aux)
  ***********
 LaTeX2e <2025-11-01>
@@ -311,15 +311,15 @@ L3 programming layer <2026-01-19>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 12492 strings out of 467532
- 260011 string characters out of 5423647
+ 12494 strings out of 467532
+ 260066 string characters out of 5423647
  635348 words of memory out of 5000000
- 41211 multiletter control sequences out of 15000+600000
+ 41213 multiletter control sequences out of 15000+600000
  627721 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,7n,107p,490b,575s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,7n,107p,499b,575s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on ell_3.pdf (1 page, 36461 bytes).
+Output written on ell_3.pdf (1 page, 36514 bytes).
 PDF statistics:
  31 PDF objects out of 1000 (max. 8388607)
  19 compressed objects within 1 object stream

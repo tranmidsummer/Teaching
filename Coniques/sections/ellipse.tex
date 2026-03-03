@@ -2,8 +2,8 @@
 \section{Ellipse}
 \subsection{Définition bifocale}
 \subsubsection{Intersection entre un cylindre et un plan}
-\marginpar{\raisebox{-.2ex}{\includegraphics[height=4ex]{./images/icon/roue.PNG}}\footnotemark[15]}
-\footnotetext[15]{Jacques Marot, \url{https://www.geogebra.org/m/yvmuuvx9#material/fsaph7pe}}
+\marginpar{\raisebox{-.2ex}{\includegraphics[height=4ex]{./images/icon/roue.PNG}}\footnotemark[1]}
+\footnotetext[1]{Jacques Marot, \url{https://www.geogebra.org/m/yvmuuvx9#material/fsaph7pe}}
 
 \begin{minipage}{0.35\textwidth} % left side: figure
 \begin{figure}[H]
@@ -52,8 +52,8 @@ Comme la distance $\overline{O_1O_2}$ est une constante, on obtient que la somme
 
 \normalcolor
 \subsubsection{Intersection entre un cône et un plan}
-\marginpar{\raisebox{-.2ex}{\includegraphics[height=4ex]{./images/icon/roue.PNG}}\footnotemark[16]}
-\footnotetext[16]{Jacques Marot, \url{https://www.geogebra.org/m/yvmuuvx9#material/jkubyjmd}}
+\marginpar{\raisebox{-.2ex}{\includegraphics[height=4ex]{./images/icon/roue.PNG}}\footnotemark[2]}
+\footnotetext[2]{Jacques Marot, \url{https://www.geogebra.org/m/yvmuuvx9#material/jkubyjmd}}
 \begin{minipage}{0.4\textwidth}
     \begin{figure}[H]
     \includegraphics[height=5cm]{./images/3d/cone_ellipse.PNG}
@@ -177,7 +177,7 @@ Le \textbf{grand axe} d'une ellipse est le segment de l'axe focal reliant les de
 Le \textbf{petit axe} d'une ellipse est le segment de l'axe non focal reliant les deux sommets situés sur cet axe. La longueur du petit axe vaut ...\\
 
 \end{tcolorbox}
-
+\newpage 
 \begin{tcolorbox}[colback=magenta!5, colframe=red!50!blue, title=Propriétés de l'ellipse]
 L'ellipse possède 2 axes de symétries : son axe focal et son axe non focal.\\
 L'ellipse possède 1 centre de symétrie : son centre.
@@ -186,18 +186,19 @@ L'ellipse possède 1 centre de symétrie : son centre.
 
 
 
-\begin{minipage}{0.5\textwidth}
-\includegraphics[scale = 0.7]{sections/tikz_standalone/ell_3.pdf}
+\begin{minipage}{0.7\textwidth}
+\includegraphics[scale = 1.1]{sections/tikz_standalone/ell_3.pdf}
 \end{minipage}
 \hfill
-\begin{minipage}{0.5\textwidth}
-\includegraphics[scale = 0.7]{sections/tikz_standalone/ell_4.pdf}
+\vspace{10pt}
+\begin{minipage}{0.7\textwidth}
+\includegraphics[scale = 1.1]{sections/tikz_standalone/ell_4.pdf}
 \end{minipage}
+\hfill
 
-\vspace{1pt}
-\hspace{0.3\textwidth}
-\begin{minipage}{0.5\textwidth}
-\includegraphics[scale = 0.7]{sections/tikz_standalone/ell_5.pdf}
+\vspace{10pt}
+\begin{minipage}{0.7\textwidth}
+\includegraphics[scale = 1.1]{sections/tikz_standalone/ell_5.pdf}
 
 \end{minipage}
 \hfill
@@ -212,8 +213,10 @@ L'axe y est l'axe non focal de l'ellipse.
 \includegraphics[scale = 1.1]{sections/tikz_standalone/ell_6.pdf}
 \end{figure}
 
+\vspace{3cm}
 \exo{Exprimez les coordonnées du sommet $S_2$ en fonction des longueurs connues. Déduisez ensuite les coordonnées de $S_1$.}
 
+\newpage
 
 \exo{Exprimez les coordonnées du sommet $S_3$ en fonction des longueurs connues. Déduisez ensuite les coordonnées de $S_4$.}
 
@@ -332,6 +335,8 @@ Soit $a, c \in \mathbb{R}^+_0$ tels que $a > c$.\\
 \mathcal{E} \equiv \dfrac{x^2}{a^2} + \dfrac{y^2}{b^2} = 1 \label{eq:EllRed}
 \end{equation}
 Avec $b^2 = a^2 - c^2$
+
+L' \textbf{excentricité} d'une ellipse est le rapport $\varepsilon = \dfrac{c}{a} \in [0,1[$.\\
 \end{tcolorbox}
 
 
@@ -343,30 +348,43 @@ Avec $b^2 = a^2 - c^2$
 \end{minipage}
 \hfill
 
-
 \rem{
-Lorsque $a=b$, on trouve l'équation du cercle. En effet, $c=0$, les 2 foyers sont confondus au centre. 
+Que se passe-t-il lorsqu'on fait varier l'excentricité $\varepsilon $ ?\marginpar{\raisebox{-.2ex}{\includegraphics[height=4ex]{./images/icon/roue.PNG}}\footnotemark[1]}
+%Lorsque $a=b$, on trouve l'équation du cercle. En effet, $c=0$, les 2 foyers sont confondus au centre. 
 }
-\exth{$\dfrac{x^2}{25} + \dfrac{y^2}{9} = 1$}
+\footnotetext[1]{https://www.geogebra.org/graphing/aytm2czt}
+
+\vspace{4cm}
+\rem{
+Que se passe-t-il si $a=b$ dans l'équation cartésienne? Et si $a<b$ ?\marginpar{\raisebox{-.2ex}{\includegraphics[height=4ex]{./images/icon/roue.PNG}}\footnotemark[2]} 
+%Lorsque $a=b$, on trouve l'équation du cercle. En effet, $c=0$, les 2 foyers sont confondus au centre. 
+}
+\footnotetext[2]{https://www.geogebra.org/graphing/zmu523gu}
+
+\newpage
+\exth{$\dfrac{x^2}{25} + \dfrac{y^2}{9} = 1$.}
 
 \begin{minipage}{0.5\textwidth}
     \includegraphics[scale = 1.2]{sections/tikz_standalone/ell_9.pdf}
 \end{minipage}
 \hfill
 \begin{minipage}{0.5\textwidth}
+Identifie le centre, l'axe focal, l'axe non focal.\\
+
+Calcule la distance focale, les coordonnées des sommets, la longueur du grand axe et du petit axe.\\
    \begin{eleve}
-    Comme cet exemple d'ellipse est rapportée à ses axes:\\
     Le centre est $(0,0)$\\
     L'axe focal est l'axe des abscisses\\
     L'axe non focal est l'axe des ordonnées\\
-
-
     La distance focale est 8 (unités de longueur)\\
     Les sommets sont $S_1(-5,0)$, $S_2(5,0)$, $S_3(0,3)$, $S_4(0,-3)$\\
     Le grand axe est $[S_1S_2]$ et mesure 10 unités de longueur.\\
     Le grand axe est $[S_3S_4]$ et mesure 6 unités de longueur.
     \end{eleve}
 \end{minipage}
+
+\vspace{4.5cm}
+\exth{Donne l'équation de l'ellipse rapportée à ses axes avec un foyer en (7,0) et une excentricité = 0.5. Esquisse-la.}
 
 \newpage
 \subsection{Etude fonctionnelle et graphique}\label{section:ellgraphe}

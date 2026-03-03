@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.2.10)  24 FEB 2026 16:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.2.10)  3 MAR 2026 11:46
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/Tran Minh Phuong/UCL2/Enseignement/Preparation/Coniques/sections/tikz_standalone/ell_5"
-(c:/Users/Tran Minh Phuong/UCL2/Enseignement/Preparation/Coniques/sections/tikz_standalone/ell_5.tex
+**"c:/Users/Tran Minh Phuong/UCL2/Enseignement/Preparation/Teaching/Coniques/sections/tikz_standalone/ell_5"
+(c:/Users/Tran Minh Phuong/UCL2/Enseignement/Preparation/Teaching/Coniques/sections/tikz_standalone/ell_5.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
 (c:/texlive/2025/texmf-dist/tex/latex/standalone/standalone.cls
@@ -296,14 +296,14 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 24.
+(Font)              <7> on input line 25.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 24.
+(Font)              <5> on input line 25.
  [1
 
 
 Non-PDF special ignored!
-<special> papersize=180.07361pt,147.14462pt
+<special> papersize=221.86781pt,147.9452pt
 {c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./ell_5.aux)
  ***********
 LaTeX2e <2025-11-01>
@@ -311,15 +311,15 @@ L3 programming layer <2026-01-19>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 12488 strings out of 467532
- 259916 string characters out of 5423647
+ 12490 strings out of 467532
+ 259971 string characters out of 5423647
  635348 words of memory out of 5000000
- 41207 multiletter control sequences out of 15000+600000
+ 41209 multiletter control sequences out of 15000+600000
  627721 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 102i,7n,107p,490b,575s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,7n,107p,499b,586s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on ell_5.pdf (1 page, 36422 bytes).
+Output written on ell_5.pdf (1 page, 36526 bytes).
 PDF statistics:
  31 PDF objects out of 1000 (max. 8388607)
  19 compressed objects within 1 object stream

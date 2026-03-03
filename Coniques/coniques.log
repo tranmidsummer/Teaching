@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.2.10)  25 FEB 2026 01:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.2.10)  3 MAR 2026 14:45
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/Tran Minh Phuong/UCL2/Enseignement/Preparation/Coniques/coniques"
-(c:/Users/Tran Minh Phuong/UCL2/Enseignement/Preparation/Coniques/coniques.tex
+**"c:/Users/Tran Minh Phuong/UCL2/Enseignement/Preparation/Teaching/Coniques/coniques"
+(c:/Users/Tran Minh Phuong/UCL2/Enseignement/Preparation/Teaching/Coniques/coniques.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
 (c:/texlive/2025/texmf-dist/tex/latex/base/article.cls
@@ -1016,28 +1016,28 @@ Package: setspace 2022/12/04 v6.7b set line spacing
 )
 Package french3.ldf Info: Setting StandardEnumerateEnv=true for
 (french3.ldf)             compatibility with enumerate package,
-(french3.ldf)             reported on input line 4.
+(french3.ldf)             reported on input line 5.
  (./coniques.aux
 Package babel Info: 'french' activates 'french' shorthands.
 (babel)             Reported on input line 13.
 )
 \openout1 = `coniques.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Info: Redefining \degres on input line 4.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Info: Redefining \degres on input line 5.
  (c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count402
@@ -1115,7 +1115,7 @@ LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <14.4> not available
 (Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 15.
  [1
 
-{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]) (./sections/intro3d.tex
+{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}] [1]) (./sections/intro3d.tex
 LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <12> not available
 (Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 4.
  [1]
@@ -1123,7 +1123,7 @@ LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <12> not available
 LaTeX Font Warning: Font shape `T1/cmbr/m/sc' undefined
 (Font)              using `T1/cmbr/m/n' instead on input line 37.
 
-<./images/icon/roue.PNG, id=55, 113.82526pt x 105.39375pt>
+<./images/icon/roue.PNG, id=59, 113.82526pt x 105.39375pt>
 File: ./images/icon/roue.PNG Graphic file (type png)
 <use ./images/icon/roue.PNG>
 Package pdftex.def Info: ./images/icon/roue.PNG  used on input line 37.
@@ -1144,32 +1144,32 @@ File: ./images/icon/roue.PNG Graphic file (type png)
 <use ./images/icon/roue.PNG>
 Package pdftex.def Info: ./images/icon/roue.PNG  used on input line 37.
 (pdftex.def)             Requested size: 24.4789pt x 22.66669pt.
-<./images/3d/cone_ellipse.PNG, id=57, 739.563pt x 598.03426pt>
+<./images/3d/cone_ellipse.PNG, id=61, 739.563pt x 598.03426pt>
 File: ./images/3d/cone_ellipse.PNG Graphic file (type png)
 <use ./images/3d/cone_ellipse.PNG>
 Package pdftex.def Info: ./images/3d/cone_ellipse.PNG  used on input line 39.
 (pdftex.def)             Requested size: 175.93016pt x 142.26378pt.
-<./images/3d/cone_parabole.PNG, id=58, 540.8205pt x 647.41875pt>
+<./images/3d/cone_parabole.PNG, id=62, 540.8205pt x 647.41875pt>
 File: ./images/3d/cone_parabole.PNG Graphic file (type png)
 <use ./images/3d/cone_parabole.PNG>
 Package pdftex.def Info: ./images/3d/cone_parabole.PNG  used on input line 40.
 (pdftex.def)             Requested size: 128.34717pt x 153.6447pt.
-<./images/3d/cone_hyperbole.PNG, id=59, 489.62926pt x 655.85025pt>
+<./images/3d/cone_hyperbole.PNG, id=63, 489.62926pt x 655.85025pt>
 File: ./images/3d/cone_hyperbole.PNG Graphic file (type png)
 <use ./images/3d/cone_hyperbole.PNG>
 Package pdftex.def Info: ./images/3d/cone_hyperbole.PNG  used on input line 42.
 (pdftex.def)             Requested size: 114.70427pt x 153.6447pt.
-<./images/3d/cone_point_1.PNG, id=60, 761.84625pt x 543.83176pt>
+<./images/3d/cone_point_1.PNG, id=64, 761.84625pt x 543.83176pt>
 File: ./images/3d/cone_point_1.PNG Graphic file (type png)
 <use ./images/3d/cone_point_1.PNG>
 Package pdftex.def Info: ./images/3d/cone_point_1.PNG  used on input line 53.
 (pdftex.def)             Requested size: 199.29596pt x 142.26378pt.
-<./images/3d/cone_droite_1.PNG, id=61, 498.06075pt x 628.749pt>
+<./images/3d/cone_droite_1.PNG, id=65, 498.06075pt x 628.749pt>
 File: ./images/3d/cone_droite_1.PNG Graphic file (type png)
 <use ./images/3d/cone_droite_1.PNG>
 Package pdftex.def Info: ./images/3d/cone_droite_1.PNG  used on input line 54.
 (pdftex.def)             Requested size: 117.19627pt x 147.95424pt.
-<./images/3d/cone_2droites_1.PNG, id=62, 342.68025pt x 578.16pt>
+<./images/3d/cone_2droites_1.PNG, id=66, 342.68025pt x 578.16pt>
 File: ./images/3d/cone_2droites_1.PNG Graphic file (type png)
 <use ./images/3d/cone_2droites_1.PNG>
 Package pdftex.def Info: ./images/3d/cone_2droites_1.PNG  used on input line 56.
@@ -1178,12 +1178,12 @@ LaTeX Font Info:    Trying to load font information for T1+cmtl on input line 61
  (c:/texlive/2025/texmf-dist/tex/latex/cmbright/t1cmtl.fd
 File: t1cmtl.fd 2005/04/13 v8.1 (WaS)
 ) [2 <./images/icon/roue.PNG> <./images/3d/cone_ellipse.PNG> <./images/3d/cone_parabole.PNG> <./images/3d/cone_hyperbole.PNG> <./images/3d/cone_point_1.PNG> <./images/3d/cone_droite_1.PNG> <./images/3d/cone_2droites_1.PNG>]
-<./images/icon/video.PNG, id=76, 98.16675pt x 90.93974pt>
+<./images/icon/video.PNG, id=80, 98.16675pt x 90.93974pt>
 File: ./images/icon/video.PNG Graphic file (type png)
 <use ./images/icon/video.PNG>
 Package pdftex.def Info: ./images/icon/video.PNG  used on input line 70.
 (pdftex.def)             Requested size: 24.46672pt x 22.66669pt.
-<./images/applications/sedna_nb.PNG, id=77, 578.16pt x 345.08925pt>
+<./images/applications/sedna_nb.PNG, id=81, 578.16pt x 345.08925pt>
 File: ./images/applications/sedna_nb.PNG Graphic file (type png)
 <use ./images/applications/sedna_nb.PNG>
 Package pdftex.def Info: ./images/applications/sedna_nb.PNG  used on input line 72.
@@ -1192,28 +1192,28 @@ File: ./images/icon/video.PNG Graphic file (type png)
 <use ./images/icon/video.PNG>
 Package pdftex.def Info: ./images/icon/video.PNG  used on input line 75.
 (pdftex.def)             Requested size: 24.46672pt x 22.66669pt.
-<./images/applications/ison_nb.PNG, id=78, 1081.03876pt x 470.9595pt>
+<./images/applications/ison_nb.PNG, id=82, 1081.03876pt x 470.9595pt>
 File: ./images/applications/ison_nb.PNG Graphic file (type png)
 <use ./images/applications/ison_nb.PNG>
 Package pdftex.def Info: ./images/applications/ison_nb.PNG  used on input line 77.
 (pdftex.def)             Requested size: 199.16928pt x 86.76683pt.
  [3 <./images/icon/video.PNG> <./images/applications/sedna_nb.PNG> <./images/applications/ison_nb.PNG>]
-<./images/applications/antenne_redu_nb.jpg, id=86, 963.6pt x 542.025pt>
+<./images/applications/antenne_redu_nb.jpg, id=90, 963.6pt x 542.025pt>
 File: ./images/applications/antenne_redu_nb.jpg Graphic file (type jpg)
 <use ./images/applications/antenne_redu_nb.jpg>
 Package pdftex.def Info: ./images/applications/antenne_redu_nb.jpg  used on input line 88.
 (pdftex.def)             Requested size: 193.47578pt x 108.82487pt.
-<./images/applications/four_parkent_nb.jpg, id=87, 835.62187pt x 414.04688pt>
+<./images/applications/four_parkent_nb.jpg, id=91, 835.62187pt x 414.04688pt>
 File: ./images/applications/four_parkent_nb.jpg Graphic file (type jpg)
 <use ./images/applications/four_parkent_nb.jpg>
 Package pdftex.def Info: ./images/applications/four_parkent_nb.jpg  used on input line 93.
 (pdftex.def)             Requested size: 193.47578pt x 95.86687pt.
-<./images/applications/parabole_tv.jpg, id=88, 3057.4225pt x 3443.86626pt>
+<./images/applications/parabole_tv.jpg, id=92, 3057.4225pt x 3443.86626pt>
 File: ./images/applications/parabole_tv.jpg Graphic file (type jpg)
 <use ./images/applications/parabole_tv.jpg>
 Package pdftex.def Info: ./images/applications/parabole_tv.jpg  used on input line 98.
 (pdftex.def)             Requested size: 145.11053pt x 163.4277pt.
-<./images/applications/four_odeillo_nb.jpg, id=89, 647.41875pt x 644.4075pt>
+<./images/applications/four_odeillo_nb.jpg, id=93, 647.41875pt x 644.4075pt>
 File: ./images/applications/four_odeillo_nb.jpg Graphic file (type jpg)
 <use ./images/applications/four_odeillo_nb.jpg>
 Package pdftex.def Info: ./images/applications/four_odeillo_nb.jpg  used on input line 103.
@@ -1223,7 +1223,7 @@ Underfull \hbox (badness 3623) in paragraph at lines 104--104
 []\T1/cmbr/m/n/10.95 (d) |Four so-laire à Odeillo,
  []
 
-<./images/applications/four_sol_nb.jpg, id=90, 578.16pt x 433.62pt>
+<./images/applications/four_sol_nb.jpg, id=94, 578.16pt x 433.62pt>
 File: ./images/applications/four_sol_nb.jpg Graphic file (type jpg)
 <use ./images/applications/four_sol_nb.jpg>
 Package pdftex.def Info: ./images/applications/four_sol_nb.jpg  used on input line 108.
@@ -1244,27 +1244,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 115--115
  []
 
 [4 <./images/applications/antenne_redu_nb.jpg> <./images/applications/four_parkent_nb.jpg> <./images/applications/parabole_tv.jpg> <./images/applications/four_odeillo_nb.jpg> <./images/applications/four_sol_nb.jpg>]
-<./images/applications/zeiss_lamp_nb.PNG, id=95, 435.42674pt x 212.59425pt>
+<./images/applications/zeiss_lamp_nb.PNG, id=99, 435.42674pt x 212.59425pt>
 File: ./images/applications/zeiss_lamp_nb.PNG Graphic file (type png)
 <use ./images/applications/zeiss_lamp_nb.PNG>
 Package pdftex.def Info: ./images/applications/zeiss_lamp_nb.PNG  used on input line 121.
 (pdftex.def)             Requested size: 193.47578pt x 94.46303pt.
-<./images/applications/zeis_1_nb.PNG, id=96, 443.256pt x 288.47775pt>
+<./images/applications/zeis_1_nb.PNG, id=100, 443.256pt x 288.47775pt>
 File: ./images/applications/zeis_1_nb.PNG Graphic file (type png)
 <use ./images/applications/zeis_1_nb.PNG>
 Package pdftex.def Info: ./images/applications/zeis_1_nb.PNG  used on input line 126.
 (pdftex.def)             Requested size: 193.47578pt x 125.91818pt.
-<./images/applications/kbmirror_nb.PNG, id=97, 598.03426pt x 395.076pt>
+<./images/applications/kbmirror_nb.PNG, id=101, 598.03426pt x 395.076pt>
 File: ./images/applications/kbmirror_nb.PNG Graphic file (type png)
 <use ./images/applications/kbmirror_nb.PNG>
 Package pdftex.def Info: ./images/applications/kbmirror_nb.PNG  used on input line 131.
 (pdftex.def)             Requested size: 193.47578pt x 127.81342pt.
-<./images/applications/cassegrain_nb.png, id=98, 2890.8pt x 888.31876pt>
+<./images/applications/cassegrain_nb.png, id=102, 2890.8pt x 888.31876pt>
 File: ./images/applications/cassegrain_nb.png Graphic file (type png)
 <use ./images/applications/cassegrain_nb.png>
 Package pdftex.def Info: ./images/applications/cassegrain_nb.png  used on input line 136.
 (pdftex.def)             Requested size: 193.47578pt x 59.45062pt.
-<./images/applications/hubble_design_nb.PNG, id=99, 933.4875pt x 417.35925pt>
+<./images/applications/hubble_design_nb.PNG, id=103, 933.4875pt x 417.35925pt>
 File: ./images/applications/hubble_design_nb.PNG Graphic file (type png)
 <use ./images/applications/hubble_design_nb.PNG>
 Package pdftex.def Info: ./images/applications/hubble_design_nb.PNG  used on input line 141.
@@ -1285,12 +1285,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 149--149
  []
 
 [5 <./images/applications/zeiss_lamp_nb.PNG> <./images/applications/zeis_1_nb.PNG> <./images/applications/kbmirror_nb.PNG> <./images/applications/cassegrain_nb.png> <./images/applications/hubble_design_nb.PNG>]
-<./images/applications/tihange_nb.jpg, id=109, 305.64188pt x 282.30469pt>
+<./images/applications/tihange_nb.jpg, id=114, 305.64188pt x 282.30469pt>
 File: ./images/applications/tihange_nb.jpg Graphic file (type jpg)
 <use ./images/applications/tihange_nb.jpg>
 Package pdftex.def Info: ./images/applications/tihange_nb.jpg  used on input line 156.
 (pdftex.def)             Requested size: 193.47578pt x 178.70148pt.
-<./images/applications/varsovie_train_nb.jpg, id=110, 406.318pt x 246.521pt>
+<./images/applications/varsovie_train_nb.jpg, id=115, 406.318pt x 246.521pt>
 File: ./images/applications/varsovie_train_nb.jpg Graphic file (type jpg)
 <use ./images/applications/varsovie_train_nb.jpg>
 Package pdftex.def Info: ./images/applications/varsovie_train_nb.jpg  used on input line 161.
@@ -1303,7 +1303,7 @@ Overfull \hbox (9.71674pt too wide) detected at line 218
 ) [7] (./sections/tikz_standalone/grid_0_0.tex)
 File: ./sections/tikz_standalone/grid_0_0.tex Graphic file (type tex)
 
-Overfull \hbox (17.64597pt too wide) in paragraph at lines 9--10
+Overfull \hbox (17.64597pt too wide) in paragraph at lines 11--12
 [][] 
  []
 
@@ -1312,14 +1312,14 @@ Overfull \hbox (17.64597pt too wide) in paragraph at lines 9--10
 \openout4 = `coniques.toc'.
 
  (./sections/cylindre_cone.tex [9] [10]
-<./images/3d/lemme_1_nb.PNG, id=136, 322.20375pt x 432.4155pt>
+<./images/3d/lemme_1_nb.PNG, id=140, 322.20375pt x 432.4155pt>
 File: ./images/3d/lemme_1_nb.PNG Graphic file (type png)
 <use ./images/3d/lemme_1_nb.PNG>
 Package pdftex.def Info: ./images/3d/lemme_1_nb.PNG  used on input line 167.
 (pdftex.def)             Requested size: 199.16928pt x 267.30305pt.
 LaTeX Font Info:    Font shape `T1/cmbr/m/it' in size <12> not available
 (Font)              Font shape `T1/cmbr/m/sl' tried instead on input line 173.
-<./images/3d/lemme_cone_S.PNG, id=137, 582.37575pt x 484.81125pt>
+<./images/3d/lemme_cone_S.PNG, id=141, 582.37575pt x 484.81125pt>
 File: ./images/3d/lemme_cone_S.PNG Graphic file (type png)
 <use ./images/3d/lemme_cone_S.PNG>
 Package pdftex.def Info: ./images/3d/lemme_cone_S.PNG  used on input line 191.
@@ -1339,7 +1339,7 @@ File: ./images/icon/roue.PNG Graphic file (type png)
 <use ./images/icon/roue.PNG>
 Package pdftex.def Info: ./images/icon/roue.PNG  used on input line 5.
 (pdftex.def)             Requested size: 24.4789pt x 22.66669pt.
-<./images/3d/cylindre_ellipse.PNG, id=146, 742.57425pt x 593.8185pt>
+<./images/3d/cylindre_ellipse.PNG, id=151, 742.57425pt x 593.8185pt>
 File: ./images/3d/cylindre_ellipse.PNG Graphic file (type png)
 <use ./images/3d/cylindre_ellipse.PNG>
 Package pdftex.def Info: ./images/3d/cylindre_ellipse.PNG  used on input line 10.
@@ -1354,12 +1354,12 @@ Overfull \hbox (20.28477pt too wide) in paragraph at lines 8--26
 []$[]$  $[]$ 
  []
 
-<./images/3d/cylindre_e_s_00.PNG, id=147, 593.8185pt x 603.4545pt>
+<./images/3d/cylindre_e_s_00.PNG, id=152, 593.8185pt x 603.4545pt>
 File: ./images/3d/cylindre_e_s_00.PNG Graphic file (type png)
 <use ./images/3d/cylindre_e_s_00.PNG>
 Package pdftex.def Info: ./images/3d/cylindre_e_s_00.PNG  used on input line 33.
 (pdftex.def)             Requested size: 199.16928pt x 202.4002pt.
-<./images/3d/cylindre_ellipse_cst.PNG, id=148, 620.91975pt x 539.01375pt>
+<./images/3d/cylindre_ellipse_cst.PNG, id=153, 620.91975pt x 539.01375pt>
 File: ./images/3d/cylindre_ellipse_cst.PNG Graphic file (type png)
 <use ./images/3d/cylindre_ellipse_cst.PNG>
 Package pdftex.def Info: ./images/3d/cylindre_ellipse_cst.PNG  used on input line 38.
@@ -1383,7 +1383,7 @@ Overfull \hbox (20.28477pt too wide) in paragraph at lines 57--75
 []$[]$  $[]$
  []
 
-<./images/3d/cone_sp_2pl.PNG, id=157, 899.15926pt x 628.749pt>
+<./images/3d/cone_sp_2pl.PNG, id=161, 899.15926pt x 628.749pt>
 File: ./images/3d/cone_sp_2pl.PNG Graphic file (type png)
 <use ./images/3d/cone_sp_2pl.PNG>
 Package pdftex.def Info: ./images/3d/cone_sp_2pl.PNG  used on input line 81.
@@ -1394,7 +1394,7 @@ Overfull \hbox (2.65996pt too wide) in paragraph at lines 76--90
  []
 
 [13 <./images/3d/cone_sp_2pl.PNG>]
-<./images/3d/cone_spheres_rot.PNG, id=163, 914.2155pt x 416.757pt>
+<./images/3d/cone_spheres_rot.PNG, id=167, 914.2155pt x 416.757pt>
 File: ./images/3d/cone_spheres_rot.PNG Graphic file (type png)
 <use ./images/3d/cone_spheres_rot.PNG>
 Package pdftex.def Info: ./images/3d/cone_spheres_rot.PNG  used on input line 106.
@@ -1405,13 +1405,13 @@ Overfull \hbox (85.35825pt too wide) in paragraph at lines 106--107
  []
 
 [14 <./images/3d/cone_spheres_rot.PNG>]
-<sections/tikz_standalone/ell_1.pdf, id=169, 455.64427pt x 341.83308pt>
+<sections/tikz_standalone/ell_1.pdf, id=173, 455.64427pt x 341.83308pt>
 File: sections/tikz_standalone/ell_1.pdf Graphic file (type pdf)
 <use sections/tikz_standalone/ell_1.pdf>
 Package pdftex.def Info: sections/tikz_standalone/ell_1.pdf  used on input line 157.
 (pdftex.def)             Requested size: 364.51591pt x 273.46681pt.
  [15 <./sections/tikz_standalone/ell_1.pdf>]
-<sections/tikz_standalone/ell_2.pdf, id=188, 180.07376pt x 146.50635pt>
+<sections/tikz_standalone/ell_2.pdf, id=192, 180.07376pt x 146.50635pt>
 File: sections/tikz_standalone/ell_2.pdf Graphic file (type pdf)
 <use sections/tikz_standalone/ell_2.pdf>
 Package pdftex.def Info: sections/tikz_standalone/ell_2.pdf  used on input line 165.
@@ -1421,202 +1421,202 @@ Underfull \hbox (badness 10000) in paragraph at lines 170--178
 
  []
 
-<sections/tikz_standalone/ell_3.pdf, id=189, 222.5675pt x 150.97102pt>
+[16 <./sections/tikz_standalone/ell_2.pdf>]
+<sections/tikz_standalone/ell_3.pdf, id=212, 223.26813pt x 151.6907pt>
 File: sections/tikz_standalone/ell_3.pdf Graphic file (type pdf)
 <use sections/tikz_standalone/ell_3.pdf>
 Package pdftex.def Info: sections/tikz_standalone/ell_3.pdf  used on input line 190.
-(pdftex.def)             Requested size: 155.79617pt x 105.67899pt.
-<sections/tikz_standalone/ell_4.pdf, id=190, 180.07376pt x 152.04002pt>
+(pdftex.def)             Requested size: 245.59569pt x 166.86028pt.
+<sections/tikz_standalone/ell_4.pdf, id=213, 221.8679pt x 152.39034pt>
 File: sections/tikz_standalone/ell_4.pdf Graphic file (type pdf)
 <use sections/tikz_standalone/ell_4.pdf>
-Package pdftex.def Info: sections/tikz_standalone/ell_4.pdf  used on input line 194.
-(pdftex.def)             Requested size: 126.05075pt x 106.42728pt.
-
-Overfull \hbox (20.28479pt too wide) in paragraph at lines 189--196
-[]$[]$  $[]$ 
- []
-
-<sections/tikz_standalone/ell_5.pdf, id=191, 180.07376pt x 147.14473pt>
+Package pdftex.def Info: sections/tikz_standalone/ell_4.pdf  used on input line 195.
+(pdftex.def)             Requested size: 244.05544pt x 167.62987pt.
+<sections/tikz_standalone/ell_5.pdf, id=214, 221.8679pt x 147.94472pt>
 File: sections/tikz_standalone/ell_5.pdf Graphic file (type pdf)
 <use sections/tikz_standalone/ell_5.pdf>
-Package pdftex.def Info: sections/tikz_standalone/ell_5.pdf  used on input line 200.
-(pdftex.def)             Requested size: 126.05075pt x 103.0006pt.
-[16 <./sections/tikz_standalone/ell_2.pdf> <./sections/tikz_standalone/ell_3.pdf> <./sections/tikz_standalone/ell_4.pdf> <./sections/tikz_standalone/ell_5.pdf>]
-<sections/tikz_standalone/ell_6.pdf, id=265, 404.72908pt x 177.37468pt>
+Package pdftex.def Info: sections/tikz_standalone/ell_5.pdf  used on input line 201.
+(pdftex.def)             Requested size: 244.05544pt x 162.73967pt.
+ [17 <./sections/tikz_standalone/ell_3.pdf> <./sections/tikz_standalone/ell_4.pdf> <./sections/tikz_standalone/ell_5.pdf>]
+<sections/tikz_standalone/ell_6.pdf, id=274, 404.72908pt x 177.37468pt>
 File: sections/tikz_standalone/ell_6.pdf Graphic file (type pdf)
 <use sections/tikz_standalone/ell_6.pdf>
-Package pdftex.def Info: sections/tikz_standalone/ell_6.pdf  used on input line 212.
+Package pdftex.def Info: sections/tikz_standalone/ell_6.pdf  used on input line 213.
 (pdftex.def)             Requested size: 445.20335pt x 195.11273pt.
-
-Overfull \hbox (23.34474pt too wide) in paragraph at lines 237--253
+ [18 <./sections/tikz_standalone/ell_6.pdf>]
+Overfull \hbox (23.34474pt too wide) in paragraph at lines 240--256
 []$[]$   |$[]$ 
  []
 
-[17 <./sections/tikz_standalone/ell_6.pdf>]
-<sections/tikz_standalone/ell_7.pdf, id=285, 240.80365pt x 114.61119pt>
+[19]
+<sections/tikz_standalone/ell_7.pdf, id=298, 240.80365pt x 114.61119pt>
 File: sections/tikz_standalone/ell_7.pdf Graphic file (type pdf)
 <use sections/tikz_standalone/ell_7.pdf>
-Package pdftex.def Info: sections/tikz_standalone/ell_7.pdf  used on input line 267.
+Package pdftex.def Info: sections/tikz_standalone/ell_7.pdf  used on input line 270.
 (pdftex.def)             Requested size: 313.0447pt x 148.9945pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 278--280
+Underfull \hbox (badness 10000) in paragraph at lines 281--283
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 295--298
+Underfull \hbox (badness 10000) in paragraph at lines 298--301
 
  []
 
-[18 <./sections/tikz_standalone/ell_7.pdf>]
+[20 <./sections/tikz_standalone/ell_7.pdf>]
 LaTeX Font Info:    Font shape `T1/cmbr/m/it' in size <8> not available
-(Font)              Font shape `T1/cmbr/m/sl' tried instead on input line 313.
+(Font)              Font shape `T1/cmbr/m/sl' tried instead on input line 316.
 LaTeX Font Info:    Font shape `T1/cmbr/m/it' in size <6> not available
-(Font)              Font shape `T1/cmbr/m/sl' tried instead on input line 313.
- [19]
-Underfull \hbox (badness 10000) in paragraph at lines 328--331
+(Font)              Font shape `T1/cmbr/m/sl' tried instead on input line 316.
+ [21]
+Underfull \hbox (badness 10000) in paragraph at lines 331--334
 
  []
 
-<sections/tikz_standalone/ell_8.pdf, id=315, 198.02483pt x 167.2087pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 339--340
+
+ []
+
+<sections/tikz_standalone/ell_8.pdf, id=327, 198.02483pt x 167.2087pt>
 File: sections/tikz_standalone/ell_8.pdf Graphic file (type pdf)
 <use sections/tikz_standalone/ell_8.pdf>
-Package pdftex.def Info: sections/tikz_standalone/ell_8.pdf  used on input line 341.
+Package pdftex.def Info: sections/tikz_standalone/ell_8.pdf  used on input line 346.
 (pdftex.def)             Requested size: 237.62857pt x 200.6494pt.
-<sections/tikz_standalone/ell_9.pdf, id=316, 195.38797pt x 162.38869pt>
+File: ./images/icon/roue.PNG Graphic file (type png)
+<use ./images/icon/roue.PNG>
+Package pdftex.def Info: ./images/icon/roue.PNG  used on input line 352.
+(pdftex.def)             Requested size: 24.4789pt x 22.66669pt.
+File: ./images/icon/roue.PNG Graphic file (type png)
+<use ./images/icon/roue.PNG>
+Package pdftex.def Info: ./images/icon/roue.PNG  used on input line 359.
+(pdftex.def)             Requested size: 24.4789pt x 22.66669pt.
+[22 <./sections/tikz_standalone/ell_8.pdf>]
+<sections/tikz_standalone/ell_9.pdf, id=357, 195.38797pt x 162.38869pt>
 File: sections/tikz_standalone/ell_9.pdf Graphic file (type pdf)
 <use sections/tikz_standalone/ell_9.pdf>
-Package pdftex.def Info: sections/tikz_standalone/ell_9.pdf  used on input line 353.
+Package pdftex.def Info: sections/tikz_standalone/ell_9.pdf  used on input line 368.
 (pdftex.def)             Requested size: 234.46437pt x 194.86543pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 358--362
+Underfull \hbox (badness 10000) in paragraph at lines 372--373
 
  []
 
 
-Overfull \hbox (20.28479pt too wide) in paragraph at lines 352--370
+Overfull \hbox (20.28479pt too wide) in paragraph at lines 367--385
 []$[]$  $[]$ 
  []
 
-[20 <./sections/tikz_standalone/ell_8.pdf> <./sections/tikz_standalone/ell_9.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 374--376
+[23 <./sections/tikz_standalone/ell_9.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 392--394
 
  []
 
 
 LaTeX Font Warning: Font shape `T1/cmbr/b/it' undefined
-(Font)              using `T1/cmbr/b/n' instead on input line 381.
+(Font)              using `T1/cmbr/b/n' instead on input line 399.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 379--385
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 388--397
+Underfull \hbox (badness 10000) in paragraph at lines 397--403
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 388--397
+Underfull \hbox (badness 10000) in paragraph at lines 406--415
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 388--397
+Underfull \hbox (badness 10000) in paragraph at lines 406--415
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 406--415
 
  []
 
 LaTeX Font Info:    Font shape `T1/cmbr/b/it' in size <12> not available
-(Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 415.
+(Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 433.
 
-Underfull \hbox (badness 10000) in paragraph at lines 398--419
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 398--419
+Underfull \hbox (badness 10000) in paragraph at lines 416--437
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 420--441
+Underfull \hbox (badness 10000) in paragraph at lines 416--437
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 420--441
-
- []
-
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 442--493
+Underfull \hbox (badness 10000) in paragraph at lines 438--459
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 442--493
+Underfull \hbox (badness 10000) in paragraph at lines 438--459
+
+ []
+
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 460--511
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 442--493
+Underfull \hbox (badness 10000) in paragraph at lines 460--511
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 442--493
-
- []
-
-[22]
-Underfull \hbox (badness 10000) in paragraph at lines 515--521
+Underfull \hbox (badness 10000) in paragraph at lines 460--511
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 515--521
+Underfull \hbox (badness 10000) in paragraph at lines 460--511
+
+ []
+
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 533--539
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 530--533
+Underfull \hbox (badness 10000) in paragraph at lines 533--539
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 534--537
+Underfull \hbox (badness 10000) in paragraph at lines 548--551
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 538--541
+Underfull \hbox (badness 10000) in paragraph at lines 552--555
 
  []
 
-[23]
-Underfull \hbox (badness 10000) in paragraph at lines 543--546
+
+Underfull \hbox (badness 10000) in paragraph at lines 556--559
 
  []
 
-) (./sections/parabole.tex [24]
-Underfull \hbox (badness 10000) in paragraph at lines 17--19
+[26]
+Underfull \hbox (badness 10000) in paragraph at lines 561--564
 
  []
 
-<sections/tikz_standalone/para_1.pdf, id=377, 427.19098pt x 456.44429pt>
-File: sections/tikz_standalone/para_1.pdf Graphic file (type pdf)
-<use sections/tikz_standalone/para_1.pdf>
-Package pdftex.def Info: sections/tikz_standalone/para_1.pdf  used on input line 23.
-(pdftex.def)             Requested size: 341.75323pt x 365.15593pt.
-[25 <./sections/tikz_standalone/para_1.pdf>]) (./sections/hyperbole.tex [26]
-<sections/tikz_standalone/hyp_1.pdf, id=396, 626.36009pt x 512.54887pt>
+) (./sections/hyperbole.tex [27]
+<sections/tikz_standalone/hyp_1.pdf, id=390, 626.36009pt x 512.54887pt>
 File: sections/tikz_standalone/hyp_1.pdf Graphic file (type pdf)
 <use sections/tikz_standalone/hyp_1.pdf>
 Package pdftex.def Info: sections/tikz_standalone/hyp_1.pdf  used on input line 22.
 (pdftex.def)             Requested size: 457.23906pt x 374.15756pt.
- [27 <./sections/tikz_standalone/hyp_1.pdf>]
-<sections/tikz_standalone/hyp_2.pdf, id=410, 297.49744pt x 195.85773pt>
+ [28 <./sections/tikz_standalone/hyp_1.pdf>]
+<sections/tikz_standalone/hyp_2.pdf, id=404, 297.49744pt x 195.85773pt>
 File: sections/tikz_standalone/hyp_2.pdf Graphic file (type pdf)
 <use sections/tikz_standalone/hyp_2.pdf>
 Package pdftex.def Info: sections/tikz_standalone/hyp_2.pdf  used on input line 31.
@@ -1626,12 +1626,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--42
 
  []
 
-<sections/tikz_standalone/hyp_4.pdf, id=411, 354.19325pt x 303.94153pt>
+<sections/tikz_standalone/hyp_4.pdf, id=405, 354.19325pt x 303.94153pt>
 File: sections/tikz_standalone/hyp_4.pdf Graphic file (type pdf)
 <use sections/tikz_standalone/hyp_4.pdf>
 Package pdftex.def Info: sections/tikz_standalone/hyp_4.pdf  used on input line 54.
 (pdftex.def)             Requested size: 177.09619pt x 151.97038pt.
-<sections/tikz_standalone/hyp_3.pdf, id=412, 354.19325pt x 303.94153pt>
+<sections/tikz_standalone/hyp_3.pdf, id=406, 354.19325pt x 303.94153pt>
 File: sections/tikz_standalone/hyp_3.pdf Graphic file (type pdf)
 <use sections/tikz_standalone/hyp_3.pdf>
 Package pdftex.def Info: sections/tikz_standalone/hyp_3.pdf  used on input line 58.
@@ -1641,13 +1641,13 @@ Overfull \hbox (20.28479pt too wide) in paragraph at lines 53--60
 []$[]$  $[]$ 
  []
 
-<sections/tikz_standalone/hyp_5.pdf, id=413, 354.19325pt x 303.94153pt>
+<sections/tikz_standalone/hyp_5.pdf, id=407, 354.19325pt x 303.94153pt>
 File: sections/tikz_standalone/hyp_5.pdf Graphic file (type pdf)
 <use sections/tikz_standalone/hyp_5.pdf>
 Package pdftex.def Info: sections/tikz_standalone/hyp_5.pdf  used on input line 64.
 (pdftex.def)             Requested size: 159.38548pt x 136.77242pt.
-[28 <./sections/tikz_standalone/hyp_2.pdf> <./sections/tikz_standalone/hyp_4.pdf> <./sections/tikz_standalone/hyp_3.pdf> <./sections/tikz_standalone/hyp_5.pdf>]
-<sections/tikz_standalone/hyp_6.pdf, id=482, 404.72908pt x 178.10541pt>
+[29 <./sections/tikz_standalone/hyp_2.pdf> <./sections/tikz_standalone/hyp_4.pdf> <./sections/tikz_standalone/hyp_3.pdf> <./sections/tikz_standalone/hyp_5.pdf>]
+<sections/tikz_standalone/hyp_6.pdf, id=477, 404.72908pt x 178.10541pt>
 File: sections/tikz_standalone/hyp_6.pdf Graphic file (type pdf)
 <use sections/tikz_standalone/hyp_6.pdf>
 Package pdftex.def Info: sections/tikz_standalone/hyp_6.pdf  used on input line 76.
@@ -1657,8 +1657,8 @@ Overfull \hbox (5.54929pt too wide) detected at line 91
 []
  []
 
-[29 <./sections/tikz_standalone/hyp_6.pdf>]
-<sections/tikz_standalone/hyp_7.pdf, id=500, 240.80365pt x 114.61119pt>
+[30 <./sections/tikz_standalone/hyp_6.pdf>]
+<sections/tikz_standalone/hyp_7.pdf, id=495, 240.80365pt x 114.61119pt>
 File: sections/tikz_standalone/hyp_7.pdf Graphic file (type pdf)
 <use sections/tikz_standalone/hyp_7.pdf>
 Package pdftex.def Info: sections/tikz_standalone/hyp_7.pdf  used on input line 107.
@@ -1668,13 +1668,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 116--121
 
  []
 
-[30 <./sections/tikz_standalone/hyp_7.pdf>] [31]
-<sections/tikz_standalone/hyp_8.pdf, id=528, 195.39801pt x 162.39671pt>
+[31 <./sections/tikz_standalone/hyp_7.pdf>] [32]
+<sections/tikz_standalone/hyp_8.pdf, id=521, 195.39801pt x 162.39671pt>
 File: sections/tikz_standalone/hyp_8.pdf Graphic file (type pdf)
 <use sections/tikz_standalone/hyp_8.pdf>
 Package pdftex.def Info: sections/tikz_standalone/hyp_8.pdf  used on input line 205.
 (pdftex.def)             Requested size: 234.47643pt x 194.87506pt.
-<sections/tikz_standalone/hyp_9.pdf, id=529, 195.39098pt x 162.39069pt>
+<sections/tikz_standalone/hyp_9.pdf, id=522, 195.39098pt x 162.39069pt>
 File: sections/tikz_standalone/hyp_9.pdf Graphic file (type pdf)
 <use sections/tikz_standalone/hyp_9.pdf>
 Package pdftex.def Info: sections/tikz_standalone/hyp_9.pdf  used on input line 214.
@@ -1684,7 +1684,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 219--223
 
  []
 
-[32 <./sections/tikz_standalone/hyp_8.pdf> <./sections/tikz_standalone/hyp_9.pdf>]
+[33 <./sections/tikz_standalone/hyp_8.pdf> <./sections/tikz_standalone/hyp_9.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 235--237
 
  []
@@ -1729,7 +1729,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 270--292
 
  []
 
-[33]
+[34]
 Underfull \hbox (badness 10000) in paragraph at lines 293--314
 
  []
@@ -1759,12 +1759,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 315--365
 
  []
 
-<./sections/tikz_standalone/hyp_10.pdf, id=564, 195.39801pt x 162.39671pt>
+<./sections/tikz_standalone/hyp_10.pdf, id=558, 195.39801pt x 162.39671pt>
 File: ./sections/tikz_standalone/hyp_10.pdf Graphic file (type pdf)
 <use ./sections/tikz_standalone/hyp_10.pdf>
 Package pdftex.def Info: ./sections/tikz_standalone/hyp_10.pdf  used on input line 370.
 (pdftex.def)             Requested size: 156.3186pt x 129.91753pt.
-[34 <./sections/tikz_standalone/hyp_10.pdf>]) (./sections/generale.tex [35]
+[35 <./sections/tikz_standalone/hyp_10.pdf>]) (./sections/parabole.tex [36]
+Underfull \hbox (badness 10000) in paragraph at lines 17--19
+
+ []
+
+<sections/tikz_standalone/para_1.pdf, id=577, 427.19098pt x 456.44429pt>
+File: sections/tikz_standalone/para_1.pdf Graphic file (type pdf)
+<use sections/tikz_standalone/para_1.pdf>
+Package pdftex.def Info: sections/tikz_standalone/para_1.pdf  used on input line 23.
+(pdftex.def)             Requested size: 341.75323pt x 365.15593pt.
+[37 <./sections/tikz_standalone/para_1.pdf>]) (./sections/generale.tex [38]
 Underfull \hbox (badness 10000) in paragraph at lines 15--19
 
  []
@@ -1774,13 +1784,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--31
 
  []
 
-[36]
-<./sections/tikz_standalone/gen_rot_01.pdf, id=587, 198.0218pt x 167.2087pt>
+[39]
+<./sections/tikz_standalone/gen_rot_01.pdf, id=599, 198.0218pt x 167.2087pt>
 File: ./sections/tikz_standalone/gen_rot_01.pdf Graphic file (type pdf)
 <use ./sections/tikz_standalone/gen_rot_01.pdf>
 Package pdftex.def Info: ./sections/tikz_standalone/gen_rot_01.pdf  used on input line 43.
 (pdftex.def)             Requested size: 158.41763pt x 133.76712pt.
-<./sections/tikz_standalone/gen_rot_00.pdf, id=588, 198.0218pt x 167.2087pt>
+<./sections/tikz_standalone/gen_rot_00.pdf, id=600, 198.0218pt x 167.2087pt>
 File: ./sections/tikz_standalone/gen_rot_00.pdf Graphic file (type pdf)
 <use ./sections/tikz_standalone/gen_rot_00.pdf>
 Package pdftex.def Info: ./sections/tikz_standalone/gen_rot_00.pdf  used on input line 47.
@@ -1790,12 +1800,12 @@ Overfull \hbox (20.28479pt too wide) in paragraph at lines 42--49
 []$[]$  $[]$ 
  []
 
-<./sections/tikz_standalone/gen_rot_1.pdf, id=589, 195.39098pt x 162.3937pt>
+<./sections/tikz_standalone/gen_rot_1.pdf, id=601, 195.39098pt x 162.3937pt>
 File: ./sections/tikz_standalone/gen_rot_1.pdf Graphic file (type pdf)
 <use ./sections/tikz_standalone/gen_rot_1.pdf>
 Package pdftex.def Info: ./sections/tikz_standalone/gen_rot_1.pdf  used on input line 52.
 (pdftex.def)             Requested size: 195.39049pt x 162.3933pt.
-<./sections/tikz_standalone/gen_rot_2.pdf, id=590, 198.0218pt x 167.2087pt>
+<./sections/tikz_standalone/gen_rot_2.pdf, id=602, 198.0218pt x 167.2087pt>
 File: ./sections/tikz_standalone/gen_rot_2.pdf Graphic file (type pdf)
 <use ./sections/tikz_standalone/gen_rot_2.pdf>
 Package pdftex.def Info: ./sections/tikz_standalone/gen_rot_2.pdf  used on input line 56.
@@ -1815,7 +1825,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 78--81
 
  []
 
-[37 <./sections/tikz_standalone/gen_rot_01.pdf> <./sections/tikz_standalone/gen_rot_00.pdf> <./sections/tikz_standalone/gen_rot_1.pdf> <./sections/tikz_standalone/gen_rot_2.pdf>]) (./sections/tangentes.tex [38]) (./sections/optique.tex [39]) [40] (./coniques.aux)
+[40 <./sections/tikz_standalone/gen_rot_01.pdf> <./sections/tikz_standalone/gen_rot_00.pdf> <./sections/tikz_standalone/gen_rot_1.pdf> <./sections/tikz_standalone/gen_rot_2.pdf>]) (./sections/tangentes.tex [41]) (./sections/optique.tex [42]) [43] (./coniques.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -1826,18 +1836,18 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 42244 strings out of 467532
- 1016695 string characters out of 5423647
- 1549085 words of memory out of 5000000
- 70357 multiletter control sequences out of 15000+600000
+ 42243 strings out of 467532
+ 1016717 string characters out of 5423647
+ 1550093 words of memory out of 5000000
+ 70356 multiletter control sequences out of 15000+600000
  650667 words of font info for 104 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 100i,15n,134p,825b,823s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 100i,15n,134p,834b,823s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrbs10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbbx10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbmo10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbtl10.pfb>
-Output written on coniques.pdf (41 pages, 7370340 bytes).
+Output written on coniques.pdf (45 pages, 7369463 bytes).
 PDF statistics:
- 740 PDF objects out of 1000 (max. 8388607)
- 475 compressed objects within 5 object streams
+ 753 PDF objects out of 1000 (max. 8388607)
+ 485 compressed objects within 5 object streams
  0 named destinations out of 1000 (max. 500000)
  432 words of extra memory for PDF output out of 10000 (max. 10000000)
 
