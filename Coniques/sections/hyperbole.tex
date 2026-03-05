@@ -42,6 +42,7 @@ Les \textbf{sommets} $S_1, S_2$ d'une l'hyperbole sont les points d'intersection
 
 \end{tcolorbox}
 
+\newpage 
 \begin{tcolorbox}[colback=magenta!5, colframe=red!50!blue, title=Propriétés de l'hyperbole]
 L'hyperbole possède 2 axes de symétries : son axe focal et son axe non focal.\\
 L'hyperbole possède 1 centre de symétrie : son centre.
@@ -50,18 +51,19 @@ L'hyperbole possède 1 centre de symétrie : son centre.
 
 
 
-\begin{minipage}{0.5\textwidth}
-\includegraphics[scale = 0.5]{sections/tikz_standalone/hyp_4.pdf}
+\begin{minipage}{0.7\textwidth}
+\includegraphics[scale = 0.65]{sections/tikz_standalone/hyp_4.pdf}
 \end{minipage}
 \hfill
-\begin{minipage}{0.5\textwidth}
-\includegraphics[scale = 0.5]{sections/tikz_standalone/hyp_3.pdf}
+\vspace{1pt}
+\begin{minipage}{0.7\textwidth}
+\includegraphics[scale = 0.7]{sections/tikz_standalone/hyp_3.pdf}
 \end{minipage}
-
+\hfill
 \vspace{1pt}
 \hspace{0.3\textwidth}
-\begin{minipage}{0.5\textwidth}
-\includegraphics[scale = 0.45]{sections/tikz_standalone/hyp_5.pdf}
+\begin{minipage}{0.7\textwidth}
+\includegraphics[scale = 0.7]{sections/tikz_standalone/hyp_5.pdf}
 
 \end{minipage}
 \hfill
@@ -184,7 +186,7 @@ Comme $c>a$, on peut poser $b^2 = c^2 - a^2$ avec $b>0$. On a alors :
 \end{eleve}
 \begin{tcolorbox}[colback=cyan!5, colframe=cyan!70!blue, 
 title=Équation cartésienne réduite de l'hyperbole (rapportée à ses axes)]
-Soient $a, c \in \mathbb{R}^+_0$ tels que $c > a$.\\
+Soient $a, c \in \mathbb{R}^+\setminus\{0\}$ tels que $c > a$.\\
 Dans un repère orthonormé, considérons une hyperbole de foyers 
 $F_1(-c,0)$ et $F_2(c,0)$, et dont la différence des distances à chaque foyer 
 est constante et égale à $2a$.\\ Alors son équation cartésienne réduite s'écrit :
@@ -196,6 +198,8 @@ avec
 \[
 b^2 = c^2 - a^2.
 \]
+
+L' \textbf{excentricité} d'une hyperbole est le rapport $\varepsilon = \dfrac{c}{a} >1$.\\
 \end{tcolorbox}
 
 
@@ -205,9 +209,22 @@ b^2 = c^2 - a^2.
     \includegraphics[scale = 1.2]{sections/tikz_standalone/hyp_8.pdf}
 
 \end{minipage}
+
 \hfill
+\rem{
+Que se passe-t-il lorsqu'on fait varier l'excentricité $\varepsilon $ ?\marginpar{\raisebox{-.2ex}{\includegraphics[height=4ex]{./images/icon/roue.PNG}}\footnotemark[1]}
+%Lorsque $a=b$, on trouve l'équation du cercle. En effet, $c=0$, les 2 foyers sont confondus au centre. 
+}
+\footnotetext[1]{https://www.geogebra.org/graphing/aytm2czt}
 
+\vspace{4cm}
+\rem{
+Que se passe-t-il si $a=b$ dans l'équation cartésienne? Et si $a<b$ ?\marginpar{\raisebox{-.2ex}{\includegraphics[height=4ex]{./images/icon/roue.PNG}}\footnotemark[2]} 
+%Lorsque $a=b$, on trouve l'équation du cercle. En effet, $c=0$, les 2 foyers sont confondus au centre. 
+}
+\footnotetext[2]{https://www.geogebra.org/graphing/zmu523gu}
 
+\newpage
 \exth{$\dfrac{x^2}{16} - \dfrac{y^2}{9} = 1$}
 
 \begin{minipage}{0.5\textwidth}
@@ -215,6 +232,9 @@ b^2 = c^2 - a^2.
 \end{minipage}
 \hfill
 \begin{minipage}{0.4\textwidth}
+    Identifie le centre, l'axe focal, l'axe non focal.\\
+
+Calcule la distance focale, les coordonnées des sommets, la longueur du grand axe.\\
    \begin{eleve}
     Comme cet exemple d'hyperbole est rapportée à ses axes:\\
     Le centre est $(0,0)$\\
@@ -227,6 +247,11 @@ b^2 = c^2 - a^2.
     \end{eleve}
 \end{minipage}
 
+\newpage
+\null
+\newpage
+
+\null
 \newpage
 
 \subsection{Etude fonctionnelle et graphique}\label{section:hypgraphe}
@@ -372,3 +397,8 @@ $\\
 
 \newpage
 \subsection{Définition monofocale}\label{section:hypmonofo}
+\newpage
+\null
+\newpage
+\null
+\newpage

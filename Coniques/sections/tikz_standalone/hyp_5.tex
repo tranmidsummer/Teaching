@@ -18,8 +18,12 @@
 \draw[thick, rotate around={\ang:(\xC,\yC)}, domain=-1.2:1.2, samples=100]
   plot ({\xC-\a*cosh(\x)}, {\yC+\b*sinh(\x)});
 
+  \draw [line width = 0.1pt, gray,rotate around={\ang:(\xC,\yC)}] (\xC,-3) -- (\xC,9);
+  \draw [line width = 0.1pt, gray, rotate around={\ang:(\xC,\yC)}] 
+      ({\xC-\a-4},\yC) -- ({\xC+\a+4},\yC);
+
 % Center
-\fill (\xC,\yC) circle (1pt) node[above] {O};
+\fill[red] (\xC,\yC) circle (1pt) node[above] {O};
 
 % Foci (c^2 = a^2 + b^2)
 \pgfmathsetmacro{\c}{sqrt(\a*\a + \b*\b)}

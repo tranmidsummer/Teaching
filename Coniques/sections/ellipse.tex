@@ -328,7 +328,7 @@ On avait posé précédemment $b^2 = a^2 - c^2$ avec $b>0$. On a alors :
 
 \newpage
 \begin{tcolorbox}[colback=cyan!5, colframe=cyan!70!blue, title=Equation cartésienne réduite de l'ellipse ou équation cartésienne rapportée à ses axes.]
-Soit $a, c \in \mathbb{R}^+_0$ tels que $a > c$.\\
+Soit $a, c \in \mathbb{R}^+$ tels que $a > c$.\\
  Dans un repère orthonormé, 
  considérons une ellipse dont les foyers sont $F_1 (-c,0)$ et $F_2 (c,0)$ et dont le grand axe mesure $2a$. Alors son équation cartésienne réduite s'écrit :\\
 \begin{equation}
@@ -387,6 +387,18 @@ Calcule la distance focale, les coordonnées des sommets, la longueur du grand a
 \exth{Donne l'équation de l'ellipse rapportée à ses axes avec un foyer en (7,0) et une excentricité = 0.5. Esquisse-la.}
 
 \newpage
+
+\exth{On considère un repère orthonormé. Détermine l'équation de l'ellipse de centre (4,7), 
+dont l'axe focal est parallèle à l'axe des abscisses et l'axe non focal est parallèle à l'axe des ordonnées. On sait également que son grand axe vaut 18 et sa distance focale vaut 16.
+\footnote[1]{Pour plus de détails, voir Changements de repère : Translation, section \ref{section:translation}}}
+\newpage
+\exth{ Soit une ellipse d'équation:
+    $\dfrac{(x-1)^2}{4} + \dfrac{(y+2)^2}{13} = 1$\\
+    Identifie le centre, l'axe focal, l'axe non focal.\\
+Calcule la distance focale, les coordonnées des sommets, la longueur du grand axe, du petit axe et son excentricité.\\
+Esquisse l'ellipse. \footnote[1]{Pour plus de détails, voir Changements de repère : Rotation, section \ref{section:rotation}}
+}
+\newpage
 \subsection{Etude fonctionnelle et graphique}\label{section:ellgraphe}
 
 L'équation de l'ellipse (\ref{eq:EllRed}) n'est pas une équation de fonction.\\
@@ -395,6 +407,9 @@ Cependant, il est possible d’étudier sa représentation graphique en la déco
 \[f_2 : \mathbb{R} \rightarrow\mathbb{R} : x \rightarrow -\dfrac{b}{a}\sqrt{a^2 - x^2} \]
 
 \exo{Analysez la fonction $f_1$, sa dérivée première, sa dérivée seconde et son graphe.}
+
+
+
 \begin{eleve}
 \textbf{Etude de $f_1$}\\
 Domaine : dom $f_1 = [-a, a]$\\
@@ -511,15 +526,20 @@ $\\
 
 \end{eleve}
 
-
 \newpage
-\subsection{Définition monofocale}\label{section:ellmonofo}
+\null
+\newpage
+
+\subsection{Définition focale (ou foyer-directrice)}\label{section:ellmonofo}
 Jusqu’à présent, nous avons étudié les définitions bifocales des coniques. 
-Nous allons maintenant nous intéresser à leurs définitions monofocales.
+Nous allons maintenant nous intéresser à leurs définitions focales.
 
 Repartons de notre développement de l'équation cartésienne à partir de la définition bifocale de l'ellipse.
+\begin{tcolorbox}[colback=white, colframe=green!60!black,  boxrule=0pt, title=Obtention de l'équation focale ou foyer-directrice de l'ellipse à partir de sa définition bifocale.]
+\end{tcolorbox}
 
-\begin{align*}
+\begin{eleve}
+    \begin{align*}
    && \overline{MF_1} + \overline{MF_2} &= 2a\\
     &\iff & \sqrt{(x+c)^2 + y^2} + \sqrt{(x-c)^2 + y^2} &= 2a\\
     &\iff & \sqrt{(x+c)^2 + y^2} &= 2a - \sqrt{(x-c)^2 + y^2}\\
@@ -537,35 +557,58 @@ et la distance de ce point $M$ à la droite $d_{F_2}$, d’équation $x = \dfrac
 \\~
 On peut également obtenir une formulation en fonction du foyer $F_1(-c,0)$.\\
 
-Un développement similaire peut être fait pour l'hyperbole et sera présenté dans la section \ref{section:hypmonofo}.
-
-Il est également possible de montrer que la parabole admet une définition monofocale. Cela nous conduit ainsi à la définition monofocale des coniques.
-\begin{tcolorbox}[colback=cyan!5, colframe=cyan!70!blue, title=Définition focale des coniques]
-\defn{Soient $F$ un point du plan $\Pi$ et $d_F$ une droite de $\Pi$.\\
-On appelle conique le lieu des points $M \in \Pi$ vérifiant
-\[
-\frac{d(M,F)}{d(M,d_F)} = \varepsilon,
-\]
-où $\varepsilon >0$ est une constante.}\label{def:conique_mono}
-\\~
-
-Le point fixe $F$ est un \textbf{foyer} de la conique.\\
-La droite fixe $d_F$ est la \textbf{directrice} associée au foyer.\\
-Le ratio constant $\varepsilon$ est l'\textbf{excentricité}.\\
-
-Lorsque $0<\varepsilon<1$, la conique est une \textbf{ellipse}.\\
-Lorsque $\varepsilon=1$, la conique est une \textbf{parabole}.\\
-Lorsque $\varepsilon>1$, la conique est une \textbf{hyperbole}.\\
-\end{tcolorbox}
-
-Dans le cas de l'ellipse, $\varepsilon = \dfrac{c}{a}$. Et comme $a>c$, on a bien $\varepsilon<1$.\\
-Les foyers sont $F_1(-c,0)$ et $F_2(c,0)$.\\
-Les directrices associées sont $d_{F_1} \equiv x = \dfrac{-a^2}{c}$ et $d_{F_2} \equiv x = \dfrac{a^2}{c}$.\\
-
-L'ellipse possède 2 équations monofocales équivalentes :
+On a alors :
 \begin{equation}
     (x-c)^2 + y^2 = \varepsilon^2 \left(x - \dfrac{a^2}{c}\right)^2
 \end{equation}
 \begin{equation}
     (x+c)^2 + y^2 = \varepsilon^2 \left(x + \dfrac{a^2}{c}\right)^2
 \end{equation}
+\end{eleve}
+
+
+
+\newpage
+\null
+\newpage
+
+\begin{tcolorbox}[colback=cyan!5, colframe=cyan!70!blue, title=Définition focale de l'ellipse]
+\defn{Soient 
+\begin{itemize}
+    \item $F$ un point d'un plan $\Pi$,
+    \item $d_F$ un droite de $\Pi$ ne passant pas par $F$,
+    \item et une constante $\varepsilon \in [0,1[$
+\end{itemize}
+une ellipse de foyer $F$, de \textbf{directrice} associée $d_F$ et d'\textbf{excentricité} $\varepsilon$
+est le lieu des points $M$ du plan $\Pi$ tels que le rapport des distances de $M$ à $F$ et de $M$ à $d_F$ est constant et égal à $\varepsilon$.}
+
+\[
+\frac{d(M,F)}{d(M,d_F)} = \varepsilon,
+\]
+Dans ce cas, $\varepsilon = \frac{c}{a}$, avec $a$ le demi grand axe de l'ellipse. 
+
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=cyan!5, colframe=cyan!70!blue, title=Equation focale de l'ellipse rapportée à ses axes.]
+Soient $a,c\in\mathbb{R}^+$ tels que $a>c$.
+
+Dans un repère orthonormé, considérons une ellipse de foyers
+$F_1(-c,0)$ et $F_2(c,0)$, et de directrices associées
+\[
+d_{F_1}\equiv x=-\dfrac{a^2}{c},
+\qquad
+d_{F_2}\equiv x=\dfrac{a^2}{c},
+\]
+
+Tout point $M(x,y)$ appartenant à cette ellipse vérifie les deux équations focales équivalentes :
+\[
+(x-c)^2+y^2=\varepsilon^2\left(x-\dfrac{a^2}{c}\right)^2,
+\]
+\[
+(x+c)^2+y^2=\varepsilon^2\left(x+\dfrac{a^2}{c}\right)^2.
+\]
+
+avec l'excentricité $0\le \varepsilon = \dfrac{c}{a}<1$.
+\end{tcolorbox}
+\newpage 
+
