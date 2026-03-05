@@ -59,15 +59,15 @@ $ \emptyset $
         \draw (-1,0) ellipse [x radius=1, y radius=1] node[left] {$A$};
         \draw (-0.5,0) ellipse [x radius=2.5, y radius=1.5];
         \node at (1.4,1.5) {$\Omega$};
-        \node at (1.1,0) {$A^c$};
+        \node at (1.1,0) {$\overline{A}$};
     \end{tikzpicture}
 \end{minipage}%
 \hfill
 \begin{minipage}{0.7\textwidth}
-    $A^c$, l'ensemble \textbf{complémentaire} de $A$ dans $\Omega$.\\
+    $A^c$ ou $\overline{A}$, l'ensemble \textbf{complémentaire} de $A$ dans $\Omega$.\\
     \ex{\begin{eleve}$\Omega =$ les élèves de la classe.\\
     $A =$ les élèves de la classe ayant leur anniversaire en juillet.\\
-    $A^c =$ les élèves de la classe n'ayant pas leur anniversaire en juillet.\\\end{eleve}}
+    $\overline{A} =$ les élèves de la classe n'ayant pas leur anniversaire en juillet.\\\end{eleve}}
 \end{minipage}
 \vspace{0.5cm}
 \hrule
@@ -194,13 +194,28 @@ Pour cela, il faut d’abord décider sur quels ensembles on peut mesurer quelqu
 \ex{
 \begin{enumerate}
     \item $\Omega =$ les élèves de la classe. $A =$ les élèves de la classe ayant leur anniversaire en juillet.\\ Une mesure : \begin{eleve}nombre d'élèves.\end{eleve}
-    \item $\Omega =$ l'école Christ-Roi. $A =$ la salle de gym.\\ Une mesure : \begin{eleve}surface en mètres carrés.\end{eleve}\\ Une autre mesure : \begin{eleve}capacité maximale en nombre de personnes.\end{eleve}
-    \item $\Omega =$ tous les aliments de mon sac de courses. $A =$ les pommes dans mon sac.\\ Une mesure : \begin{eleve}masse en kg.\end{eleve}\\ 
-    Une autre mesure : \begin{eleve}prix en euros.\end{eleve}\\ Une autre mesure : \begin{eleve}nombre d'objets.\end{eleve}
+    \vspace{10pt}
+    \item $\Omega =$ l'école Christ-Roi. $A =$ la salle de gym.\\ 
+    \vspace{10pt}
+    Une mesure : \begin{eleve}surface en mètres carrés.\end{eleve}\\ 
+    \vspace{10pt}
+    Une autre mesure : \begin{eleve}capacité maximale en nombre de personnes.\end{eleve}
+   \vspace{10pt}
+    \item $\Omega =$ tous les aliments de mon sac de courses. 
+    $A =$ les pommes dans mon sac.\\ 
+    \vspace{10pt}
+    Une mesure : \begin{eleve}masse en kg.\end{eleve}\\ 
+    \vspace{10pt}
+    Une autre mesure : \begin{eleve}prix en euros.\end{eleve}\\ 
+    \vspace{10pt}
+    Une autre mesure : \begin{eleve}nombre d'objets.\end{eleve}
     \item $\Omega =$ le couloir à côté de la classe. $A = $ une partie du couloir.\\ 
     Une mesure : \begin{eleve}longueur en mètres.\end{eleve}
+    \vspace{10pt}
     \item $\Omega =$ la journée. $A =$ la pause de midi.\\ 
+    \vspace{10pt}
     Une mesure : \begin{eleve}temps en heures.\end{eleve} \\ 
+\vspace{10pt}
     Une autre mesure : \begin{eleve}proportion de la journée.\end{eleve}
 \end{enumerate}
 }
@@ -215,7 +230,7 @@ On peut alors définir la mesure.
 \begin{enumerate}
     \item $\mu(\emptyset) = 0$.
     \item \textbf{Positivité} : $\mu(A) \ge 0$.
-    \item \textbf{Additivité dénombrable} : si $(A_n)_{n \ge 1}$ est une suite d’ensembles disjoints deux à deux, alors
+    \item \textbf{Additivité dénombrable} : {\color{gray} si $(A_n)_{n \ge 1}$ est une suite d’ensembles disjoints deux à deux, alors
         \[
         \mu(A_1 \cup A_2 \cup A_3 \cup \dots) = \mu(A_1) + \mu(A_2) + \mu(A_3) + \dots
     \]
@@ -225,6 +240,7 @@ On peut alors définir la mesure.
     \[
         \mu\Big(\bigcup_{n=1}^{\infty} A_n\Big) = \sum_{n=1}^{\infty} \mu(A_n).
     \]
+    }
 En particulier, si $A\subset \Omega$ et $B \subset \Omega $ sont disjoints,
 \[
 \mu(A \cup B) = \mu(A) + \mu(B)
@@ -232,38 +248,48 @@ En particulier, si $A\subset \Omega$ et $B \subset \Omega $ sont disjoints,
 \end{enumerate}
 \end{tcolorbox}
 
-\begin{figure}[H]
     \includegraphics[scale = 0.7]{./tikz_standalone/measure_1.pdf}
-\end{figure}
+
    \ex{
    $\Omega =$ Les élèves de la classe.\\
    On définit la mesure $\mu$ comme le nombre d'élèves dans l'ensemble.\\
+   \vspace{10pt}
    $A =$ Les élèves ayant leur anniversaire en juillet, $\qquad \mu(A) = $\\
-   $B =$ Les élèves ayant leur anniversaire en mars, $\qquad \mu(B) = $\\
-   Les deux ensembles $A$ et $B$ sont disjoints ($A \cap B = \emptyset$ : personne ne peut être né en même temps en mars et en juillet).\\
-    $A \cup B =$ Les élèves nés en juillet ou en mars, $\qquad \mu(A \cup B) =$}
+   \vspace{10pt}
+   $B =$ Les élèves ayant leur anniversaire en mars, $\qquad \mu(B) = $
 
+   Les deux ensembles $A$ et $B$ sont disjoints 
+   ($A \cap B = \emptyset$ : personne ne peut être né 
+   en même temps en mars et en juillet).\\
+   $A \cup B =$ Les élèves nés en juillet ou en mars, $\qquad \mu(A \cup B) =$}
 \newpage
     \begin{tcolorbox}[colback=magenta!5, colframe=red!50!blue, title=Propriétés des ensembles complémentaires]
-    \prop{Si $A\subset\Omega$, et $A^c = \Omega \setminus A $ le complémentaire de $A$ dans $\Omega$. \\Par définition, $A$ et $A^c$ sont disjoints et $A\cup A^c= \Omega$ donc $$\mu (A) + \mu(A^c)= \mu(\Omega)$$}
+    \prop{Si $A\subset\Omega$, et $\overline{A} = \Omega \setminus A $ le complémentaire de $A$ dans $\Omega$. \\Par définition, $A$ et $\overline{A}$ sont disjoints et $A\cup \overline{A}= \Omega$ donc $$\mu (A) + \mu(\overline{A})= \mu(\Omega)$$}
     \end{tcolorbox}
       \ex{
    $\Omega =$ Les élèves de la classe. $\qquad \mu(\Omega) = $\\
+   \vspace{10pt}
    Avec la mesure $\mu$ étant le nombre d'élèves dans l'ensemble.\\
+   \vspace{10pt}
    $A =$ Les élèves ayant leur anniversaire en juillet, $\qquad \mu(A) = $\\
-   $A^C =$ Les élèves n'ayant pas leur anniversaire en juillet, $\qquad \mu(A^c) = $\\
-   $\mu (A) + \mu(A^c)= $}
-
+   \vspace{10pt}
+   $\overline{A} =$ Les élèves n'ayant pas leur anniversaire en juillet, $\qquad \mu(\overline{A}) = $\\
+   \vspace{10pt}
+   $\mu (A) + \mu(\overline{A})= $}
+\vspace{10pt}
 \begin{tcolorbox}[colback=magenta!5, colframe=red!50!blue, title=Propriétés de l'union des ensembles quelconques]
     \prop{Si $A\subset\Omega$, et $B \subset \Omega$ des ensembles quelconques, alors $$ \mu (A\cup B) = \mu(A) + \mu(B) - \mu(A\cap B)$$}
 \end{tcolorbox}
     \ex{
    $\Omega =$ Les élèves de la classe.\\
    Avec la mesure $\mu$ étant le nombre d'élèves dans l'ensemble.\\
+   \vspace{10pt}
    $A =$ Les élèves portant un jeans, $\qquad \mu(A) = $\\
+   \vspace{10pt}
    $B =$ Les élèves portant des lunettes, $\qquad \mu(B) = $\\
+   \vspace{10pt}
    $A \cup B =$ Les élèves portant un jeans ou des lunettes, $\qquad \mu (A) + \mu(B)= $}
-
+\vspace{10pt}
    \vspace{0.5cm}
     \begin{tikzpicture}[scale=1.2]
         % Shade A and B fully
@@ -275,7 +301,7 @@ En particulier, si $A\subset \Omega$ et $B \subset \Omega $ sont disjoints,
         \draw (1,0) circle (1.2) node[right] {$B$};
     \end{tikzpicture}
 
-    \vspace{2cm}
+    \vspace{0.5cm}
     Note : une des mesures les plus intuitives est le nombre d'éléments dans l'ensemble. On peut le noter $\#A$.\\
 
     \ex{
