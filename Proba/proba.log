@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.2.10)  5 MAR 2026 16:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.2.10)  5 MAR 2026 23:53
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1199,11 +1199,11 @@ File: ./tikz_standalone/measure_1.pdf Graphic file (type pdf)
 Package pdftex.def Info: ./tikz_standalone/measure_1.pdf  used on input line 251.
 (pdftex.def)             Requested size: 438.16942pt x 159.33458pt.
  [4 <./tikz_standalone/measure_1.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 305--306
+Underfull \hbox (badness 10000) in paragraph at lines 304--308
 
  []
 
-) (./sections/intro.tex [5] [6]
+) (./sections/intro.tex [5]
 Underfull \hbox (badness 10000) in paragraph at lines 3--6
 
  []
@@ -1223,17 +1223,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--22
 
  []
 
-<./images/eolienne.jpg, id=122, 279.2031pt x 157.3077pt>
+<./images/eolienne.jpg, id=117, 279.2031pt x 157.3077pt>
 File: ./images/eolienne.jpg Graphic file (type jpg)
 <use ./images/eolienne.jpg>
 Package pdftex.def Info: ./images/eolienne.jpg  used on input line 36.
 (pdftex.def)             Requested size: 195.44083pt x 110.11462pt.
-<./images/nuclear.jpg, id=123, 231.86626pt x 109.1578pt>
+<./images/nuclear.jpg, id=118, 231.86626pt x 109.1578pt>
 File: ./images/nuclear.jpg Graphic file (type jpg)
 <use ./images/nuclear.jpg>
 Package pdftex.def Info: ./images/nuclear.jpg  used on input line 37.
 (pdftex.def)             Requested size: 208.67769pt x 98.2411pt.
-<./images/elec.png, id=124, 511.15968pt x 323.70938pt>
+<./images/elec.png, id=119, 511.15968pt x 323.70938pt>
 File: ./images/elec.png Graphic file (type png)
 <use ./images/elec.png>
 Package pdftex.def Info: ./images/elec.png  used on input line 38.
@@ -1242,12 +1242,12 @@ Package pdftex.def Info: ./images/elec.png  used on input line 38.
 LaTeX Font Warning: Font shape `T1/cmbr/m/sc' undefined
 (Font)              using `T1/cmbr/m/n' instead on input line 39.
 
-<./images/virus.jpg, id=126, 458.71375pt x 258.9675pt>
+<./images/virus.jpg, id=121, 458.71375pt x 258.9675pt>
 File: ./images/virus.jpg Graphic file (type jpg)
 <use ./images/virus.jpg>
 Package pdftex.def Info: ./images/virus.jpg  used on input line 42.
 (pdftex.def)             Requested size: 137.61519pt x 77.69084pt.
-<./images/hepatite.png, id=127, 428.35031pt x 321.45094pt>
+<./images/hepatite.png, id=122, 428.35031pt x 321.45094pt>
 File: ./images/hepatite.png Graphic file (type png)
 <use ./images/hepatite.png>
 Package pdftex.def Info: ./images/hepatite.png  used on input line 43.
@@ -1257,7 +1257,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--44
 
  []
 
-<./images/inondations.png, id=128, 636.12656pt x 271.76532pt>
+<./images/inondations.png, id=123, 636.12656pt x 271.76532pt>
 File: ./images/inondations.png Graphic file (type png)
 <use ./images/inondations.png>
 Package pdftex.def Info: ./images/inondations.png  used on input line 47.
@@ -1267,22 +1267,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--48
 
  []
 
-<./images/ml.png, id=129, 321.45094pt x 196.48407pt>
+<./images/ml.png, id=124, 321.45094pt x 196.48407pt>
 File: ./images/ml.png Graphic file (type png)
 <use ./images/ml.png>
 Package pdftex.def Info: ./images/ml.png  used on input line 52.
 (pdftex.def)             Requested size: 225.01411pt x 137.5379pt.
-<./images/mri.png, id=130, 333.49594pt x 118.19156pt>
+<./images/mri.png, id=125, 333.49594pt x 118.19156pt>
 File: ./images/mri.png Graphic file (type png)
 <use ./images/mri.png>
 Package pdftex.def Info: ./images/mri.png  used on input line 53.
 (pdftex.def)             Requested size: 233.44556pt x 82.73352pt.
-<./images/netflix.png, id=131, 317.68687pt x 159.59625pt>
+<./images/netflix.png, id=126, 317.68687pt x 159.59625pt>
 File: ./images/netflix.png Graphic file (type png)
 <use ./images/netflix.png>
 Package pdftex.def Info: ./images/netflix.png  used on input line 54.
 (pdftex.def)             Requested size: 222.37927pt x 111.7166pt.
-<./images/spotify.png, id=132, 335.75438pt x 128.48pt>
+<./images/spotify.png, id=127, 335.75438pt x 128.48pt>
 File: ./images/spotify.png Graphic file (type png)
 <use ./images/spotify.png>
 Package pdftex.def Info: ./images/spotify.png  used on input line 55.
@@ -1292,112 +1292,97 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--59
 
  []
 
-) [7] [8 <./images/eolienne.jpg> <./images/nuclear.jpg> <./images/elec.png> <./images/virus.jpg> <./images/hepatite.png>] [9 <./images/inondations.png> <./images/ml.png> <./images/mri.png> <./images/netflix.png> <./images/spotify.png>] (./proba.toc)
+) [6] [7 <./images/eolienne.jpg> <./images/nuclear.jpg> <./images/elec.png> <./images/virus.jpg> <./images/hepatite.png>] [8 <./images/inondations.png> <./images/ml.png> <./images/mri.png> <./images/netflix.png> <./images/spotify.png>] (./proba.toc)
 \tf@toc=\write4
 \openout4 = `proba.toc'.
 
- (./sections/evenements.tex [10]
+ (./sections/evenements.tex [9]
 Underfull \hbox (badness 10000) in paragraph at lines 10--12
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--20
+Underfull \hbox (badness 10000) in paragraph at lines 10--12
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--24
+Underfull \hbox (badness 10000) in paragraph at lines 13--16
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--32
+Underfull \hbox (badness 10000) in paragraph at lines 18--20
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 32--32
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
+Underfull \hbox (badness 10000) in paragraph at lines 28--28
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 35--35
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--42
+Underfull \hbox (badness 10000) in paragraph at lines 31--31
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--48
-
- []
-
-[11] [12]
-Underfull \hbox (badness 10000) in paragraph at lines 53--74
+Underfull \hbox (badness 10000) in paragraph at lines 33--38
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--74
+Underfull \hbox (badness 10000) in paragraph at lines 39--44
 
  []
 
-) (./sections/probabilite.tex [13]
-<./tikz_standalone/prob_measure.pdf, id=169, 625.96059pt x 227.62239pt>
+[10] [11]
+Underfull \hbox (badness 10000) in paragraph at lines 53--80
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
+
+ []
+
+) (./sections/probabilite.tex [12]
+<./tikz_standalone/prob_measure.pdf, id=165, 625.96059pt x 227.62239pt>
 File: ./tikz_standalone/prob_measure.pdf Graphic file (type pdf)
 <use ./tikz_standalone/prob_measure.pdf>
-Package pdftex.def Info: ./tikz_standalone/prob_measure.pdf  used on input line 36.
-(pdftex.def)             Requested size: 438.16942pt x 159.33458pt.
- [14 <./tikz_standalone/prob_measure.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 85--85
+Package pdftex.def Info: ./tikz_standalone/prob_measure.pdf  used on input line 41.
+(pdftex.def)             Requested size: 375.57924pt x 136.57448pt.
+ [13 <./tikz_standalone/prob_measure.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--85
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
 
  []
 
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 113--113
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 113--113
-
- []
-
-[16]) (./sections/independance.tex [17]
-Underfull \hbox (badness 10000) in paragraph at lines 15--15
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--41
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 41--41
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 41--41
-
- []
-
-) (./sections/conditionnel.tex [18]
+[15] [16] [17]) (./sections/conditionnel.tex [18]
 Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
@@ -1427,7 +1412,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--53
 
  []
 
-) [20] (./proba.aux)
+) (./sections/independance.tex [20]
+Underfull \hbox (badness 10000) in paragraph at lines 15--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--41
+
+ []
+
+) [21] (./proba.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -1438,18 +1443,18 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 41694 strings out of 467532
- 997979 string characters out of 5423647
+ 41693 strings out of 467532
+ 997960 string characters out of 5423647
  1547062 words of memory out of 5000000
- 69823 multiletter control sequences out of 15000+600000
+ 69822 multiletter control sequences out of 15000+600000
  641437 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  100i,9n,134p,828b,1003s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbr17.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrbs10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbbx10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbmo10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbmr10.pfb>
-Output written on proba.pdf (21 pages, 1095462 bytes).
+Output written on proba.pdf (22 pages, 1099040 bytes).
 PDF statistics:
- 266 PDF objects out of 1000 (max. 8388607)
- 162 compressed objects within 2 object streams
+ 270 PDF objects out of 1000 (max. 8388607)
+ 165 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  227 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.2.10)  4 MAR 2026 22:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.2.10)  8 MAR 2026 23:04
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1515,88 +1515,126 @@ Underfull \hbox (badness 10000) in paragraph at lines 404--406
 
 
 LaTeX Font Warning: Font shape `T1/cmbr/b/it' undefined
-(Font)              using `T1/cmbr/b/n' instead on input line 414.
+(Font)              using `T1/cmbr/b/n' instead on input line 412.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 414--418
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 421--430
+Underfull \hbox (badness 10000) in paragraph at lines 412--416
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 421--430
+Underfull \hbox (badness 10000) in paragraph at lines 419--428
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 421--430
+Underfull \hbox (badness 10000) in paragraph at lines 419--428
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 419--428
 
  []
 
 LaTeX Font Info:    Font shape `T1/cmbr/b/it' in size <12> not available
-(Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 448.
+(Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 446.
 
-Underfull \hbox (badness 10000) in paragraph at lines 431--452
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 431--452
+Underfull \hbox (badness 10000) in paragraph at lines 429--450
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 453--474
+Underfull \hbox (badness 10000) in paragraph at lines 429--450
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 453--474
+Underfull \hbox (badness 10000) in paragraph at lines 451--472
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 451--472
 
  []
 
 [26]
-Underfull \hbox (badness 10000) in paragraph at lines 475--526
+Underfull \hbox (badness 10000) in paragraph at lines 473--524
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 475--526
+Underfull \hbox (badness 10000) in paragraph at lines 473--524
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 475--526
+Underfull \hbox (badness 10000) in paragraph at lines 473--524
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 475--526
+Underfull \hbox (badness 10000) in paragraph at lines 473--524
 
  []
 
-[27] [28]
-Underfull \hbox (badness 10000) in paragraph at lines 553--559
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 549--555
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 553--559
+Underfull \hbox (badness 10000) in paragraph at lines 549--555
 
  []
 
-[29] [30] [31]) (./sections/hyperbole.tex
-<sections/tikz_standalone/hyp_1.pdf, id=407, 626.36009pt x 512.54887pt>
+[28] [29] [30]
+<sections/tikz_standalone/ell_10.pdf, id=403, 184.29753pt x 127.92693pt>
+File: sections/tikz_standalone/ell_10.pdf Graphic file (type pdf)
+<use sections/tikz_standalone/ell_10.pdf>
+Package pdftex.def Info: sections/tikz_standalone/ell_10.pdf  used on input line 632.
+(pdftex.def)             Requested size: 129.00739pt x 89.54822pt.
+<sections/tikz_standalone/ell_11.pdf, id=404, 127.39194pt x 177.77417pt>
+File: sections/tikz_standalone/ell_11.pdf Graphic file (type pdf)
+<use sections/tikz_standalone/ell_11.pdf>
+Package pdftex.def Info: sections/tikz_standalone/ell_11.pdf  used on input line 632.
+(pdftex.def)             Requested size: 89.17372pt x 124.44106pt.
+
+Overfull \hbox (37.59993pt too wide) in paragraph at lines 612--635
+ [] 
+ []
+
+[31
+
+ <./sections/tikz_standalone/ell_10.pdf> <./sections/tikz_standalone/ell_11.pdf>]
+<sections/tikz_standalone/ell_12.pdf, id=419, 184.29753pt x 138.89792pt>
+File: sections/tikz_standalone/ell_12.pdf Graphic file (type pdf)
+<use sections/tikz_standalone/ell_12.pdf>
+Package pdftex.def Info: sections/tikz_standalone/ell_12.pdf  used on input line 659.
+(pdftex.def)             Requested size: 129.00739pt x 97.22786pt.
+<sections/tikz_standalone/ell_13.pdf, id=420, 139.31949pt x 188.74615pt>
+File: sections/tikz_standalone/ell_13.pdf Graphic file (type pdf)
+<use sections/tikz_standalone/ell_13.pdf>
+Package pdftex.def Info: sections/tikz_standalone/ell_13.pdf  used on input line 659.
+(pdftex.def)             Requested size: 97.52296pt x 132.1214pt.
+
+Overfull \hbox (37.59993pt too wide) in paragraph at lines 639--662
+ [] 
+ []
+
+[30
+
+ <./sections/tikz_standalone/ell_12.pdf> <./sections/tikz_standalone/ell_13.pdf>]) (./sections/hyperbole.tex
+<sections/tikz_standalone/hyp_1.pdf, id=435, 626.36009pt x 512.54887pt>
 File: sections/tikz_standalone/hyp_1.pdf Graphic file (type pdf)
 <use sections/tikz_standalone/hyp_1.pdf>
 Package pdftex.def Info: sections/tikz_standalone/hyp_1.pdf  used on input line 22.
 (pdftex.def)             Requested size: 457.23906pt x 374.15756pt.
- [32 <./sections/tikz_standalone/hyp_1.pdf>]
-<sections/tikz_standalone/hyp_2.pdf, id=421, 297.49744pt x 195.85773pt>
+ [31
+
+ <./sections/tikz_standalone/hyp_1.pdf>]
+<sections/tikz_standalone/hyp_2.pdf, id=449, 297.49744pt x 195.85773pt>
 File: sections/tikz_standalone/hyp_2.pdf Graphic file (type pdf)
 <use sections/tikz_standalone/hyp_2.pdf>
 Package pdftex.def Info: sections/tikz_standalone/hyp_2.pdf  used on input line 31.
@@ -1606,24 +1644,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--42
 
  []
 
-[33 <./sections/tikz_standalone/hyp_2.pdf>]
-<sections/tikz_standalone/hyp_4.pdf, id=439, 354.19325pt x 303.94153pt>
+[32 <./sections/tikz_standalone/hyp_2.pdf>]
+<sections/tikz_standalone/hyp_4.pdf, id=467, 354.19325pt x 303.94153pt>
 File: sections/tikz_standalone/hyp_4.pdf Graphic file (type pdf)
 <use sections/tikz_standalone/hyp_4.pdf>
 Package pdftex.def Info: sections/tikz_standalone/hyp_4.pdf  used on input line 55.
 (pdftex.def)             Requested size: 230.22289pt x 197.55965pt.
-<sections/tikz_standalone/hyp_3.pdf, id=440, 354.19325pt x 303.94153pt>
+<sections/tikz_standalone/hyp_3.pdf, id=468, 354.19325pt x 303.94153pt>
 File: sections/tikz_standalone/hyp_3.pdf Graphic file (type pdf)
 <use sections/tikz_standalone/hyp_3.pdf>
 Package pdftex.def Info: sections/tikz_standalone/hyp_3.pdf  used on input line 60.
 (pdftex.def)             Requested size: 247.93358pt x 212.75761pt.
-<sections/tikz_standalone/hyp_5.pdf, id=441, 354.19325pt x 303.94153pt>
+<sections/tikz_standalone/hyp_5.pdf, id=469, 354.19325pt x 303.94153pt>
 File: sections/tikz_standalone/hyp_5.pdf Graphic file (type pdf)
 <use sections/tikz_standalone/hyp_5.pdf>
 Package pdftex.def Info: sections/tikz_standalone/hyp_5.pdf  used on input line 66.
 (pdftex.def)             Requested size: 247.93358pt x 212.75761pt.
- [34 <./sections/tikz_standalone/hyp_4.pdf> <./sections/tikz_standalone/hyp_3.pdf> <./sections/tikz_standalone/hyp_5.pdf>]
-<sections/tikz_standalone/hyp_6.pdf, id=497, 404.72908pt x 178.10541pt>
+ [33 <./sections/tikz_standalone/hyp_4.pdf> <./sections/tikz_standalone/hyp_3.pdf> <./sections/tikz_standalone/hyp_5.pdf>]
+<sections/tikz_standalone/hyp_6.pdf, id=526, 404.72908pt x 178.10541pt>
 File: sections/tikz_standalone/hyp_6.pdf Graphic file (type pdf)
 <use sections/tikz_standalone/hyp_6.pdf>
 Package pdftex.def Info: sections/tikz_standalone/hyp_6.pdf  used on input line 78.
@@ -1633,8 +1671,8 @@ Overfull \hbox (5.54929pt too wide) detected at line 93
 []
  []
 
-[35 <./sections/tikz_standalone/hyp_6.pdf>]
-<sections/tikz_standalone/hyp_7.pdf, id=516, 240.80365pt x 114.61119pt>
+[34 <./sections/tikz_standalone/hyp_6.pdf>]
+<sections/tikz_standalone/hyp_7.pdf, id=545, 240.80365pt x 114.61119pt>
 File: sections/tikz_standalone/hyp_7.pdf Graphic file (type pdf)
 <use sections/tikz_standalone/hyp_7.pdf>
 Package pdftex.def Info: sections/tikz_standalone/hyp_7.pdf  used on input line 109.
@@ -1644,13 +1682,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 118--123
 
  []
 
-[36 <./sections/tikz_standalone/hyp_7.pdf>]
+[35 <./sections/tikz_standalone/hyp_7.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 202--203
 
  []
 
-[37]
-<sections/tikz_standalone/hyp_8.pdf, id=543, 195.39801pt x 162.39671pt>
+[36]
+<sections/tikz_standalone/hyp_8.pdf, id=571, 195.39801pt x 162.39671pt>
 File: sections/tikz_standalone/hyp_8.pdf Graphic file (type pdf)
 <use sections/tikz_standalone/hyp_8.pdf>
 Package pdftex.def Info: sections/tikz_standalone/hyp_8.pdf  used on input line 209.
@@ -1659,117 +1697,38 @@ File: ./images/icon/roue.PNG Graphic file (type png)
 <use ./images/icon/roue.PNG>
 Package pdftex.def Info: ./images/icon/roue.PNG  used on input line 215.
 (pdftex.def)             Requested size: 24.4789pt x 22.66669pt.
-File: ./images/icon/roue.PNG Graphic file (type png)
-<use ./images/icon/roue.PNG>
-Package pdftex.def Info: ./images/icon/roue.PNG  used on input line 222.
-(pdftex.def)             Requested size: 24.4789pt x 22.66669pt.
- [38 <./sections/tikz_standalone/hyp_8.pdf>]
-<sections/tikz_standalone/hyp_9.pdf, id=561, 195.39098pt x 162.39069pt>
+ [37 <./sections/tikz_standalone/hyp_8.pdf>]
+<sections/tikz_standalone/hyp_9.pdf, id=589, 195.39098pt x 162.39069pt>
 File: sections/tikz_standalone/hyp_9.pdf Graphic file (type pdf)
 <use sections/tikz_standalone/hyp_9.pdf>
-Package pdftex.def Info: sections/tikz_standalone/hyp_9.pdf  used on input line 231.
+Package pdftex.def Info: sections/tikz_standalone/hyp_9.pdf  used on input line 229.
 (pdftex.def)             Requested size: 234.46799pt x 194.86783pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 235--236
+Underfull \hbox (badness 10000) in paragraph at lines 233--234
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 237--243
+Underfull \hbox (badness 10000) in paragraph at lines 235--241
 
  []
 
-[39 <./sections/tikz_standalone/hyp_9.pdf>] [40] [41]
-Underfull \hbox (badness 10000) in paragraph at lines 260--262
+[38 <./sections/tikz_standalone/hyp_9.pdf>] [39]
+Underfull \hbox (badness 10000) in paragraph at lines 266--268
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 265--271
-
- []
-
-
-Overfull \hbox (4.23764pt too wide) in paragraph at lines 280--282
-[]$[][] \OML/cmbrm/m/it/12 f[]\OT1/cmbr/m/n/12 (\OML/cmbrm/m/it/12 x\OT1/cmbr/m/n/12 ) \OMS/cmbrs/m/n/12 ^^@ []\OML/cmbrm/m/it/12 x \OT1/cmbr/m/n/12 = [][] []([] \OMS/cmbrs/m/n/12 ^^@ \OML/cmbrm/m/it/12 x\OT1/cmbr/m/n/12 )[] = [][] [][] =
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 280--282
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 285--294
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 285--294
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 285--294
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 295--317
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 295--317
-
- []
-
-[42]
-Underfull \hbox (badness 10000) in paragraph at lines 318--339
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 318--339
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 340--390
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 340--390
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 340--390
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 340--390
-
- []
-
-<./sections/tikz_standalone/hyp_10.pdf, id=592, 195.39801pt x 162.39671pt>
-File: ./sections/tikz_standalone/hyp_10.pdf Graphic file (type pdf)
-<use ./sections/tikz_standalone/hyp_10.pdf>
-Package pdftex.def Info: ./sections/tikz_standalone/hyp_10.pdf  used on input line 395.
-(pdftex.def)             Requested size: 156.3186pt x 129.91753pt.
-[43 <./sections/tikz_standalone/hyp_10.pdf>] [44] [45] [46]) (./sections/parabole.tex
+[40] [41] [42] [43] [44]) (./sections/parabole.tex
 Underfull \hbox (badness 10000) in paragraph at lines 17--19
 
  []
 
-<sections/tikz_standalone/para_1.pdf, id=618, 427.19098pt x 456.44429pt>
+<sections/tikz_standalone/para_1.pdf, id=632, 427.19098pt x 456.44429pt>
 File: sections/tikz_standalone/para_1.pdf Graphic file (type pdf)
 <use sections/tikz_standalone/para_1.pdf>
 Package pdftex.def Info: sections/tikz_standalone/para_1.pdf  used on input line 23.
 (pdftex.def)             Requested size: 341.75323pt x 365.15593pt.
-[47 <./sections/tikz_standalone/para_1.pdf>] [48] [49] [50] [51] [52] [53] [54] [55] [56] [57]) (./sections/generale.tex
+[45 <./sections/tikz_standalone/para_1.pdf>] [46] [47] [48] [49] [50] [51] [52] [53] [54] [55]) (./sections/generale.tex
 Underfull \hbox (badness 10000) in paragraph at lines 15--19
 
  []
@@ -1779,13 +1738,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--31
 
  []
 
-[58] [59]
-<./sections/tikz_standalone/gen_rot_01.pdf, id=684, 198.0218pt x 167.2087pt>
+[56] [57]
+<./sections/tikz_standalone/gen_rot_01.pdf, id=698, 198.0218pt x 167.2087pt>
 File: ./sections/tikz_standalone/gen_rot_01.pdf Graphic file (type pdf)
 <use ./sections/tikz_standalone/gen_rot_01.pdf>
 Package pdftex.def Info: ./sections/tikz_standalone/gen_rot_01.pdf  used on input line 44.
 (pdftex.def)             Requested size: 158.41763pt x 133.76712pt.
-<./sections/tikz_standalone/gen_rot_00.pdf, id=685, 198.0218pt x 167.2087pt>
+<./sections/tikz_standalone/gen_rot_00.pdf, id=699, 198.0218pt x 167.2087pt>
 File: ./sections/tikz_standalone/gen_rot_00.pdf Graphic file (type pdf)
 <use ./sections/tikz_standalone/gen_rot_00.pdf>
 Package pdftex.def Info: ./sections/tikz_standalone/gen_rot_00.pdf  used on input line 48.
@@ -1795,12 +1754,12 @@ Overfull \hbox (20.28479pt too wide) in paragraph at lines 43--50
 []$[]$  $[]$ 
  []
 
-<./sections/tikz_standalone/gen_rot_1.pdf, id=686, 195.39098pt x 162.3937pt>
+<./sections/tikz_standalone/gen_rot_1.pdf, id=700, 195.39098pt x 162.3937pt>
 File: ./sections/tikz_standalone/gen_rot_1.pdf Graphic file (type pdf)
 <use ./sections/tikz_standalone/gen_rot_1.pdf>
 Package pdftex.def Info: ./sections/tikz_standalone/gen_rot_1.pdf  used on input line 53.
 (pdftex.def)             Requested size: 195.39049pt x 162.3933pt.
-<./sections/tikz_standalone/gen_rot_2.pdf, id=687, 198.0218pt x 167.2087pt>
+<./sections/tikz_standalone/gen_rot_2.pdf, id=701, 198.0218pt x 167.2087pt>
 File: ./sections/tikz_standalone/gen_rot_2.pdf Graphic file (type pdf)
 <use ./sections/tikz_standalone/gen_rot_2.pdf>
 Package pdftex.def Info: ./sections/tikz_standalone/gen_rot_2.pdf  used on input line 57.
@@ -1820,7 +1779,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--82
 
  []
 
-[60 <./sections/tikz_standalone/gen_rot_01.pdf> <./sections/tikz_standalone/gen_rot_00.pdf> <./sections/tikz_standalone/gen_rot_1.pdf> <./sections/tikz_standalone/gen_rot_2.pdf>] [61] [62]
+[58 <./sections/tikz_standalone/gen_rot_01.pdf> <./sections/tikz_standalone/gen_rot_00.pdf> <./sections/tikz_standalone/gen_rot_1.pdf> <./sections/tikz_standalone/gen_rot_2.pdf>] [59] [60]
 Underfull \hbox (badness 10000) in paragraph at lines 114--117
 
  []
@@ -1835,12 +1794,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 122--125
 
  []
 
-[63] [64]) (./sections/tangentes.tex) (./sections/optique.tex [65]) [66]
-
-LaTeX Warning: Hook 'shipout/lastpage' executed on wrong page (67 not 68).
-               Rerun to correct this.
-
-(./coniques.aux)
+[61] [62]) (./sections/tangentes.tex) (./sections/optique.tex [63]) [64] (./coniques.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -1849,23 +1803,20 @@ L3 programming layer <2026-01-19>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 42248 strings out of 467532
- 1016804 string characters out of 5423647
- 1549092 words of memory out of 5000000
- 70361 multiletter control sequences out of 15000+600000
+ 42273 strings out of 467532
+ 1017857 string characters out of 5423647
+ 1550090 words of memory out of 5000000
+ 70386 multiletter control sequences out of 15000+600000
  650667 words of font info for 104 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  100i,15n,134p,834b,823s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrbs10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbbx10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbmo10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbtl10.pfb>
-Output written on coniques.pdf (68 pages, 7379372 bytes).
+Output written on coniques.pdf (68 pages, 7376707 bytes).
 PDF statistics:
- 850 PDF objects out of 1000 (max. 8388607)
- 558 compressed objects within 6 object streams
+ 864 PDF objects out of 1000 (max. 8388607)
+ 567 compressed objects within 6 object streams
  0 named destinations out of 1000 (max. 500000)
- 432 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 447 words of extra memory for PDF output out of 10000 (max. 10000000)
 

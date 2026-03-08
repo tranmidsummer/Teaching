@@ -224,7 +224,7 @@ Il y a plusieurs conditions pour qu'un ensemble soit mesurable. Nous n'irons pas
 
 \newpage
 On peut alors définir la mesure.
-\begin{tcolorbox}[colback=cyan!5, colframe=cyan!70!blue, title=Définition d'une mesure]
+\begin{tcolorbox}[colback=cyan!0, colframe=cyan!70!blue, title=Définition d'une mesure]
 \defn{Une \textbf{mesure} $\mu$ sur un ensemble $\Omega$ est une fonction qui associe à chaque ensemble mesurable $A \subset \Omega$ un nombre réel $\mu(A)$, qui respecte les 3 propriétés suivantes :}\label{def:mesure}
 
 \begin{enumerate}
@@ -263,7 +263,7 @@ En particulier, si $A\subset \Omega$ et $B \subset \Omega $ sont disjoints,
    en même temps en mars et en juillet).\\
    $A \cup B =$ Les élèves nés en juillet ou en mars, $\qquad \mu(A \cup B) =$}
 \newpage
-    \begin{tcolorbox}[colback=magenta!5, colframe=red!50!blue, title=Propriétés des ensembles complémentaires]
+    \begin{tcolorbox}[colback=magenta!0, colframe=red!50!blue, title=Propriétés des ensembles complémentaires]
     \prop{Si $A\subset\Omega$, et $\overline{A} = \Omega \setminus A $ le complémentaire de $A$ dans $\Omega$. \\Par définition, $A$ et $\overline{A}$ sont disjoints et $A\cup \overline{A}= \Omega$ donc $$\mu (A) + \mu(\overline{A})= \mu(\Omega)$$}
     \end{tcolorbox}
       \ex{
@@ -277,7 +277,7 @@ En particulier, si $A\subset \Omega$ et $B \subset \Omega $ sont disjoints,
    \vspace{10pt}
    $\mu (A) + \mu(\overline{A})= $}
 \vspace{10pt}
-\begin{tcolorbox}[colback=magenta!5, colframe=red!50!blue, title=Propriétés de l'union des ensembles quelconques]
+\begin{tcolorbox}[colback=magenta!0, colframe=red!50!blue, title=Propriétés de l'union des ensembles quelconques]
     \prop{Si $A\subset\Omega$, et $B \subset \Omega$ des ensembles quelconques, alors $$ \mu (A\cup B) = \mu(A) + \mu(B) - \mu(A\cap B)$$}
 \end{tcolorbox}
     \ex{
@@ -290,7 +290,6 @@ En particulier, si $A\subset \Omega$ et $B \subset \Omega $ sont disjoints,
    \vspace{10pt}
    $A \cup B =$ Les élèves portant un jeans ou des lunettes, $\qquad \mu (A) + \mu(B)= $}
 \vspace{10pt}
-   \vspace{0.5cm}
     \begin{tikzpicture}[scale=1.2]
         % Shade A and B fully
         %\fill[gray!30] (-1,0) circle (1.2);
@@ -303,8 +302,7 @@ En particulier, si $A\subset \Omega$ et $B \subset \Omega $ sont disjoints,
 
     \vspace{0.5cm}
     Note : une des mesures les plus intuitives est le nombre d'éléments dans l'ensemble. On peut le noter $\#A$.\\
-
     \ex{
-        $A = \{1, 3, 7, 15, 2\}$ \\
+        $A = \{1, 3, 7, 15, 2\}$ \hspace{2cm}
         $\# A =$
     }

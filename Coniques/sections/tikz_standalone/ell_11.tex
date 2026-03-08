@@ -1,0 +1,20 @@
+\documentclass{standalone}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\begin{document}
+
+\begin{tikzpicture}[scale=1]
+
+\begin{scope}[scale=1]
+    \draw [very thick, >=stealth, ->] (-2,0) -- (2,0)node[below right]{$x$};
+    \draw [very thick, >=stealth, ->] (0,-3) -- (0,3)node[left]{$y$};
+	\draw [very thick] (0,0) ellipse(1 and 2);
+    \draw (0,0) -- (1,0);
+    \draw (0,0) -- (0,2);
+	%\draw [very thick] (0.5,-0.7)node[above]{$b$};
+    %\draw [very thick] (-0.2,0.9)node[left]{$a$};
+\end{scope}
+
+\end{tikzpicture}
+
+\end{document}

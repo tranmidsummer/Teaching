@@ -4,8 +4,13 @@
 La probabilité est une \textbf{mesure} de ces évènements.\\
 On peut alors définir cette mesure particulière de manière suivante :
 
-\begin{tcolorbox}[colback=cyan!5, colframe=cyan!70!blue, title=Définition d'une loi de probabilité]
-\defn{Une \textbf{loi de probabilité $\mathbb{P}$}} est une mesure qui, à chaque évènement, associe un nombre compris entre 0 et 1.
+\begin{tcolorbox}[colback=cyan!0, colframe=cyan!70!blue, title=Définition d'une loi de probabilité]
+\defn{Une \textbf{loi de probabilité $\mathbb{P}$}} est une mesure qui, à chaque évènement $A \subseteq  \Omega$, 
+associe un nombre compris entre 0 et 1. 
+\begin{equation}
+    0\leq \mathbb{P}(A) \leq 1\;
+\end{equation}
+Avec
 \begin{equation}
     \mathbb{P}(\Omega) = 1\;
 \end{equation}
@@ -14,17 +19,17 @@ Les lois de probabilités étant des mesures, elles doivent alors respecter la d
 \begin{enumerate}
     \item $\mathbb{P}(\emptyset) = 0$.
     \item \textbf{Positivité} : $\mathbb{P}(A) \ge 0$.
-    \item \textbf{Additivité dénombrable} : si $(A_n)_{n \ge 1}$ est une suite d’ensembles disjoints deux à deux, alors
+    \item \textbf{Additivité dénombrable} : {\color{gray}si $(A_n)_{n \ge 1}$ est une suite d'évènements incompatibles deux à deux, alors
         \[
         \mathbb{P}(A_1 \cup A_2 \cup A_3 \cup \dots) = \mathbb{P}(A_1) + \mathbb{P}(A_2) + \mathbb{P}(A_3) + \dots
     \]
-    Cela signifie que la mesure de l’union d’ensembles disjoints est égale à la somme des mesures de chacun.
+    Cela signifie que la probabilité de l'union des évènements incompatibles est égale à la somme des probabilités de chacun.
 
     
     \[
         \mathbb{P}\Big(\bigcup_{n=1}^{\infty} A_n\Big) = \sum_{n=1}^{\infty} \mathbb{P}(A_n).
-    \]
-En particulier, si $A\subset  \Omega$ et $B \subset \Omega $ sont disjoints,
+    \]}
+En particulier, si $A\subset  \Omega$ et $B \subset \Omega $ sont incompatibles,
 \[
 \mathbb{P}(A \cup B) = \mathbb{P}(A) + \mathbb{P}(B)
 \]
@@ -33,15 +38,15 @@ En particulier, si $A\subset  \Omega$ et $B \subset \Omega $ sont disjoints,
 \end{tcolorbox}
 
 \begin{figure}[H]
-    \includegraphics[scale = 0.7]{./tikz_standalone/prob_measure.pdf}
+    \includegraphics[scale = 0.6]{./tikz_standalone/prob_measure.pdf}
 \end{figure}
 
 \newpage
-\begin{tcolorbox}[colback=cyan!5, colframe=cyan!70!blue, title=Définition de l'équiprobabilité]
+\begin{tcolorbox}[colback=cyan!0, colframe=cyan!70!blue, title=Définition de l'équiprobabilité]
 \defn{Deux évènements $A$ et $B$ sont équiprobables ssi $\mathbb{P}(A) = \mathbb{P}(B)$.}
 \end{tcolorbox}
 
-\begin{tcolorbox}[colback=magenta!5, colframe=red!50!blue, title=Propriétés de l'équiprobabilité]
+\begin{tcolorbox}[colback=magenta!0, colframe=red!50!blue, title=Propriétés de l'équiprobabilité]
 \defn{Soit une catégorie d'épreuves $\Omega = \{E_1, E_2, \cdots E_n\}$ avec un nombre $n$ fini d'éléments,\\ 
 les évènements élémentaires sont équiprobables s'ils ont tous la même probabilité.
 \begin{equation}
@@ -61,7 +66,7 @@ Lancer d'un dé à 6 faces :
 \]}
 
 
-\begin{tcolorbox}[colback=cyan!5, colframe=cyan!70!blue, title= Définition de la probabilité selon Laplace]
+\begin{tcolorbox}[colback=cyan!0, colframe=cyan!70!blue, title= Définition de la probabilité selon Laplace]
     \defn{La probabilité d'un évènement \(A\) dans un univers \(\Omega\) 
     où tous les évènements élémentaires sont équiprobables est donnée par la formule Laplace :}
 
@@ -88,12 +93,10 @@ $\mathbb{P}(B) =$\\
 
 Cette formule ne vous fait-elle pas penser à quelque chose en statistiques ?
 
-    \begin{tcolorbox}[colback=magenta!5, colframe=red!50!blue, title=Propriétés des évènements contraires]
-    \prop{Si $A\subset\Omega$, et $A^c = \Omega \setminus A $ le complémentaire de $A$ dans 
-    $\Omega$. \\Par définition, $A$ et $A^c$ sont disjoints et 
-    $A\cup A^c= \Omega$ donc $$\mathbb{P} (A^c) = 1 - \mathbb{P}(A)$$}
-
-    $A^c$ est l'évènement contraire de $A$. On peut également noter l'évènement contraire $\overline{A}$
+    \begin{tcolorbox}[colback=magenta!0, colframe=red!50!blue, title=Propriétés des évènements contraires]
+    \prop{Si $A\subset\Omega$, et $\overline{A} = \Omega \setminus A $ l'évènement contraire de $A$ dans 
+    $\Omega$. \\Par définition, $A$ et $\overline{A}$ sont des évènements incompatibles et 
+    $A\cup \overline{A}= \Omega$ donc $$\mathbb{P} (\overline{A}) = 1 - \mathbb{P}(A)$$}
     \end{tcolorbox}
 
     %% TODO : exos logique : contraire
@@ -109,10 +112,10 @@ Evènement : $A = \{\text{obtenir au moins un 6}\}$.\\
 
 
 \vspace{5cm}
-3) Dans une classe de 25 élèves, quelle est la probabilité que deux personnes au moins partagent le même anniversaire ?
+3) Dans une classe de 25 élèves, quelle est la probabilité que deux personnes au moins partagent le même anniversaire ? (Aidez-vous des combinatoires )
 }
 \newpage
-\begin{tcolorbox}[colback=magenta!5, colframe=red!50!blue, title=Propriétés de l'union des évènements quelconques]
+\begin{tcolorbox}[colback=magenta!0, colframe=red!50!blue, title=Propriétés de l'union des évènements quelconques]
     \prop{Si $A\subset\Omega$, et $B \subset \Omega$ des évènements quelconques, alors 
     $$ \mathbb{P} (A\cup B) = \mathbb{P}(A) + \mathbb{P}(B) - \mathbb{P}(A\cap B)$$}
 
@@ -125,4 +128,55 @@ Evènements :
 $A = \{$ obtenir un nombre pair $\} = $\\
 $B = \{$ obtenir un nombre multiple de 3 $\} = $\\
 $\mathbb{P} (A\cup B) = $
+
+\vspace{5cm}
+2) Considérons un échantillon de 50 personnes interrogées à Louvain-la-pas-si-Neuve sur leurs modes de transport pour aller travailler.\\
+La moitié des personnes prennent la voiture.\\
+15 personnes prennent le bus.\\
+18 personnes prennent le train.\\
+On sait aussi que 8 personnes prennent la voiture et le bus.\\
+3 personnes prennent la voiture et le train.\\
+5 personnes prennent le bus et le train.\\
+Et 2 personnes prennent ces 3 modes de transport.
+
+(On prend comme hypothèse qu'on peut extrapoler ces résultats au reste de la population de Louvain-la-pas-si-Neuve.)\\
+On interroge une personne au hasard à Louvain-la-pas-si-Neuve.\\
+a) Quelle est la probabilité qu'elle prenne le bus ?\\
+b) Quelle est la probabilité qu'elle prenne le train mais pas le bus? \\
+c) Quelle est la probabilité qu'elle prenne un de ces 3 modes de transport ?\\
+(Aidez-vous des représentations ensemblistes.)
+
+
+\newpage
+
+\vspace*{5cm}
+
+L'association des cinémas de Louvain-la-pas-si-Neuve a réalisé une étude portant sur le sexe du public au cinéma ainsi que sur leur consommation de pop-corn.\\
+L'étude révèle que 40 \% des personnes allant au cinéma sont des hommes.\\
+60\% des personnes allant au cinéma sont des femmes.\\
+75\% du public prennent du pop-corn.\\
+4 femmes sur 5 prennent du pop-corn.\\
+En interrogeant une personne au hasard à la sortie d'un des cinémas de Louvain-la-pas-si-Neuve,
+ quelle est la probabilité que celle-ci soit un homme ne prenant pas de pop-corn?\\
+ (Aidez-vous d'un tableau.)
+
+ \newpage
+
+ Aux Ozcars, Alice, Bob et Charles sont les seuls nominés pour le prix du meilleur acteur de l'année.\\
+ Il ne peut y avoir qu'un gagnant.\\
+ On sait cependant que Alice a 2 fois plus de chances de gagner que Bob.\\
+ Et Bob a 2 fois plus de chances de gagner que Charles.\\
+ Quelles sont les probabilités de gagner pour chacun d'entre eux ?
+ (Utilisez la définition et les propriétés des probabilités.)
+
+ \vspace{6cm}
+Tous les chemins mènent à Outsiplou.\\
+Depuis Louvain-la-pas-si-Neuve, je décide de prendre 2 trains à l'aveugle.
+
+
+
+
 }
+
+
+
