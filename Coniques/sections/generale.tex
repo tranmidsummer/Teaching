@@ -34,7 +34,15 @@ est constante et égale à $2a$.\\ Alors son équation cartésienne s'écrit\\
 Avec $b^2 = c^2-a^2$, $(0<b<c)$.
 \end{tcolorbox}
 \newpage
-\null
+\begin{tcolorbox}[colback=cyan!5, colframe=cyan!70!blue, title=Equations cartésiennes réduites de la parabole ou équations cartésiennes rapportées à son axe.]
+Soit $p \in \mathbb{R}^+\setminus\{0\}$.\\
+         Dans un repère orthonormé, 
+    considérons une parabole de sommet $S(x_S, y_S)$, de foyer $F (x_S+\dfrac{p}{2},y_S)$ et de directrice $d_F\equiv x = x_S-\dfrac{p}{2}$. Alors son équation cartésienne s'écrit :\\
+    \begin{equation}
+    \mathcal{P} \equiv (y-y_S)^2 = 2p(x-x_c) \label{eq:ParaRed1}
+    \end{equation}
+
+\end{tcolorbox}
 \newpage
 \subsection{Rotation}\label{section:rotation}
 
@@ -99,8 +107,10 @@ Avec $b^2 = c^2 - a^2$, $(0<b<c)$.
 \end{tcolorbox}
 Dans ce cas, l'axe focal est l'axe y et l'axe non focal est l'axe x.
 
-\newpage
-\null
+\subsubsection{Parabole}
+Les rotations de paraboles ($90^\circ, 180^\circ, 270^\circ$) ont été traitées au chapitre des paraboles.
+
+\rem{On peut tout à fait combiner les rotations et translations, il faudra faire attention aux changements de variables.}
 \newpage
 \section{Equation générale d'une conique}\label{section:generale}
 
@@ -124,6 +134,43 @@ Lorsque $\varepsilon=1$, la conique est une \textbf{parabole}.\\
 Lorsque $\varepsilon>1$, la conique est une \textbf{hyperbole}.\\
 \end{tcolorbox}
 
+Par la méthode de traduction, il est possible d'obtenir l'équation cartésienne focale des coniques.
+
+\begin{tcolorbox}[colback=cyan!5, colframe=cyan!70!blue, title=Equation focale des coniques]
+
+Dans un repère orthonormé, considérons une conique de foyer $F(x_F, y_F)$, de la directrice associée
+\[
+d_F \equiv mx+ny+p=0
+\]
+et d'excentricité $\varepsilon \in \mathbb{R}^+$.\\
+Tout point $M(x,y)$ appartenant à cette ellipse vérifie l'équation focale :
+\[
+(x-x_F)^2+(y-y_F)^2=\dfrac{\varepsilon^2}{m^2+n^2}\left|mx+ny+p\right|^2
+\]
+\label{eq:conique_mono}
+\end{tcolorbox}
+\rem{Dans le cas où la conique possède 2 foyers, elle vérifie alors 2 équations focales équivalentes se rapportant chacune à un foyer avec sa directrice associée.}
+\begin{tcolorbox}[colback=cyan!5, colframe=cyan!70!blue, title=Equation générale d'une conique]
+ L'équation générale d'une conique dont l'axe focal est parallèle à l'axe des abscisses ou à l'axe des ordonnées est donnée par:
+\[Ax^2 + By^2+Cx + Dy+E=0
+\]
+avec $A,B\neq 0$.
+\label{def:conique_gen}
+\end{tcolorbox}
+\rem{Dans le cas où l'axe focal de la conique n'est ni parallèle à l'axe des 
+abscisses ni parallèle à l'axe des ordonnées, un terme en $xy$ vient s'ajouter à l'équation.}
+
+\exth{Réduis les équations des coniques suivantes : 
+\begin{enumerate}
+    \item $\mathcal{C}_1 \equiv y^2 - 6x - 4y - 2 = 0$
+    \item $\mathcal{C}_2 \equiv 2x^2 + 3y^2+12x-6y+15 = 0$
+    \item $\mathcal{C}_3 \equiv 2x^2 + 5y^2 + 8x + 10y+23 = 0$
+    \item $\mathcal{C}_4 \equiv 4x^2 - 25 y^2 = 0$
+    \item $\mathcal{C}_5 \equiv 2x^2 + y^2 + 4x - 4y + 8 = 0$
+\end{enumerate}}
+
+\newpage
+\null
 \newpage
 \null
 \newpage
