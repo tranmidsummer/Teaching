@@ -103,7 +103,7 @@ $S_2(a,0)$ et $S_1(-a,0)$
 Repartons à présent de la définition bifocale afin d'obtenir par la méthode de traduction une équation cartésienne dans ce repère choisi.
 
 
-% Ellipse distance constante
+% distance constante
 \begin{figure}[H]
 \centering
 \includegraphics[scale = 1.3]{sections/tikz_standalone/hyp_7.pdf}
@@ -409,9 +409,135 @@ $\\
 \null
 
 \newpage
-\subsection{Définition monofocale}\label{section:hypmonofo}
+\subsection{Définition focale (ou foyer-directrice)}\label{section:hypmonofo}
+Repartons de notre développement de l'équation cartésienne à partir de la définition bifocale de l'hyperbole.
+\begin{tcolorbox}[colback=white, colframe=green!60!black,  boxrule=0pt, title=Obtention de l'équation focale ou foyer-directrice de l'hyperbole à partir de sa définition bifocale.]
+\end{tcolorbox}
+\begin{eleve}
+    \begin{align*}
+   && |\overline{MF_1} - \overline{MF_2}| &= 2a\\
+    &\iff & \sqrt{(x+c)^2 + y^2} - \sqrt{(x-c)^2 + y^2} &= \pm 2a\\
+    &\iff & \sqrt{(x+c)^2 + y^2} &=\pm 2a + \sqrt{(x-c)^2 + y^2}\\
+&\iff&(x+c)^2 + y^2 &= 4a^2 \pm 4a\sqrt{(x-c)^2 + y^2}+ (x-c)^2 + y^2\\
+&\iff& \pm a\sqrt{(x-c)^2 + y^2} &=  cx -a^2\\
+&\iff& \sqrt{(x-c)^2 + y^2} &= \pm \dfrac{c}{a}( x - \dfrac{a^2}{c})
+\end{align*}
+Lorsque $x<0$, $x - \dfrac{a^2}{c} \leq 0$, alors $\left\lvert x - \dfrac{a^2}{c}\right\rvert = -( x - \dfrac{a^2}{c})$.\\
+Lorsque $x>0$, $x - \dfrac{a^2}{c} \geq 0$, alors $\left\lvert x - \dfrac{a^2}{c}\right\rvert = ( x - \dfrac{a^2}{c})$.\\
+\begin{align*}
+    &\iff& \sqrt{(x-c)^2 + y^2} &= \dfrac{c}{a}\left\lvert x - \dfrac{a^2}{c}\right\rvert
+\end{align*}
+Le terme de gauche de l'équation représente la distance entre un point $M(x,y)$ et le foyer $F_2(c,0)$.\\
+Le terme $\left\lvert x - \dfrac{a^2}{c}\right\rvert$ représente la distance entre un point $M(x,y)$ et une droite $d_{F_2} \equiv x = \dfrac{a^2}{c}$.\\
+Cette dernière équation exprime donc que le rapport entre la distance d’un point $M(x,y)$ de hyperbole au foyer $F_2$ 
+et la distance de ce point $M$ à la droite $d_{F_2}$, d’équation $x = \dfrac{a^2}{c}$, est constant.\\
+\\
+On peut également faire le même développement fonction du foyer $F_1(-c,0)$.\\
+On a alors :
+\begin{equation}
+    (x-c)^2 + y^2 = \varepsilon^2 \left(x - \dfrac{a^2}{c}\right)^2
+\end{equation}
+\begin{equation}
+    (x+c)^2 + y^2 = \varepsilon^2 \left(x + \dfrac{a^2}{c}\right)^2
+\end{equation}
+
+Remarque : ces équations sont les mêmes que celles obtenues pour l'ellipse à part le fait que $\dfrac{c}{a}>1$ cette fois-ci.
+\end{eleve}
 \newpage
 \null
 \newpage
-\null
-\newpage
+
+\begin{tcolorbox}[colback=cyan!5, colframe=cyan!70!blue, title=Définition focale de l'hyperbole]
+\defn{Soient 
+\begin{itemize}
+    \item $F$ un point d'un plan $\Pi$,
+    \item $d_F$ une droite de $\Pi$ ne passant pas par $F$,
+    \item et une constante $\varepsilon >1 $
+\end{itemize}
+une hyperbole de foyer $F$, de \textbf{directrice} associée $d_F$ et d'\textbf{excentricité} $\varepsilon$
+est le lieu des points $M$ du plan $\Pi$ tels que le rapport des distances de $M$ à $F$ et de $M$ à $d_F$ est constant et égal à $\varepsilon$.}
+
+\[
+\frac{d(M,F)}{d(M,d_F)} = \varepsilon,
+\]
+
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=cyan!5, colframe=cyan!70!blue, title=Equation focale de l'hyperbole rapportée à ses axes.]
+Soient $a,c\in\mathbb{R}^+$ tels que $c>a$.
+
+Dans un repère orthonormé, considérons une hyperbole de foyers
+$F_1(-c,0)$ et $F_2(c,0)$, et de directrices associées
+\[
+d_{F_1}\equiv x=-\dfrac{a^2}{c},
+\qquad
+d_{F_2}\equiv x=\dfrac{a^2}{c},
+\]
+
+Tout point $M(x,y)$ appartenant à cette hyperbole vérifie les deux équations focales équivalentes :
+\[
+(x-c)^2+y^2=\varepsilon^2\left(x-\dfrac{a^2}{c}\right)^2,
+\]
+\[
+(x+c)^2+y^2=\varepsilon^2\left(x+\dfrac{a^2}{c}\right)^2.
+\]
+
+avec l'excentricité $\varepsilon = \dfrac{c}{a}>1$.
+\end{tcolorbox}
+
+\clearpage
+\thispagestyle{empty}
+\begin{center}
+\begin{tabular}{|>{\centering\arraybackslash}m{3cm}|>{\centering\arraybackslash}m{7cm}|>{\centering\arraybackslash}m{7cm}|}
+    \hline
+     Équation & $\dfrac{x^{2}}{a^{2}} - \dfrac{y^{2}}{b^{2}} = 1 $ & \\
+     \hline
+     Lien entre $a$, $b$ et $c$ & $b^{2} = c^{2} - a^{2} \quad (c>a)$ & \\
+     \hline
+     Foyers & $(c,0)$ et $(-c,0)$ & \\
+     \hline
+     Distance entre les 2 sommets & $2a$ & \\
+     \hline
+     Axe focal & Axe $Ox$ $\equiv y = 0$&  \\
+     \hline
+     Sommets & $(-a,0)$, $(a,0)$ &  \\
+     \hline
+     Directrice &  &  \\
+     \hline
+     Excentricité & $\varepsilon = \dfrac{c}{a} \qquad (>1)$ &  \\
+     \hline
+          Asymptotes obliques & $y = \dfrac{b}{a}x$ et $y = \dfrac{-b}{a}x$&  \\
+     \hline
+     Schéma & \includegraphics[scale=0.7]{sections/tikz_standalone/hyp_10.pdf} & \includegraphics[scale=0.7]{sections/tikz_standalone/hyp_11.pdf}\\
+     \hline
+\end{tabular}
+\end{center}
+\clearpage
+\thispagestyle{empty}
+\begin{center}
+\begin{tabular}{|>{\centering\arraybackslash}m{3cm}|>{\centering\arraybackslash}m{7cm}|>{\centering\arraybackslash}m{7cm}|}
+    \hline
+     Équation & $\dfrac{(x-x_c)^{2}}{a^{2}} - \dfrac{(y-y_c)^{2}}{b^{2}} = 1 $ & \\
+     \hline
+     Lien entre $a$, $b$ et $c$ &  & \\
+     \hline
+     Foyers &  & \\
+     \hline
+     Distance entre les 2 sommets &  & \\
+     \hline
+     Axe focal & droite parallèle à l'axe Ox passant par $(x_c, y_c)$, d'équation : $y=y_c$ &  \\
+     \hline
+     Sommets &  &  \\
+     \hline
+     Directrice &  &  \\
+     \hline
+     Excentricité &  &  \\
+     \hline
+          Asymptotes obliques & &  \\
+     \hline
+     Schéma & \includegraphics[scale=0.7]{sections/tikz_standalone/hyp_12.pdf} & \includegraphics[scale=0.7]{sections/tikz_standalone/hyp_13.pdf}\\
+     \hline
+\end{tabular}
+\end{center}
+\addtocounter{page}{-2}
+\clearpage

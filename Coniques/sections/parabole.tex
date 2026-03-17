@@ -6,8 +6,8 @@ Contrairement à l'ellipse et l'hyperbole, la parabole ne possède pas de défin
 Repartons de la définition focale des coniques \ref{def:conique_mono}.
 
 \begin{tcolorbox}[colback=cyan!5, colframe=cyan!70!blue, title=Définition focale d'une parabole]
-\defn{Soit $F$, un point du plan $\Pi$.\\
-Une parabole de foyer $F$ est le lieu des points $M $ du plan $\Pi$ tels que la distance de $M$ à au foyer $F$ est égale à la distance de $M$ à une droite directrice $d_F$.
+\defn{Soit $F$, un point du plan $\Pi$ et $d_F$, une droite de $\Pi$ ne passant pas par F.\\
+Une parabole de foyer $F$ et de directrice $d_F$ est le lieu des points $M $ du plan $\Pi$ tels que la distance de $M$ au foyer $F$ est égale à la distance de $M$ à la directrice $d_F$.
 
 }\label{def:para_mono}
 \begin{equation}
@@ -26,26 +26,219 @@ La distance entre le foyer $F$ et la directrice $d_F$ est appelée \textbf{param
 A partir de cette définition, tracez une parabole. Que vaut le paramètre $p$ ?\\
 Sans guide tracé, sauriez-vous le refaire avec un compas et une latte ?
 \newpage
-\null
-\newpage
-\null
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 1.1]{sections/tikz_standalone/para_2.pdf}
+
+\end{figure}
+\begin{tcolorbox}[colback=cyan!5, colframe=cyan!70!blue, title=Vocabulaire de la parabole]
+
+La parabole n'a pas de centre.\\
+L' \textbf{axe} ou \textbf{axe focal} d'une parabole est la droite perpendiculaire à la directrice et comprenant le foyer.\\ 
+Le \textbf{sommets} $S$ d'une parabole est le point d'intersection de la parabole avec son axe.\\
+\end{tcolorbox}
+
+\begin{tcolorbox}[colback=magenta!5, colframe=red!50!blue, title=Propriétés de la parabole]
+La parabole possède 1 axe de symétrie : son axe focal.
+\end{tcolorbox}
+
+\begin{minipage}{0.7\textwidth}
+\includegraphics[scale = 1.5]{sections/tikz_standalone/para_3.pdf}
+\end{minipage}
+\newpage 
+
+Choisissons à présent un repère orthonormé commode pour l'étude de la parabole :\\
+L'axe x est l'axe focal de la parabole. Elle coupe la directrice en $D$\\
+L'axe y est la médiatrice de $[DF]$.\\
+Le sommet $S$ est alors en $(0,0)$.
+\begin{figure}[H]
+\centering
+
+\includegraphics[scale = 1.1]{sections/tikz_standalone/para_4.pdf}
+\end{figure}
+Repartons à présent de la définition focale afin d'obtenir par la méthode de traduction une équation cartésienne dans ce repère choisi.
+\begin{figure}[H]
+\centering
+
+\includegraphics[scale = 1.1]{sections/tikz_standalone/para_5.pdf}
+\end{figure}
+\begin{tcolorbox}[colback=white, colframe=green!60!black,  boxrule=0pt, title=Démonstration de l'équation cartésienne de la parabole à partir de sa définition bifocale.]
+\end{tcolorbox}
+
+\vspace{3cm}
+
 \newpage
 %DEMO
 \null
 \newpage
-\null
+
+\begin{tcolorbox}[colback=cyan!5, colframe=cyan!70!blue, title=Equations cartésiennes réduites de la parabole ou équations cartésiennes rapportées à son axe.]
+Soit $p \in \mathbb{R}^+\setminus\{0\}$.\\
+\begin{minipage}{0.3\textwidth}
+\includegraphics[scale = 0.5]{sections/tikz_standalone/para_4bis.pdf}
+\end{minipage}
+\hfill
+\begin{minipage}{0.7\textwidth}
+         Dans un repère orthonormé, 
+    considérons une parabole de foyer $F (\dfrac{p}{2},0)$ et de directrice $d_F\equiv x = -\dfrac{p}{2}$. Alors son équation cartésienne réduite s'écrit :\\
+    \begin{equation}
+    \mathcal{P} \equiv y^2 = 2px \label{eq:ParaRed1}
+    \end{equation}
+\end{minipage}
+
+\vspace{1cm}
+\begin{minipage}{0.3\textwidth}
+\includegraphics[scale = 0.6]{sections/tikz_standalone/para_6.pdf}
+\end{minipage}
+\hfill
+\begin{minipage}{0.7\textwidth}
+         Dans un repère orthonormé, 
+    considérons une parabole de foyer $F (-\dfrac{p}{2},0)$ et de directrice $d_F\equiv x = \dfrac{p}{2}$. Alors son équation cartésienne réduite s'écrit :\\
+    \begin{equation}
+    \mathcal{P} \equiv y^2 = -2px \label{eq:ParaRed2}
+    \end{equation}
+\end{minipage}
+
+\vspace{1cm}
+\begin{minipage}{0.3\textwidth}
+\includegraphics[scale = 0.7]{sections/tikz_standalone/para_7.pdf}
+\end{minipage}
+\hfill
+\begin{minipage}{0.7\textwidth}
+         Dans un repère orthonormé, 
+    considérons une parabole de foyer $F (0,\dfrac{p}{2})$ et de directrice $d_F\equiv y = -\dfrac{p}{2}$. Alors son équation cartésienne réduite s'écrit :\\
+    \begin{equation}
+    \mathcal{P} \equiv x^2 = 2py \label{eq:ParaRed3}
+    \end{equation}
+\end{minipage}
+
+\vspace{1cm}
+\begin{minipage}{0.3\textwidth}
+\includegraphics[scale = 0.7]{sections/tikz_standalone/para_8.pdf}
+\end{minipage}
+\hfill
+\begin{minipage}{0.7\textwidth}
+         Dans un repère orthonormé, 
+    considérons une parabole de foyer $F (0,-\dfrac{p}{2})$ et de directrice $d_F\equiv y = \dfrac{p}{2}$. Alors son équation cartésienne réduite s'écrit :\\
+    \begin{equation}
+    \mathcal{P} \equiv x^2 = -2py \label{eq:ParaRed4}
+    \end{equation}
+\end{minipage}
+\end{tcolorbox}
+\rem{Les 3 équations avec rotation de $90^\circ, 180^\circ, 270^\circ$ peuvent être obtenues en faisant un changement de repère, ou en repartant de la définition focale avec la méthode de traduction.}
 \newpage
-\null
+
+\rem{Que se passe-t-il lorsqu'on fait varier $p$ ?}
+\vspace{6 cm}
+\exth{On considère la parabole d'équation $\mathcal{P}_1 \equiv y^2 = 8x$.\\Identifie l'axe focal, le sommet, le paramètre. Esquisse la parabole.\\
+}
+\vspace{6 cm}
 \newpage
-%Exemples
-\null
-\newpage
-\null
-\newpage
-\null
+\exth{Donne l'équation cartésienne rapportée à l'axe de la parabole de foyer $F(0,-2)$.\\
+}
+\vspace{8 cm}
+\exth{Détermine l'équation de la parabole de sommet (5,1), de paramètre $p=3$ et passant par le point $A(\dfrac{29}{6}, 2)$ .\\
+}
+\vspace{10 cm}
 \newpage
 
 \subsection{Etude fonctionnelle et graphique}\label{section:paragrap}
+L'équation de la parabole (Equation \ref{eq:ParaRed1}) n'est pas une équation de fonction.
+On pourra alors soit étudier sa représentation graphique en la décomposant en deux fonctions correspondant aux parties supérieures et inférieures de la parabole :
+\[f_1 : \mathbb{R} \rightarrow\mathbb{R} : x \rightarrow \sqrt{2px} \]
+\[f_2 : \mathbb{R} \rightarrow\mathbb{R} : x \rightarrow -\sqrt{2px} \]
+
+Ou alors étudier la parabole tournée de $90^\circ$ que nous pouvons écrire sous forme de fonction et que nous connaissons bien.
+
 \newpage
-\null
-\newpage
+
+\begin{center}
+\begin{tabular}{|>{\centering\arraybackslash}m{3cm}|>{\centering\arraybackslash}m{7cm}|>{\centering\arraybackslash}m{7cm}|}
+    \hline
+     Équation & $y^2 = 2px $ & \\
+     \hline
+     Foyer & $(\dfrac{p}{2},0)$ & \\
+     \hline
+     Distance entre le foyer et la directrice & $p$ & \\
+     \hline
+     Axe focal & Axe $Ox$ &  \\
+     \hline
+     Sommet & $(0,0)$&  \\
+     \hline
+     Directrice & $d_F\equiv x = -\dfrac{p}{2}$ &  \\
+     \hline
+     Excentricité & $\varepsilon = 1 $&  \\
+     \hline
+     Schéma & \includegraphics[scale=0.7]{sections/tikz_standalone/para_4bis.pdf} & \includegraphics[scale=0.7]{sections/tikz_standalone/para_6.pdf}\\
+     \hline
+\end{tabular}
+\end{center}
+
+\newpage 
+\begin{center}
+\begin{tabular}{|>{\centering\arraybackslash}m{3cm}|>{\centering\arraybackslash}m{7cm}|>{\centering\arraybackslash}m{7cm}|}
+    \hline
+     Équation & $(y-y_c)^2 = 2p(x-x_c)$ & \\
+     \hline
+     Foyer &  & \\
+     \hline
+     Distance entre le foyer et la directrice &  & \\
+     \hline
+     Axe focal & &  \\
+     \hline
+     Sommet & &  \\
+     \hline
+     Directrice &  &  \\
+     \hline
+     Excentricité & &  \\
+     \hline
+     Schéma & \includegraphics[scale=0.7]{sections/tikz_standalone/para_9.pdf} & \includegraphics[scale=0.7]{sections/tikz_standalone/para_10.pdf}\\
+     \hline
+\end{tabular}
+\end{center}
+\newpage 
+\begin{center}
+\begin{tabular}{|>{\centering\arraybackslash}m{3cm}|>{\centering\arraybackslash}m{7cm}|>{\centering\arraybackslash}m{7cm}|}
+    \hline
+     Équation &  & \\
+     \hline
+     Foyer &  & \\
+     \hline
+     Distance entre le foyer et la directrice &  & \\
+     \hline
+     Axe focal & &  \\
+     \hline
+     Sommet & &  \\
+     \hline
+     Directrice &  &  \\
+     \hline
+     Excentricité & &  \\
+     \hline
+     Schéma & \includegraphics[scale=0.7]{sections/tikz_standalone/para_7.pdf} & \includegraphics[scale=0.7]{sections/tikz_standalone/para_8.pdf}\\
+     \hline
+\end{tabular}
+\end{center}
+\newpage 
+\begin{center}
+\begin{tabular}{|>{\centering\arraybackslash}m{3cm}|>{\centering\arraybackslash}m{7cm}|>{\centering\arraybackslash}m{7cm}|}
+    \hline
+     Équation &  & \\
+     \hline
+     Foyer &  & \\
+     \hline
+     Distance entre le foyer et la directrice &  & \\
+     \hline
+     Axe focal & &  \\
+     \hline
+     Sommet & &  \\
+     \hline
+     Directrice &  &  \\
+     \hline
+     Excentricité & &  \\
+     \hline
+     Schéma & \includegraphics[scale=0.7]{sections/tikz_standalone/para_11.pdf} & \includegraphics[scale=0.7]{sections/tikz_standalone/para_12.pdf}\\
+     \hline
+\end{tabular}
+\end{center}
+
+

@@ -1,0 +1,59 @@
+\documentclass{standalone}
+\usepackage{amsmath}
+\usepackage{tikz}
+\begin{document}
+
+\begin{tikzpicture}
+
+\def\xC{8}
+\def\yC{3}
+\def\p{2}
+\def\ang{0}
+
+% Draw axes
+\draw[->] (3,3) -- (12,3) node[below] {$x$};
+\draw[->] (8,0) -- (8,6) node[left] {$y$};
+
+% Parabola  y^2 = 4px
+%\draw[thick, rotate around={\ang:(\xC,\yC)}, domain=-3:3, samples=100]
+%plot ({\xC + (\x*\x)/(4*\p)}, {\yC + \x});
+
+% Vertex
+\fill (\xC,\yC) circle (1pt);
+\node[above left] at (\xC,\yC) {$S$};
+\node[below right] at (\xC,\yC) {\footnotesize(0,0)};
+
+% Focus
+\coordinate (F) at ({\xC+\p*cos(\ang)},{\yC+\p*sin(\ang)});
+%\fill (F) circle (1pt) node[above] {$F$};
+\node[above, yshift=4pt] at (F) {$F$};
+\node[below, yshift=-4pt] at (F) {$\dfrac{p}{2}$};
+\draw (F)node{$|$};
+% Directrix
+\draw[thick, rotate around={\ang:(\xC,\yC)}]
+({\xC-\p},{\yC-3}) -- ({\xC-\p},{\yC+3});
+\node[left] at ({\xC-0.3 -\p},{\yC+2.5}) {$d_F \equiv x = -\dfrac{p}{2}$};
+
+% Symmetry axis
+\draw[gray] (3,\yC) -- (12,\yC);
+
+% Example points on parabola
+\def\yM{2.5}
+\pgfmathsetmacro{\xM}{(\yM*\yM)/(4*\p)}
+
+\coordinate (M) at (\xC+\xM,\yC+\yM);
+%\coordinate (Mp) at (\xC+\xM,\yC-\yM);
+
+\fill (M) circle (1pt) node[right] {$M$};
+%\fill (Mp) circle (1pt) node[right] {$M'$};
+
+\coordinate (D) at (\xC-\p,3);
+\node[above left, yshift=4pt] at (D) {$D$};
+\draw (F)node{$|$};
+\node[below left, yshift=-4pt] at (D) {$\dfrac{-p}{2}$};
+%\draw[dashed] (M)--(Mp);
+\draw[thick] (M) -- (\xC-\p,\yC+\yM);
+\draw[thick] (M) -- (F);
+\end{tikzpicture}
+
+\end{document}

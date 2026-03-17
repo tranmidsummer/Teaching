@@ -1,0 +1,52 @@
+\documentclass{standalone}
+\usepackage{amsmath}
+\usepackage{tikz}
+\begin{document}
+
+\begin{tikzpicture}
+
+\def\xC{8}
+\def\yC{3}
+\def\p{2}
+\def\ang{90}
+
+% Draw axes
+\draw[->] (5,3) -- (11,3) node[below] {$x$};
+\draw[->] (8,0) -- (8,6) node[left] {$y$};
+
+% Parabola  y^2 = 4px rotated
+\draw[line width = 1.5, rotate around={\ang:(\xC,\yC)}, domain=-3:3, samples=100]
+plot ({\xC + (\x*\x)/(4*\p)}, {\yC + \x});
+
+% Vertex
+\fill (\xC,\yC) circle (1pt);
+\node[above left] at (\xC,\yC) {$S$};
+\node[below right] at (\xC,\yC) {\footnotesize(0,0)};
+
+% Focus
+\coordinate (F) at ({\xC+\p*cos(\ang)},{\yC+\p*sin(\ang)});
+\fill (F) circle (1pt) node[right] {$F$};
+%\node[left] at (F) {$\left(0,\dfrac{p}{2}\right)$};
+
+% Directrix
+\draw[thin, rotate around={\ang:(\xC,\yC)}]
+({\xC-\p},{\yC-3}) -- ({\xC-\p},{\yC+3});
+\node[below right] at (\xC+1.5,\yC-\p) {$d_F$};
+
+% Symmetry axis (vertical now)
+%\draw[gray] (\xC,0) -- (\xC,6);
+
+% Example point on parabola
+\def\yM{2.5}
+\pgfmathsetmacro{\xM}{(\yM*\yM)/(4*\p)}
+
+%\coordinate (M) at ({\xC-\yM},{\yC+\xM});
+%\fill (M) circle (1pt) node[left] {$M$};
+
+% Point on directrix
+%\coordinate (D) at (\xC,\yC-\p);
+%\fill (D) circle (1pt) node[above right] {$D\left(0,-\dfrac{p}{2}\right)$};
+
+\end{tikzpicture}
+
+\end{document}

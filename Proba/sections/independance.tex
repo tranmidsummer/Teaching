@@ -3,12 +3,11 @@
 
 Deux évènements sont indépendants si le comportement de l'un n'affecte pas le comportement de l'autre.
 
-\ex{
-Alice tire une carte au hasard dans un jeu de 52 cartes.\\
-Bob lance un dé à 6 faces au même moment.\\
-Quelle est la probabilité qu'Alice tire une reine et que Bob obtienne un 5?\\
+Il est clair que dans le cas où $A$ et $B$ sont indépendants, l'information de $B$ n'a 
+aucune influence sur $A$. Dans ce cas, on a :
+$\mathbb{P}(A|B) = \mathbb{P}(A)$\\
 
-\vspace{2cm}
+\ex{
 \noindent
 Charles lance 2 fois de suite un dé. Il n'est pas affecté émotionnellement par les résultats de ses dés.\\
 Quelle est la probabilité qu'il obtienne 2 six ?
@@ -21,21 +20,46 @@ Quelle est la probabilité qu'il obtienne 2 six ?
 \end{equation}}
 \end{tcolorbox}
 
+\begin{proof}
+    En effet, on avait avec la probabilité conditionnelle :\\
+\begin{equation*}
+    \mathbb{P}(A|B) = \dfrac{\mathbb{P}(A\cap B)}{\mathbb{P}(B)} 
+\end{equation*}
+Dans le cas où $A$ et $B$ sont indépendants, $\mathbb{P}(A|B) = \mathbb{P}(A)$.\\
+Et donc 
+\begin{align*}
+    \mathbb{P}(A)& = \dfrac{\mathbb{P}(A\cap B)}{\mathbb{P}(B)} \\
+    \mathbb{P}(A\cap B) &= \mathbb{P}(A)\mathbb{P}(B)
+\end{align*}
+\end{proof}
+
+\newpage 
 \ex{
 \noindent
 Charles lance à nouveau 2 fois de suite un dé. Il n'est toujours pas affecté émotionnellement par les résultats de ses dés.\\
 Quelle est la probabilité que la somme de ses résultats soit égale à 8 ?\\
 
-\vspace{1cm}
+\vspace{2cm}
 \noindent
 Quelle est la probabilité que le résultat du premier dé soit pair ?\\
 
-\vspace{1cm}
+\vspace{2cm}
 \noindent
 
 
 
 Quelle est la probabilité que la somme de ses résultats soit égale à 8  et que le résultat du premier dé soit pair ?\\
 
+\vspace{2cm}
+\noindent
+
+Quelle est la probabilité que la somme de ses résultats soit égale à 7 ?\\
+
+\vspace{2cm}
+\noindent
+
+
+
+Quelle est la probabilité que la somme de ses résultats soit égale à 7  et que le résultat du premier dé soit pair ?\\
 
 }
