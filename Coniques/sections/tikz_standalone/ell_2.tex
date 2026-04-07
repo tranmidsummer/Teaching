@@ -1,5 +1,6 @@
 \documentclass{standalone}
 \usepackage{tikz}
+\usetikzlibrary{calc}
 \begin{document}
 \begin{tikzpicture}
 \def\xC{8}
@@ -23,5 +24,6 @@
 \coordinate (F2) at ({\xC-\c*cos(\ang)},{\yC-\c*sin(\ang)});
 \fill (F2) circle (1pt) node[above] {$F_1$};
 \fill (F1) circle (1pt) node[above] {$F_2$};
+
 \end{tikzpicture}
 \end{document}

@@ -1,0 +1,59 @@
+\documentclass{standalone}
+\usepackage{tikz}
+\usepackage{xfp} % for numerical solving
+\begin{document}
+
+\begin{tikzpicture}
+
+% --- Parameters ---
+\def\xC{8}
+\def\yC{3}
+\def\a{3}
+\def\b{2}
+\def\ang{30}
+
+% External point
+\def\xM{13}
+\def\yM{6}
+
+% --- Ellipse ---
+\draw[thick, rotate around={\ang:(\xC,\yC)}] 
+    (\xC,\yC) ellipse [x radius=\a, y radius=\b];
+
+% --- Point M ---
+\coordinate (M) at (\xM,\yM);
+\fill (M) circle (1.5pt) node[above right] {$M$};
+
+% --- Solve equation A cos t + B sin t = 1 ---
+\pgfmathsetmacro{\A}{\xM/\a}
+\pgfmathsetmacro{\B}{\yM/\b}
+\pgfmathsetmacro{\R}{sqrt(\A*\A+\B*\B)}
+\pgfmathsetmacro{\phi}{atan2(\B,\A)}
+
+% Solutions
+\pgfmathsetmacro{\tOne}{\phi -35+ acos(1/\R)}
+\pgfmathsetmacro{\tTwo}{\phi - acos(1/\R)}
+
+\foreach \t in {\tOne,\tTwo} {
+
+    % Point on ellipse (before rotation)
+    \pgfmathsetmacro{\xP}{\a*cos(\t-15)}
+    \pgfmathsetmacro{\yP}{\b*sin(\t-15)}
+
+    % Rotate
+    \pgfmathsetmacro{\xPR}{\xC + \xP*cos(\ang) - \yP*sin(\ang)}
+    \pgfmathsetmacro{\yPR}{\yC + \xP*sin(\ang) + \yP*cos(\ang)}
+
+    % Point of tangency
+    \fill (\xPR,\yPR) circle (1pt);
+
+    % Tangent line
+    \draw[red, thick] (M) -- (\xPR ,\yPR);
+}
+
+% Center
+\fill (\xC,\yC) circle (1pt) node[above right] {$O$};
+
+\end{tikzpicture}
+
+\end{document}

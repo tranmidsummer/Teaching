@@ -1,0 +1,68 @@
+\documentclass{standalone}
+\usepackage{tikz}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\begin{document}
+
+
+\begin{tikzpicture}
+
+% Parameters
+\def\xC{4}    % vertex x
+\def\yC{1.5}  % vertex y
+\def\p{1}     % focal length
+\def\ang{30}  % rotation angle in degrees
+
+% Axis vector for symmetry
+\pgfmathsetmacro{\cosA}{cos(\ang)}
+\pgfmathsetmacro{\sinA}{sin(\ang)}
+
+% Parabola y^2 = 4px in local coordinates (x along axis)
+\draw[thick, rotate around={\ang:(\xC,\yC)}, domain=-3:3, samples=100]
+    plot ({\xC + (\x*\x)/(4*\p)}, {\yC + \x});
+
+% Vertex
+%\fill (\xC,\yC) circle (1pt) node[above right] {$S$};
+
+% Focus
+\coordinate (F) at ({\xC + \p*cos(\ang)},{\yC + \p*sin(\ang)});
+\fill (F) circle (1pt) node[above] {$F$};
+
+% Directrix
+%\draw[thin, rotate around={\ang:(\xC,\yC)}]
+%    ({\xC-\p},{\yC-3}) -- ({\xC-\p},{\yC+4});
+%\node[below left] at ({\xC+1-\p*cos(\ang)},{\yC-2-\p*sin(\ang)}) {$d_F$};
+
+% Axis of symmetry
+\draw[dashed] 
+    (\xC - 3*\cosA, \yC - 3*\sinA) -- (\xC + 4*\cosA, \yC + 4*\sinA);
+
+
+% --- Point M (parameter t) ---
+\def\t{0.8}
+\pgfmathsetmacro{\xMloc}{\p*\t*\t}
+\pgfmathsetmacro{\yMloc}{2*\p*\t}
+
+% Rotate point
+\pgfmathsetmacro{\xM}{\xC + \xMloc*cos(\ang) - \yMloc*sin(\ang)}
+\pgfmathsetmacro{\yM}{\yC + \xMloc*sin(\ang) + \yMloc*cos(\ang)}
+
+\fill (\xM,\yM) circle (1.5pt) node[above right] {$M$};
+
+% --- Tangent slope in local coords ---
+\pgfmathsetmacro{\slope}{(2*\p)/\yMloc}
+
+% Direction vector of tangent (1, slope), then rotate it
+\pgfmathsetmacro{\dx}{1}
+\pgfmathsetmacro{\dy}{\slope}
+
+\pgfmathsetmacro{\dxR}{\dx*cos(\ang) - \dy*sin(\ang)}
+\pgfmathsetmacro{\dyR}{\dx*sin(\ang) + \dy*cos(\ang)}
+
+% --- Draw tangent ---
+\draw[red, thick]
+    ({\xM - 2*\dxR}, {\yM - 2*\dyR}) --
+    ({\xM + 2*\dxR}, {\yM + 2*\dyR});
+
+\end{tikzpicture}
+\end{document}
