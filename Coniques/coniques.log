@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.2.10)  30 MAR 2026 07:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.2.10)  4 MAY 2026 16:04
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1017,7 +1017,14 @@ Package: setspace 2022/12/04 v6.7b set line spacing
 Package french3.ldf Info: Setting StandardEnumerateEnv=true for
 (french3.ldf)             compatibility with enumerate package,
 (french3.ldf)             reported on input line 5.
- (./coniques.aux)
+ (./coniques.aux
+Package babel Info: 'french' activates 'french' shorthands.
+(babel)             Reported on input line 13.
+
+
+LaTeX Warning: Label `eq:ParaRed1' multiply defined.
+
+)
 \openout1 = `coniques.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
@@ -1034,8 +1041,6 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
-Package babel Info: 'french' activates 'french' shorthands.
-(babel)             Reported on input line 5.
 LaTeX Info: Redefining \degres on input line 5.
  (c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1299,44 +1304,7 @@ Overfull \hbox (9.71674pt too wide) detected at line 218
 \OML/cmbrm/m/it/12 A\OT1/cmbr/m/n/12 (\OML/cmbrm/m/it/12 x; y\OT1/cmbr/m/n/12 ) []  +  \OML/cmbrm/m/it/12 B\OT1/cmbr/m/n/12 (\OML/cmbrm/m/it/12 x; y\OT1/cmbr/m/n/12 ) []  +  \OML/cmbrm/m/it/12 C\OT1/cmbr/m/n/12 (\OML/cmbrm/m/it/12 x; y\OT1/cmbr/m/n/12 ) []  +  \OML/cmbrm/m/it/12 D\OT1/cmbr/m/n/12 (\OML/cmbrm/m/it/12 x; y\OT1/cmbr/m/n/12 ) []  +  \OML/cmbrm/m/it/12 E\OT1/cmbr/m/n/12 (\OML/cmbrm/m/it/12 x; y\OT1/cmbr/m/n/12 ) []  +  \OML/cmbrm/m/it/12 F\OT1/cmbr/m/n/12 (\OML/cmbrm/m/it/12 x; y\OT1/cmbr/m/n/12 ) \OML/cmbrm/m/it/12 u  \OT1/cmbr/m/n/12 =  \OML/cmbrm/m/it/12 G\OT1/cmbr/m/n/12 (\OML/cmbrm/m/it/12 x; y\OT1/cmbr/m/n/12 )\OML/cmbrm/m/it/12 :
  []
 
-) [7] (./sections/tikz_standalone/grid_0_0.tex
-
-LaTeX Warning: Reference `section:coneplan' on page 8 undefined on input line 55.
-
-
-LaTeX Warning: Reference `section:generale' on page 8 undefined on input line 61.
-
-
-LaTeX Warning: Reference `section:tangentes' on page 8 undefined on input line 64.
-
-
-LaTeX Warning: Reference `section:optique' on page 8 undefined on input line 66.
-
-
-LaTeX Warning: Reference `section:ellbifo' on page 8 undefined on input line 69.
-
-
-LaTeX Warning: Reference `section:hypbifo' on page 8 undefined on input line 70.
-
-
-LaTeX Warning: Reference `section:ellmonofo' on page 8 undefined on input line 71.
-
-
-LaTeX Warning: Reference `section:paramonofo' on page 8 undefined on input line 72.
-
-
-LaTeX Warning: Reference `section:hypmonofo' on page 8 undefined on input line 73.
-
-
-LaTeX Warning: Reference `section:ellgraphe' on page 8 undefined on input line 74.
-
-
-LaTeX Warning: Reference `section:paragrap' on page 8 undefined on input line 75.
-
-
-LaTeX Warning: Reference `section:hypgraphe' on page 8 undefined on input line 76.
-
-)
+) [7] (./sections/tikz_standalone/grid_0_0.tex)
 File: ./sections/tikz_standalone/grid_0_0.tex Graphic file (type tex)
 
 Overfull \hbox (17.64597pt too wide) in paragraph at lines 11--12
@@ -1405,9 +1373,6 @@ Overfull \hbox (14.22636pt too wide) in paragraph at lines 38--39
 [][] 
  []
 
-
-LaTeX Warning: Reference `lemme_c_s' on page 12 undefined on input line 44.
-
 [12 <./images/3d/cylindre_ellipse.PNG> <./images/3d/cylindre_e_s_00.PNG> <./images/3d/cylindre_ellipse_cst.PNG>]
 File: ./images/icon/roue.PNG Graphic file (type png)
 <use ./images/icon/roue.PNG>
@@ -1431,12 +1396,6 @@ Package pdftex.def Info: ./images/3d/cone_sp_2pl.PNG  used on input line 81.
 Overfull \hbox (2.65996pt too wide) in paragraph at lines 76--90
 []$  $[]$
  []
-
-
-LaTeX Warning: Reference `lemme_cercle' on page 13 undefined on input line 93.
-
-
-LaTeX Warning: Reference `lemme_c_s' on page 13 undefined on input line 96.
 
 [13 <./images/3d/cone_sp_2pl.PNG>]
 <./images/3d/cone_spheres_rot.PNG, id=167, 914.2155pt x 416.757pt>
@@ -1553,22 +1512,7 @@ Overfull \hbox (20.28479pt too wide) in paragraph at lines 367--385
 []$[]$  $[]$ 
  []
 
-[23 <./sections/tikz_standalone/ell_9.pdf>]
-LaTeX Font Info:    Font shape `T1/cmbr/b/n' in size <10> not available
-(Font)              Font shape `T1/cmbr/bx/n' tried instead on input line 393.
-
-
-LaTeX Warning: Reference `section:translation' on page 24 undefined on input line 393.
-
-[24]
-
-LaTeX Warning: Reference `section:rotation' on page 25 undefined on input line 399.
-
-[25]
-
-LaTeX Warning: Reference `eq:EllRed' on page 26 undefined on input line 404.
-
-
+[23 <./sections/tikz_standalone/ell_9.pdf>] [24] [25]
 Underfull \hbox (badness 10000) in paragraph at lines 404--406
 
  []
@@ -1640,13 +1584,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 473--524
  []
 
 [27]
-
-LaTeX Warning: Reference `section:ellbifo' on page 28 undefined on input line 547.
-
-
-LaTeX Warning: Reference `section:ellbifo' on page 28 undefined on input line 547.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 549--555
 
  []
@@ -1781,10 +1718,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 235--241
  []
 
 [38 <./sections/tikz_standalone/hyp_9.pdf>] [39]
-
-LaTeX Warning: Reference `eq:EllRed' on page 40 undefined on input line 266.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 266--268
 
  []
@@ -1836,10 +1769,6 @@ Overfull \hbox (37.59993pt too wide) in paragraph at lines 518--541
 [44
 
  <./sections/tikz_standalone/hyp_12.pdf> <./sections/tikz_standalone/hyp_13.pdf>]) (./sections/parabole.tex
-
-LaTeX Warning: Reference `def:conique_mono' on page 45 undefined on input line 6.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 17--19
 
  []
@@ -1939,11 +1868,7 @@ Overfull \hbox (2.65996pt too wide) in paragraph at lines 116--127
 []$[]$  $[]$ 
  []
 
-[49 <./sections/tikz_standalone/para_4bis.pdf> <./sections/tikz_standalone/para_6.pdf> <./sections/tikz_standalone/para_7.pdf> <./sections/tikz_standalone/para_8.pdf>] [50] [51]
-
-LaTeX Warning: Reference `eq:ParaRed1' on page 52 undefined on input line 146.
-
-[52]
+[49 <./sections/tikz_standalone/para_4bis.pdf> <./sections/tikz_standalone/para_6.pdf> <./sections/tikz_standalone/para_7.pdf> <./sections/tikz_standalone/para_8.pdf>] [50] [51] [52]
 File: sections/tikz_standalone/para_4bis.pdf Graphic file (type pdf)
 <use sections/tikz_standalone/para_4bis.pdf>
 Package pdftex.def Info: sections/tikz_standalone/para_4bis.pdf  used on input line 172.
@@ -2309,7 +2234,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 310--313
 
  []
 
-[73] [74]) (./sections/optique.tex) [75] [76] (./coniques.aux)
+[73] [74]) (./sections/optique.tex) [75] (./coniques.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -2319,28 +2244,22 @@ L3 programming layer <2026-01-19>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-LaTeX Warning: Temporary extra page added at the end. Rerun to get it removed.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 42462 strings out of 467532
- 1025454 string characters out of 5423647
- 1551089 words of memory out of 5000000
- 70575 multiletter control sequences out of 15000+600000
- 653118 words of font info for 112 fonts, out of 8000000 for 9000
+ 42460 strings out of 467532
+ 1025425 string characters out of 5423647
+ 1550091 words of memory out of 5000000
+ 70573 multiletter control sequences out of 15000+600000
+ 652359 words of font info for 111 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 100i,15n,134p,834b,828s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 100i,15n,134p,834b,823s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrbs10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbbx10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbmo10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbtl10.pfb>
-Output written on coniques.pdf (82 pages, 7523082 bytes).
+Output written on coniques.pdf (81 pages, 7521769 bytes).
 PDF statistics:
- 1168 PDF objects out of 1200 (max. 8388607)
- 783 compressed objects within 8 object streams
+ 1165 PDF objects out of 1200 (max. 8388607)
+ 781 compressed objects within 8 object streams
  0 named destinations out of 1000 (max. 500000)
  557 words of extra memory for PDF output out of 10000 (max. 10000000)
 
