@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.2.10)  4 MAY 2026 16:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2026.2.10)  12 MAY 2026 23:06
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -1304,7 +1304,11 @@ Overfull \hbox (9.71674pt too wide) detected at line 218
 \OML/cmbrm/m/it/12 A\OT1/cmbr/m/n/12 (\OML/cmbrm/m/it/12 x; y\OT1/cmbr/m/n/12 ) []  +  \OML/cmbrm/m/it/12 B\OT1/cmbr/m/n/12 (\OML/cmbrm/m/it/12 x; y\OT1/cmbr/m/n/12 ) []  +  \OML/cmbrm/m/it/12 C\OT1/cmbr/m/n/12 (\OML/cmbrm/m/it/12 x; y\OT1/cmbr/m/n/12 ) []  +  \OML/cmbrm/m/it/12 D\OT1/cmbr/m/n/12 (\OML/cmbrm/m/it/12 x; y\OT1/cmbr/m/n/12 ) []  +  \OML/cmbrm/m/it/12 E\OT1/cmbr/m/n/12 (\OML/cmbrm/m/it/12 x; y\OT1/cmbr/m/n/12 ) []  +  \OML/cmbrm/m/it/12 F\OT1/cmbr/m/n/12 (\OML/cmbrm/m/it/12 x; y\OT1/cmbr/m/n/12 ) \OML/cmbrm/m/it/12 u  \OT1/cmbr/m/n/12 =  \OML/cmbrm/m/it/12 G\OT1/cmbr/m/n/12 (\OML/cmbrm/m/it/12 x; y\OT1/cmbr/m/n/12 )\OML/cmbrm/m/it/12 :
  []
 
-) [7] (./sections/tikz_standalone/grid_0_0.tex)
+) [7] (./sections/tikz_standalone/grid_0_0.tex
+
+LaTeX Warning: Reference `section:optique' on page 8 undefined on input line 66.
+
+)
 File: ./sections/tikz_standalone/grid_0_0.tex Graphic file (type tex)
 
 Overfull \hbox (17.64597pt too wide) in paragraph at lines 11--12
@@ -2234,7 +2238,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 310--313
 
  []
 
-[73] [74]) (./sections/optique.tex) [75] (./coniques.aux)
+[73] [74])
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+
+ []
+
+[75] (./coniques.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -2244,19 +2253,22 @@ L3 programming layer <2026-01-19>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
+LaTeX Warning: There were undefined references.
+
+
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 42460 strings out of 467532
- 1025425 string characters out of 5423647
+ 42454 strings out of 467532
+ 1025283 string characters out of 5423647
  1550091 words of memory out of 5000000
- 70573 multiletter control sequences out of 15000+600000
+ 70570 multiletter control sequences out of 15000+600000
  652359 words of font info for 111 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 100i,15n,134p,834b,823s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 100i,15n,134p,834b,828s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrbs10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/hfbright/hfbrsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbbx10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbmo10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbtl10.pfb>
-Output written on coniques.pdf (81 pages, 7521769 bytes).
+Output written on coniques.pdf (81 pages, 7522253 bytes).
 PDF statistics:
  1165 PDF objects out of 1200 (max. 8388607)
  781 compressed objects within 8 object streams

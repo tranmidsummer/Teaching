@@ -5,3 +5,4 @@
 \contentsline {section}{\numberline {4}Probabilité}{13}{}%
 \contentsline {section}{\numberline {5}Probabilité conditionnelle}{20}{}%
 \contentsline {section}{\numberline {6}Indépendance}{22}{}%
+\contentsline {section}{\numberline {7}Bibliographie}{24}{}%
